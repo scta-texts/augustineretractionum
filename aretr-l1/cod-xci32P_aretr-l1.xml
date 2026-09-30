@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1</title>
+        <author ref="#Augustine">Augustinus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2026-09-30">September 30, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci32P">PL 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="aretr-l1">
+        <head xml:id="aretr-l1-Hd1e95">Liber 1</head>
+        <div xml:id="aretr-l1-Dd1e97">
+          <head xml:id="aretr-l1-Hd1e99">Caput 1</head>
+          <head xml:id="aretr-l1-Hd1e101" type="question-title">Contra Academicos, libri tres</head>
+          <div xml:id="aretr-l1-Dd1e104">
+            <head xml:id="aretr-l1-Hd1e106">1</head>
+            <p xml:id="aretr-l1-d1e108">
+              Cum ergo reliquissem, vel quae adeptus fueram <pb ed="#P" n="0585"/>
+              in cupiditatibus hujus mundi, vel quae adipisci volebam, et me ad christianae
+              vitae otium contulissem; nondum baptizatus, contra Academicos vel de Academicis
+              primum scripsi, ut argumenta eorum, quae multis ingerunt veri inveniendi
+              desperationem, et prohibent cuiquam rei assentiri, et omnino aliquid, tanquam
+              manifestum certumque sit, approbare sapientem, cum eis omnia videantur obscura et
+              incerta, ab animo meo, quia et me movebant, quantis possem rationibus amoverem.
+              Quod miserante atque adjuvante Domino factum est.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e114">
+            <head xml:id="aretr-l1-Hd1e116">2</head>
+            <p xml:id="aretr-l1-d1e118">
+              Sed in eisdem tribus libris meis, non mihi placet toties me appellasse Fortunam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 1, n. 1 et 7)</note>-->
+              ; quamvis non aliquam deam voluerim hoc nomine intelligi, sed fortuitum rerum
+              eventum, vel in corporis nostri, vel in externis bonis aut malis. Unde et illa
+              verba sunt, quae nulla religio dicere prohibet, Forte, forsan, forsitan, fortasse,
+              fortuito: quod tamen totum ad divinam revocandum est providentiam. Hoc etiam ibi
+              non tacui, dicens: <hi>Etenim fortasse, quae vulgo fortuna nominatur, occulto quodam ordine regitur; nihilque aliud in rebus casum vocamus, nisi cujus ratio et causa secreta est.</hi>
+              Dixi quidem hoc, verumtamen poenitet me sic illic nominasse fortunam, cum videam
+              homines habere in pessima consuetudine, ubi dici debet, Hoc Deus voluit, dicere,
+              Hoc voluit fortuna. Quod autem quodam loco dixi, <hi>Ita comparatum est, sive pro meritis nostris, sive pro necessitate naturae, ut divinum animum mortalibus inhaerentem nequaquam philosophiae portus accipiat,</hi>
+              etc. <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid.)</note>-->
+              , aut nihil horum duorum dicendum fuit, quia etiam sic sensus posset esse integer;
+              aut satis erat dicere, <hi>pro meritis nostris,</hi>
+              sicut verum est ex Adam tracta miseria; nec addere, <hi>sive pro necessitate naturae,</hi>
+              quandoquidem naturae nostrae dura necessitas merito praecedentis iniquitatis
+              exorta est. Itemque illic quod dixi, <hi>Nihil omnino colendum esse, totumque abjiciendum quidquid mortalibus oculis cernitur, quidquid ullus sensus <pb ed="#P" n="0586"/>
+                attingit 
+                <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., n. 3)</note>-->
+              </hi>
+              ; addenda erant verba, ut diceretur <hi>quidquid mortalis corporis ullus sensus attingit: </hi>
+              est enim sensus et mentis. Sed eorum more tunc loquebar, qui sensum non nisi
+              corporis dicunt, et sensibilia non nisi corporalia. Itaque ubicumque sic locutus
+              sum, parum est ambiguitas evitata, nisi apud eos quorum consuetudo est locutionis
+              hujus. Item dixi: <hi>Quid censes aliud esse beate vivere, nisi secundum id quod in homine optimum est, vivere?</hi>
+              Et quid dixerim, <hi>in homine esse optimum,</hi>
+              paulo post explicans: <hi>Quis, inquam, dubitaverit, nihil esse aliud hominis optimum, quam eam partem animi, cui dominanti obtemperare convenit caetera quaeque in homine sunt? Haec autem, ne aliam postules definitionem, mens aut ratio dici potest <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., c. 2, n. 5)</note>-->
+              </hi>
+              . Hoc quidem verum est; nam quantum attinet ad hominis naturam, nihil est in eo
+              melius quam mens et ratio: sed non secundum ipsam debet vivere, qui beate vult
+              vivere, alioquin secundum hominem vivit, cum secundum Deum vivendum sit, ut possit
+              ad beatitudinem pervenire; propter quam consequendam non seipsa debet esse
+              contenta, sed Deo mens nostra subdenda est. Item respondens ei, cum quo
+              disputabatur: <hi>Hic plane, inquam, non erras; quod ut tibi omen sit ad reliqua, libenter optaverim <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., c. 4, n. 11)</note>-->
+              </hi>
+              . Hoc licet non serio, sed joco dictum sit, nollem tamen eo verbo uti. Omen
+              quippme legisse non recolo, sive in sacris Litteris nostris, sive in sermone
+              cujusquam ecclesiastici disputatoris: quamvis abominatio inde sit dicta, quae in
+              divinis Libris assidue reperitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e159">
+            <head xml:id="aretr-l1-Hd1e161">3</head>
+            <p xml:id="aretr-l1-d1e163">
+              In secundo autem libro prorsus inepta est et insulsa illa quasi fabula de
+              Philocalia et Philosophia, quod <hi>sint germanae et eodem parente procreatae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2,
+                  c. 3, n. 7)</note>-->
+              </hi>
+              . Aut enim philocalia quae dicitur, non nisi in nugis est, et ob hoc philosophiae
+              nulla ratione germana: aut si propterea est hoc nomen honorandum, quia latine
+              interpretatum, amorem significat pulchritudinis, et est vera ac summa sapientiae
+              pulchritudo;<pb ed="#P" n="0587"/>
+              eadem ipsa est in rebus incorporalibus atque summis philocalia quae philosophia,
+              neque ullo modo sunt quasi sorores duae. Alio loco de animo, cum agerem dixi: <hi>Securior rediturus in coelum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 9,
+                  n. 22)</note>-->
+              </hi>
+              . Iturus autem, quam, <hi>rediturus</hi>
+              dixissem securius, propter eos qui putant animos humanos pro meritis peccatorum
+              suorum de coelo lapsos sive dejectos, in corpora ista detrudi. Sed hoc ego
+              propterea non dubitavi dicere, quia ita dixi, <hi>in coelum,</hi>
+              tanquam dicerem, ad Deum, qui ejus est auctor et conditor sicut beatus Cyprianus
+              non cunctatus est dicere: <hi>Nam cum corpus e terra, spiritum possideamus e coelo, ipsi terra et coelum sumus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cypr., lib. de
+                  Orat. Dom.)</note>-->
+              </hi>
+              . Et in libro Ecclesiastae scriptum est: <hi>Spiritus revertatur ad Deum, qui dedit illum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eccle. XII, 7)</note>-->
+              </hi>
+              . Quod utique sic intelligendum est, ut non resistatur Apostolo dicenti, nondum
+              natos nihil egisse boni aut mali <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 11)</note>-->
+              . Sine controversia ergo quaedam originalis regio beatitudinis animi, Deus ipse
+              est, qui eum non quidem de seipso genuit, sed de nulla re alia condidit, sicut
+              condidit corpus e terra. Nam quod attinet ad ejus originem, qua fit ut sit in
+              corpore, utrum de illo uno sit, qui primum creatus est, quando factus est homo in
+              animam vivam; an similiter ita fiant singulis singuli, nec tunc sciebam, nec adhuc
+              scio.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e197">
+            <head xml:id="aretr-l1-Hd1e199">4</head>
+            <p xml:id="aretr-l1-d1e201">
+              In libro tertio: <hi>Si quid mihi videatur quaeris, inquam; in mente arbitror esse summum hominis bonum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 3, c. 12, n. 27)</note>-->
+              </hi>
+              . Verius dixissem, In Deo: ipso enim mens fruitur, ut beata sit, tanquam summo
+              bono suo. Nec mihi illud placet quod dixi: <hi>Liquet dejerare per omne divinum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 16, n. 35)</note>-->
+              </hi>
+              . Item quod dixi de Academicis, quia verum noverant, cujus simile appellabant
+              verisimile, idque ipsum verisimile appellavi falsum, quod approbabant; duas ob
+              causas non recte dictum est: vel quod falsum esset, quod aliquo modo esset simile
+              alicujus veri, quia in genere suo et hoc verum est; vel quod approbabant ista
+              falsa, quae vocabant verisimilia, cum illi nihil approbarent, et affirmarent nihil
+              approbare sapientem. Sed quia hoc ipsum verisimile etiam probabile nuncupabant,
+              hinc factum est ut hoc de illis dicerem. Laus quoque ipsa, qua Platonem vel
+              Platonicos seu Academicos philosophos tantum extuli <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 17, n. 37)</note>-->
+              quantum impios homines non oportuit, non immerito mihi displicuit: praesertim
+              quorum contra errores magnos defendenda est christiana doctrina. Illud etiam quod
+              in comparatione argumentorum Ciceronis, quibus in libris suis Academicis usus est
+              mea, nugas esse dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 20, n. 45)</note>-->
+              , quibus argumenta illa certissima ratione refutavi; quamvis jocando dictum sit,
+              et magis ironia videatur, non debuit tamen dici. Hoc opus sic incipit: <hi>O utinam, Romaniane, hominem sibi aptum.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e222">
+          <head xml:id="aretr-l1-Hd1e224">Caput 2</head>
+          <head xml:id="aretr-l1-Hd1e226" type="question-title">De Beata Vita, liber unus</head>
+          <pb ed="#P" n="0588"/>
+          <p xml:id="aretr-l1-d1e231">
+            Librum de Beata Vita, non post libros de Academicis, sed inter illos ut scriberem,
+            contigit. Ex occasione quippe ortus est diei natalis mei, et tridui disputatione
+            completus, sicut satis ipse indicat. In quo libro constitit inter nos, qui simul
+            quaerebamus, non esse beatam vitam, nisi perfectam cognitionem Dei. Displicet autem
+            illic quod Manlio Theodoro, ad quem librum ipsum scripsi, quamvis docto et
+            christiano viro, plus tribui quam deberem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(In praefat., n. 7, sqq.)</note>-->
+            . Et quod Fortunam etiam illic saepe nominavi. Et quod tempore vitae hujus in solo
+            animo sapientis dixi habitare vitam beatam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Disput. 3)</note>-->
+            , quomodolibet se habeat corpus ejus; cum perfectam cognitionem Dei, hoc est qua
+            homini major esse non possit, in futura vita speret Apostolus, quae sola beata vita
+            dicenda est, ubi et corpus incorruptibile atque immortale spiritui suo sine ulla
+            molestia vel reluctatione subdetur. Sane istum librum nostro in codice interruptum
+            reperi, et non parum minus habere, et sic a fratribus quibusdam descriptus est, nec
+            adhuc apud aliquem integrum inveneram, ex quo emendarem quando haec retractavi. Hic
+            liber sic incipit: <hi>Si ad philosophiae portum.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e241">
+          <head xml:id="aretr-l1-Hd1e243">Caput 3</head>
+          <head xml:id="aretr-l1-Hd1e245" type="question-title">De Ordine, libri duo</head>
+          <div xml:id="aretr-l1-Dd1e248">
+            <head xml:id="aretr-l1-Hd1e250">1</head>
+            <p xml:id="aretr-l1-d1e252">
+              Per idem tempus, inter illos qui de Academicis scripti sunt, duos etiam libros de
+              Ordine scripsi, in quibus magna quaestio versatur, utrum omnia bona et mala
+              divinae providentiae ordo contineat. Sed cum rem viderem ad intelligendum
+              difficilem, satis aegre ad eorum perceptionem, cum quibus agebam, disputando posse
+              perduci; de ordine studendi loqui malui, quo a corporalibus ad incorporalia potest
+              profici.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e255">
+            <head xml:id="aretr-l1-Hd1e257">2</head>
+            <p xml:id="aretr-l1-d1e259">
+              Verum et in his libris displicet mihi saepe interpositum fortunae vocabulum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 9, n. 27)</note>-->
+              . Et quod non addebam, Corporis, quando sensus corporis nominavi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, cc. 1, 2, etc.)</note>-->
+              . Et quod multum tribui liberalibus disciplinis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 8; et lib. 2, c. 14)</note>-->
+              , quas multi sancti multum nesciunt; quidam etiam, qui sciunt eas, sancti non
+              sunt. Et quod Musas quasi aliquas deas, quamvis jocando, commemoravi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 3, n. 6)</note>-->
+              . Et quod admirationem vitium nuncupavi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., n. 8)</note>-->
+              . Et quod philosophos non vera pietate praeditos dixi virtutis luce fulsisse. Et
+              quod duos mundos, unum sensibilem, alterum intelligibilem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 11, nn. 31, 32)</note>-->
+              , non ex Platonis vel ex Platonicorum persona, sed ex mea sic commendavi, tanquam
+              hoc etiam Dominus significare voluerit, quia non ait, Regnum meum non est de
+              mundo; sed, <quote xml:id="aretr-l1-Qd1e274" source="http://scta.info/resource/io18_36">Regnum meum non est de hoc mundo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. XVIII, 36)</note>-->
+              </quote>
+              ; cum possit et aliqua locutione dictum inveniri; et si alius a Domino Christo
+              significatus est mundus, ille congruentius possit intelligi, in quo erit coelum
+              novum et terra nova, quando complebitur quod oramus, dicentes, <quote xml:id="aretr-l1-Qd1e279" source="http://scta.info/resource/mt6_10">Adveniat regnum tuum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 10)</note>-->
+              </quote>
+              . Nec Plato quidem in hoc erravit, <pb ed="#P" n="0589"/>
+              quia esse mundum intelligibilem dixit, si non vocabulum quod ecclesiasticae
+              consuetudini in re illa non usitatum est, sed ipsam rem velimus attendere. Mundum
+              quippe ille intelligibilem nuncupavit ipsam rationem sempiternam atque
+              incommutabilem, qua fecit Deus mundum. Quam qui esse negat, sequitur ut dicat,
+              irrationabiliter Deum fecisse quod fecit; aut cum faceret, vel antequam faceret,
+              nescisse quid faceret; si apud eum ratio faciendi non erat. Si vero erat, sicut
+              erat, ipsam videtur Plato vocasse intelligibilem mundum. Nec tamen isto nomine nos
+              uteremur, si jam satis essemus litteris ecclesiasticis eruditi.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e288">
+            <head xml:id="aretr-l1-Hd1e290">3</head>
+            <p xml:id="aretr-l1-d1e292">
+              Nec illud mihi placet, quod cum dixissem, <hi>Summa opera danda est optimis moribus;</hi>
+              mox addidi: <hi>Deus enim noster aliter nos exaudire non poterit; bene autem viventes facillime exaudiet <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 20, n. 52)</note>-->
+              </hi>
+              . Sic enim dictum est, tanquam Deus non exaudiat peccatores; quod quidam dixit in
+              Evangelio, sed ille qui nondum cognoverat Christum, a quo fuerat jam illuminatus
+              in corpore <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. IX, 30, 31)</note>-->
+              . Nec illud mihi placet, quod Pythagorae philosopho tantum laudis dedi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 20, n. 53)</note>-->
+              , ut qui hanc audit vel legit possit putare, me credidisse nullos errores in
+              Pythagorica esse doctrina, cum sint plures, iidemque capitales. Hoc opus sic
+              incipit: <hi>Ordinem rerum, Zenobi.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e310">
+          <head xml:id="aretr-l1-Hd1e312">Caput 4</head>
+          <head xml:id="aretr-l1-Hd1e314" type="question-title">Soliloquiorum libri duo</head>
+          <div xml:id="aretr-l1-Dd1e317">
+            <head xml:id="aretr-l1-Hd1e319">1</head>
+            <p xml:id="aretr-l1-d1e321">
+              Inter haec scripsi etiam duo volumina secundum studium meum et amorem, ratione
+              indagandae veritatis, de his rebus quas maxime scire cupiebam, me interrogans,
+              mihique respondens, tanquam duo essemus, ratio et ego, cum solus essem; unde hoc
+              opus Soliloquia nominavi, sed imperfectum remansit: ita tamen ut in primo libro
+              quaereretur, et utcumque appareret, qualis esse debeat qui vult percipere
+              sapientiam, quae utique non sensu corporis, sed mente percipitur; et quadam
+              ratiocinatione in libri fine colligitur, ea quae vere sunt immortalia esse. In
+              secundo autem, de immortalitate animae diu res agitur, et non peragitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e324">
+            <head xml:id="aretr-l1-Hd1e326">2</head>
+            <p xml:id="aretr-l1-d1e328">
+              In his sane libris non approbo quod in oratione dixi: <hi>Deus, qui nisi mundos verum scire noluisti <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 1, n. 2)</note>-->
+              </hi>
+              . Responderi enim potest, multos etiam non mundos multa scire vera: neque enim
+              definitum est hic quid sit verum, quod nisi mundi scire non possint; et quid sit
+              scire. Et illud quod ibi positum est, <hi>Deus, cujus regnum est totus mundus, quem sensus ignorat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 1, n. 3)</note>-->
+              </hi>
+              ; si Deus intelligendus est, addenda fuerant verba, ut diceretur, quem mortalis
+              corporis sensus ignorat. Si autem mundus dictus est, quem sensus ignorat, ille
+              recte intelligitur, qui futurus est coelo novo et terra nova: sed etiam hic
+              addenda erant illa, ut diceretur; mortalis corporis <pb ed="#P" n="0590"/>
+              sensus. Sed illo more adhuc loquebar, quo sensus proprie corporis appellatur; nec
+              assidue repetendum est, quod et superius inde jam dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 Retract., cc. 1, 3)</note>-->
+              , sed hoc recolendum, ubicumque ista locutio in meis litteris invenitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e346">
+            <head xml:id="aretr-l1-Hd1e348">3</head>
+            <p xml:id="aretr-l1-d1e350">
+              Et ubi dixi de Patre et Filio, <hi>Qui gignit, et quem gignit, unum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 1, n. 4)</note>-->
+              </hi>
+              ; dicendum fuit, unum sunt, sicut aperte ipsa Veritas loquitur, dicens: <quote xml:id="aretr-l1-Qd1e357" source="http://scta.info/resource/io10_30">Ego et Pater unum sumus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. X, 30)</note>-->
+              </quote>
+              . Nec illud mihi placet, quod in ista vita Deo intellecto jam beatam esse animam
+              dixi, nisi forte spe. Item quod dixi, <hi>Ad sapientiae conjunctionem non una via perveniri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib.
+                  1, c. 13, n. 23)</note>-->
+              </hi>
+              , non bene sonat; quasi alia via sit praeter Christum, qui dixit: <quote xml:id="aretr-l1-Qd1e367" source="http://scta.info/resource/io14_6">Ego sum via <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. XIV,
+                  6)</note>-->
+              </quote>
+              . Vitanda ergo erat haec offensio aurium religiosarum; quamvis alia sit illa
+              universalis via, aliae autem viae de quibus in Psalmo canimus: <hi>Vias tuas, Domine, notas fac mihi, et semitas tuas doce me <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. XXIV, 4)</note>-->
+              </hi>
+              . Et in eo quod ibi dictum est, <hi>Penitus esse ista sensibilia fugienda <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 14, n. 24)</note>-->
+              </hi>
+              , cavendum fuit ne putaremur illam Porphyrii falsi philosophi tenere sententiam,
+              qua dixit: Omne corpus esse fugiendum. Non autem dixi ego, Omnia sensibilia; sed, <hi>ista,</hi>
+              hoc est, corruptibilia; sed hoc potius dicendum fuit: Non autem talia sensibilia
+              futura sunt in futuri saeculi coelo novo et terra nova.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e388">
+            <head xml:id="aretr-l1-Hd1e390">4</head>
+            <p xml:id="aretr-l1-d1e392">
+              Item quodam loco dixi, quod <hi>disciplinis liberalibus eruditi, sine dubio in se illas oblivione obrutas eruunt discendo, et quodam modo refodiunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 20, n. 35)</note>-->
+              </hi>
+              . Sed hoc quoque improbo: credibilius est enim, propterea vera respondere de
+              quibusdam disciplinis, etiam imperitos earum, quando bene interrogantur, quia
+              praesens est eis, quantum id capere possunt, lumen rationis aeternae, ubi haec
+              immutabilia vera conspiciunt; non quia ea noverant aliquando, et obliti sunt, quod
+              Platoni, vel talibus visum est. Contra quorum opinionem quanta pro suscepto opere
+              dabatur occasio, in libro duodecimo de Trinitate, disserui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 12, c. 15)</note>-->
+              . Hoc opus sic incipit: <hi>Volventi mihi multa ac varia mecum.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e407">
+          <head xml:id="aretr-l1-Hd1e409">Caput 5</head>
+          <head xml:id="aretr-l1-Hd1e411" type="question-title">De Immortalitate Animae, liber unus</head>
+          <div xml:id="aretr-l1-Dd1e414">
+            <head xml:id="aretr-l1-Hd1e416">1</head>
+            <p xml:id="aretr-l1-d1e418">
+              Post libros Soliloquiorum jam de agro Mediolanum reversus, scripsi librum De
+              Immortalitate Animae, quod mihi quasi commonitorium esse volueram propter
+              Soliloquia terminanda, quae imperfecta remanserant: sed nescio quomodo me invito
+              exiit in manus hominum, et inter mea opuscula nominatur. Qui primo ratiocinationum
+              confortione atque brevitate sic obscurus est, ut fatiget, cum legitur, etiam
+              intentionem meam, vixque intelligatur a meipso.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e421">
+            <head xml:id="aretr-l1-Hd1e423">2</head>
+            <p xml:id="aretr-l1-d1e425">
+              Deinde cogitans nihil aliud quam animos hominum, in quadam argumentatione ejusdem
+              libri dixi: <hi>Nec esse in eo quod nihil discit, disciplina potest.</hi>
+              Itemque alio loco dixi, <hi>Nec ullam rem scientia complectitur, nisi quae ad aliquam pertinet disciplinam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 1, n. 1)</note>-->
+              </hi>
+              , nec venit in mentem Deum non discere disciplinas, et habere omnium rerum
+              scientiam, in qua etiam praescientia est futurorum. Tale est illud quod ibi <pb ed="#P" n="0591"/>
+              dictum est, <hi>Non esse vitam cum ratione ulli, nisi animae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 4, n. 5)</note>-->
+              </hi>
+              : neque enim Deo sine ratione vita est; cum apud eum et summa vita, et summa sit
+              ratio. Et illud quod aliquando superius dixi, <hi>Id quod intelligitur, ejusmodi esse semper <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 1, n. 1)</note>-->
+              </hi>
+              , cum intelligatur et animus, qui utique non ejusmodi est semper. Quod vero dixi, <hi>Animum propterea non posse ab aeterna ratione separari, quia non ei localiter jungitur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 6, n. 11)</note>-->
+              </hi>
+              , profecto non dixissem, si jam tunc essem Litteris sacris ita eruditus, ut
+              recolerem quod scriptum est: <hi>Peccata vestra separant inter vos et Deum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Isai. LIX, 2)</note>-->
+              </hi>
+              . Unde intelligi datur etiam earum rerum posse dici separationem, quae non locis,
+              sed incorporaliter junctae fuerant.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e459">
+            <head xml:id="aretr-l1-Hd1e461">3</head>
+            <p xml:id="aretr-l1-d1e463">
+              Quid sit etiam quod dixi, <hi>Anima si caret corpore, in hoc mundo non est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 13, n. 22)</note>-->
+              </hi>
+              , non potui recordari. Numquid enim animae mortuorum aut non carent corpore, aut
+              in hoc mundo non sunt? Quasi vero inferi non sint in hoc mundo. Sed quia carere
+              corpore, in bono posui, fortasse nomine corporis pestes corporeas appellavi. Quod
+              si ita est, nimis insolenter verbo usus sum. Illud quoque temere dictum est: <hi>A summa essentia speciem corpori per animam tribui, qua est, in quantumcumque est. Per animam ergo corpus subsistit, et eo ipso est, quo animatur, sive universaliter, ut mundus, sive particulariter, ut unumquodque animal intra mundum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 15, n. 24)</note>-->
+              </hi>
+              . Hoc totum prorsus temere dictum est. Hic liber sic incipit: <hi>Si alicubi est disciplina.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e480">
+          <head xml:id="aretr-l1-Hd1e482">Caput 6</head>
+          <head xml:id="aretr-l1-Hd1e484" type="question-title">Disciplinarum libri</head>
+          <p xml:id="aretr-l1-d1e487">
+            Per idem tempus quo Mediolani fui, Baptismum percepturus, etiam Disciplinarum libros
+            conatus sum scribere, interrogans eos qui mecum erant, atque ab hujusmodi studiis
+            non abhorrebant; per corporalia cupiens ad incorporalia quibusdam quasi passibus
+            certis vel pervenire vel ducere. Sed earum solum de Grammatica librum absolvere
+            potui, quem postea de armario nostro perdidi: et de Musica sex volumina; quantum
+            attinet ad eam partem quae Rythmus vocatur. Sed eosdem sex libros jam baptizatus,
+            jamque ex Italia regressus in Africam scripsi; inchoaveram quippe tantummodo istam
+            apud Mediolanum disciplinam. De aliis vero quinque disciplinis illic similiter
+            inchoatis; de Dialectica, de Rhetorica, de Geometria, de Arithmetica, de
+            Philosophia, sola principia remanserunt, quae tamen etiam ipsa perdidimus: sed
+            haberi ab aliquibus existimo.
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e490">
+          <head xml:id="aretr-l1-Hd1e492">Caput 7</head>
+          <head xml:id="aretr-l1-Hd1e494" type="question-title">De Moribus Ecclesiae Catholicae, et de Moribus Manichaeorum, libri duo</head>
+          <div xml:id="aretr-l1-Dd1e497">
+            <head xml:id="aretr-l1-Hd1e499">1</head>
+            <p xml:id="aretr-l1-d1e501">
+              Jam baptizatus autem cum Romae essem, nec <pb ed="#P" n="0592"/>
+              ferre tacitus possem Manichaeorum jactantiam de falsa et fallaci continentia vel
+              abstinentia, qua se ad imperitos decipiendos, veris Christianis, quibus comparandi
+              non sunt, insuper praeferunt, scripsi duos libros; unum de Moribus Ecclesiae
+              Catholicae; alterum de Moribus Manichaeorum.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e507">
+            <head xml:id="aretr-l1-Hd1e509">2</head>
+            <p xml:id="aretr-l1-d1e511">
+              In eo igitur qui est de Moribus Ecclesiae Catholicae, ubi posui testimonium, in
+              quo legitur, <hi>Propter te afficimur tota die; aestimati sumus ut oves occisionis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. XLIII, 22; Rom. VIII, 36)</note>-->
+              </hi>
+              ; mendositas nostri codicis me fefellit minus memorem Scripturarum, in quibus
+              nondum assuetus eram. Nam ejusdem interpretationis alii codices non habent, <hi>Propter te afficimur: </hi>
+              sed, <hi>Propter te morte afficimur;</hi>
+              quod uno verbo alii dixerunt, <hi>mortificamur.</hi>
+              Hoc esse verius graeci libri indicant, ex qua lingua in latinam secundum
+              Septuaginta interpretes, veterum divinarum Scripturarum est facta translatio: et
+              tamen secundum haec verba, id est <hi>Propter te afficimur,</hi>
+              multa disputans dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 9, nn. 14, 15)</note>-->
+              , quae in ipsis rebus non tanquam falsa improbo. Verumtamen convenientiam
+              Scripturarum veterum et novarum, quam demonstrare cupiebam, ex his duntaxat verbis
+              non utique demonstravi; unde autem mihi error obrepserit, dixi: ex aliis vero
+              testimoniis eamdem convenientiam sufficienter ostendi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 16, n. 26-29)</note>-->
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e532">
+            <head xml:id="aretr-l1-Hd1e534">3</head>
+            <p xml:id="aretr-l1-d1e536">
+              Similiter et paulo post testimonium posui de libro Sapientiae, secundum codicem
+              nostrum, in quo scriptum erat: <quote xml:id="aretr-l1-Qd1e538" source="http://scta.info/resource/sap8_7">Sobrietatem enim sapientia docet, et justitiam et virtutem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Sap. VIII, 7)</note>-->
+              </quote>
+              . Et secundum haec verba disserui res quidem veras, sed ex occasione mendositatis
+              inventas <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 16, n. 27)</note>-->
+              . Quid enim verius, quam quod sapientia doceat veritatem contemplationis, quam
+              nomine sobrietatis significatam putavi; et actionis probitatem, quam per duo alia
+              intelligi volui, per justitiam atque virtutem: cum codices ejusdem
+              interpretationis veriores habeant, <hi>sobrietatem enim et sapientiam docet, et justitiam et virtutem?</hi>
+              His enim nominibus latinus interpres quatuor illas virtutes, quae maxime in ore
+              philosophorum esse assolent, nominavit; sobrietatem appellans temperantiam,
+              prudentiae imponens nomen sapientiam, fortitudinem vero virtutis vocabulo
+              enuntians, solam justitiam suo nomine interpretatus est. Has autem quatuor
+              virtutes in eodem libro Sapientiae suis nominibus appellatas, sicut a Graecis
+              vocantur, longe postea reperimus in codicibus graecis. Item, quod posui de libro
+              Salomonis, <hi>Vanitas, vanitantium</hi>
+              , <hi>dixit Ecclesiastes <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eccle. I, 2)</note>-->
+              </hi>
+              ; in multis quidem codicibus legi, sed hoc Graecus non habet: habet autem, <hi>vanitas vanitatum;</hi>
+              quod postea vidi; et inveni eos Latinos esse veriores, qui habent, <hi>vanitatum,</hi>
+              non, <hi>vanitantium.</hi>
+              Ex occasione tamen hujus mendositatis quaecumque disserui vera esse ipsis rebus
+              apparet <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 21, n. 39)</note>-->
+              . <pb ed="#P" n="0593"/>
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e568">
+            <head xml:id="aretr-l1-Hd1e570">4. </head>
+            <p xml:id="aretr-l1-d1e572">
+              Quod autem dixi: <hi>Eum ipsum quem cognoscere volumus, hoc est Deum, prius plena charitate diligamus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 25, n. 47)</note>-->
+              </hi>
+              : melius diceretur, Sincera, quam <hi>plena;</hi>
+              ne forte putaretur charitatem Dei non futuram esse majorem, quando videbimus facie
+              ad faciem. Sic itaque hoc accipiatur, tanquam plena dicta sit, qua major esse non
+              possit, quamdiu ambulamus per fidem: erit enim plenior, imo plenissima, sed per
+              speciem. Item quod dixi de iis qui subveniunt indigentibus, quia <hi>misericordes vocantur, etiam si sapientes usque adeo sint, ut jam nullo animi dolore turbentur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 27, n. 53)</note>-->
+              </hi>
+              ; non sic accipiendum est tanquam definierim, in hac vita esse tales sapientes:
+              non enim dixi, Cum sint; sed dixi, <hi>etiam si sint.</hi>
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e590">
+            <head xml:id="aretr-l1-Hd1e592">5</head>
+            <p xml:id="aretr-l1-d1e594">
+              Alio loco ubi dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 30, n. 64)</note>-->
+              , <hi>Jam vero cum haec humana dilectio inhaerentem uberibus tuis nutriverit et roboraverit animum, sequendo Deo factum idoneum, ubi ejus majestas ex tanta parte, quanta homini, dum terrae hujus inhabitator est, sufficit, aperire se coeperit; tantus charitatis ardor innascitur, et tantum divini amoris consurgit incendium, ut exustis omnibus vitiis, et homine sanctificato atque purgato, satis appareat quam divine dictum sit: « Ego sum ignis consumens</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Deut. IV, 24; Hebr. XII, 29)</note>-->
+              ; possunt putare Pelagiani istam perfectionem in hac mortali vita me dixisse posse
+              contingere. Sed non hoc putent: ardor quippe charitatis sequendo Deo factus
+              idoneus, et tam magnus ut vitia cuncta consumat, in hac vita nasci et crescere
+              potest; perficere vero propter quod nascitur, ut nullum insit homini vitium, non
+              consequenter hic potest: quamvis tanta ista res eodem ardore charitatis
+              perficiatur, ubi perfici et quando perfici potest; ut quemadmodum lavacrum
+              regenerationis purgat a reatu omnium peccatorum, quae humana traxit nativitas, et
+              contraxit iniquitas; ita illa perfectio purget ab omni labe vitiorum, sine quibus
+              humana esse non potest in hoc saeculo infirmitas. Sicut accipiendum est etiam quod
+              ait Apostolus: <quote xml:id="aretr-l1-Qd1e602" source="http://scta.info/resource/eph5_25">Christus dilexit Ecclesiam, et seipsum tradidit pro ea; mundans eam lavacro aquae in verbo, ut exhiberet sibi gloriosam Ecclesiam, non habentem maculam aut rugam, aut aliquid hujusmodi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eph. V, 25-27)</note>-->
+              </quote>
+              . Hic est enim lavacrum aquae in verbo quo mundatur Ecclesia. Sed cum tota dicat
+              quamdiu hic est, <quote xml:id="aretr-l1-Qd1e607" source="http://scta.info/resource/mt6_12">Dimitte nobis debita nostra <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI,
+                  12)</note>-->
+              </quote>
+              ; non utique hic est sine macula et ruga, aut aliquid ejusmodi: ex eo tamen quod
+              hic accipit, ad illam gloriam, quae hic non est, perfectionemque perducitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e614">
+            <head xml:id="aretr-l1-Hd1e616">6</head>
+            <p xml:id="aretr-l1-d1e618">
+              In alio libro cujus est titulus, de Moribus Manichaeorum, illud quod dixi: <hi>Dei bonitas omnia deficientia sic ordinat, ut ibi sint ubi congruentissime possint esse, donec ordinatis motibus ad id recurrant unde defecerunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 7, n. 9)</note>-->
+              </hi>
+              , non sic accipiendum est, tanquam omnia recurrant ad id unde defecerunt, sicut
+              Origeni visum est; sed ea omnia quae recurrunt. <pb ed="#P" n="0594"/>
+              Non enim recurrunt ad Deum a quo defecerunt, qui sempiterno igne punientur:
+              quamvis omnia deficientia sic ordinentur, ut ibi sint, ubi congruentissime possint
+              esse; quia et illi qui non recurrunt, congruentissime in poena sunt. Alio loco, <hi>Nemo fere, inquam, de scarabaeis dubitat, quin de fimo in pilam rotundato ab his atque obruto existant <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 17, n. 63)</note>-->
+              </hi>
+              ; cum hoc utrum verum sit, multi dubitent, multi ne audiverint quidem. Hoc opus
+              sic incipit: <hi>In aliis libris satis opinor egisse nos.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e637">
+          <head xml:id="aretr-l1-Hd1e639">Caput 8</head>
+          <head xml:id="aretr-l1-Hd1e641" type="question-title">De Animae Quantitate, liber unus. -- [Tom. 1]</head>
+          <div xml:id="aretr-l1-Dd1e644">
+            <head xml:id="aretr-l1-Hd1e646">1</head>
+            <p xml:id="aretr-l1-d1e648">
+              In eadem urbe scripsi dialogum, in quo de anima multa quaeruntur ac disseruntur;
+              id est, unde sit, qualis sit, quanta sit, cur corpori fuerit data, cum ad corpus
+              venerit qualis efficiatur, qualis cum abscesserit. Sed quoniam quanta sit,
+              diligentissime ac subtilissime disputatum est, ut eam, si possemus, ostenderemus
+              corporalis quantitatis non esse, et tamen magnum aliquid esse; ex hac una
+              inquisitione totus liber nomen accepit ut appellaretur, de Animae quantitate.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e651">
+            <head xml:id="aretr-l1-Hd1e653">2</head>
+            <p xml:id="aretr-l1-d1e655">
+              In quo libro illud quod dixi, <hi>omnes artes animam secum attulisse mihi videri; nec aliud quidquam esse id quod dicitur discere, quam reminisci ac recordari <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 20,
+                  n. 34)</note>-->
+              </hi>
+              , non sic accipiendum est, quasi ex hoc approbetur, animam vel hic in alio
+              corpore, vel alibi sive in corpore, sive extra corpus, aliquando vixisse; et ea
+              quae interrogata respondet, cum hic non didicerit, in alia vita ante didicisse.
+              Fieri enim potest, sicut jam in hoc opere supra diximus, ut hoc ideo possit, quia
+              natura intelligibilis est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Sup., c. 4, n. 4)</note>-->
+              , et connectitur non solum intelligibilibus, verum etiam immutabilibus rebus, eo
+              ordine facta, ut cum se ad eas res movet quibus connexa est, vel ad seipsam, in
+              quantum eas videt, in tantum de his vera respondeat. Nec sane omnes artes eo modo
+              secum attulit, ac secum habet: nam de artibus quae ad sensus corporis pertinent,
+              sicut multa medicinae, sicut astrologiae omnia, nisi quod hic didicerit, non
+              potest dicere. Ea vero quae sola intelligentia capit, propter id quod dixi, cum
+              vel a seipsa vel ab alio fuerit bene interrogata, et recordata respondet.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e666">
+            <head xml:id="aretr-l1-Hd1e668">3</head>
+            <p xml:id="aretr-l1-d1e670">
+              Alio loco: <hi>Vellem, inquam, hinc plura dicere, ac meipsum constringere, dum quasi tibi praecipio, ut nihil aliud agerem quam redderer mihi, cui me maxime debeo.</hi>
+              Ubi videor dicere potius debuisse, Redderer Deo, cui me maxime debeo. Sed quoniam
+              prius sibi ipse homo reddendus est, ut illic quasi gradu facto inde surgat atque
+              attollatur ad Deum, sicut filius ille minor prius reversus est ad semetipsum, et
+              tunc ait: <quote xml:id="aretr-l1-Qd1e674" source="http://scta.info/resource/lc15_18">Surgam, et ibo ad patrem meum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XV, 18)</note>-->
+              </quote>
+              ; ideo sic sum locutus. Denique mox addidi: <hi>Atque ita fieri amicum mancipium Domino <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 28, n. 55)</note>-->
+              </hi>
+              . Quod ergo dixi, <hi>cui me maxime debeo,</hi>
+              ad homines retuli: magis enim mihi me debeo, quam hominibus caeteris, quamvis Deo
+              magis quam mihi. Hic liber sic incipit: <hi>Quoniam video te abundare otio.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e691">
+          <head xml:id="aretr-l1-Hd1e693">Caput 9</head>
+          <head xml:id="aretr-l1-Hd1e695" type="question-title">De Libero Arbitrio, libri tres</head>
+          <div xml:id="aretr-l1-Dd1e698">
+            <head xml:id="aretr-l1-Hd1e700">1</head>
+            <p xml:id="aretr-l1-d1e702">
+              Cum adhuc Romae demoraremur, voluimus disputando <pb ed="#P" n="0595"/>
+              quaerere unde sit malum. Et eo modo disputavimus, ut si possemus, id quod de hac
+              re divinae auctoritati subditi credebamus, etiam ad intelligentiam nostram,
+              quantum disserendo opitulante Deo agere possemus, ratio considerata et tractata
+              perduceret. Et quoniam constitit inter nos, diligenter ratione discussa, malum non
+              exortum nisi ex libero voluntatis arbitrio; tres libri quos eadem disputatio
+              peperit, appellati sunt, de Libero Arbitrio. Quorum secundum et tertium in Africa,
+              jam etiam Hippone-Regio presbyter ordinatus, sicut tunc potui, terminavi.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e708">
+            <head xml:id="aretr-l1-Hd1e710">2</head>
+            <p xml:id="aretr-l1-d1e712">
+              In his libris ita multa disserta sunt, ut incidentes nonnullae quaestiones, quas
+              vel enodare non poteram, vel longam sermocinationem in praesenti requirebant, ita
+              differrentur, ut ex utraque parte, vel ex omnibus earumdem quaestionum partibus,
+              in quibus non apparebat quid potius congrueret veritati, ad hoc tamen ratiocinatio
+              nostra concluderetur, ut quodlibet eorum verum esset, laudandus crederetur, vel
+              etiam ostenderetur Deus. Propter eos quippe disputatio illa suscepta est, qui
+              negant, ex libero voluntatis arbitrio mali originem duci, et Deum, si ita est,
+              creatorem omnium naturarum culpandum esse contendunt: eo modo volentes secundum
+              suae impietatis errorem (Manichaei enim sunt), immutabilem quamdam et Deo
+              coaeternam introducere mali naturam. De gratia vero Dei, qua suos electos sic
+              praedestinavit, ut eorum, qui jam in eis utuntur libero arbitrio, ipse etiam
+              praeparet voluntates, nihil in his libris disputatum est propter hoc proposita
+              quaestione. Ubi autem incidit locus ut hujus gratiae fieret commemoratio,
+              transeunter commemorata est; non, quasi inde ageretur, operosa ratiocinatione
+              defensa. Aliud est enim quaerere, unde sit malum; et aliud est quaerere, unde
+              redeatur ad pristinum, vel ad majus perveniatur bonum.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e715">
+            <head xml:id="aretr-l1-Hd1e717">3</head>
+            <p xml:id="aretr-l1-d1e719">
+              Quapropter novi haeretici Pelagiani, qui liberum sic asserunt voluntatis
+              arbitrium, ut gratiae Dei non relinquant locum, quandoquidem eam secundum merita
+              nostra dari asserunt, non se extollant, quasi eorum egerim causam; quia multa in
+              his libris dixi pro libero arbitrio, quae illius disputationis causa poscebat.
+              Dixi quippe in libro primo, malefacta justitia Dei vindicari; et addidi: <hi>Non enim juste vindicarentur, nisi fierent voluntate <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 1, n. 1)</note>-->
+              </hi>
+              . Item cum ipsam bonam voluntatem tam magnum bonum esse monstrarem, ut omnibus
+              corporeis et externis bonis merito anteponeretur, dixi: <hi>Vides igitur jam, ut existimo, in voluntate nostra esse constitutum, ut hoc vel fruamur vel careamus tanto et tam vero bono: quid enim tam in voluntate quam ipsa voluntas sita est?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id.,
+                  c. 12, n. 26.)</note>-->
+              </hi>
+              Et alio loco: <hi>Quid ergo causae est, inquam, cur dubitandum putemus, etiam si nunquam ante sapientes fuimus, voluntate nos tamen laudabilem et beatam vitam, voluntate turpem et miseram mereri ac <pb ed="#P" n="0596"/>
+                degere? <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 13, n. 28)</note>-->
+              </hi>
+              . Item alio loco: <hi>Ex quo conficitur, inquam, ut quisquis recte honesteque vult vivere, si id se velle prae fugacibus rebus velit; assequatur tantam rem tanta facilitate, ut nihil aliud ei, quam ipsum velle, sit habere quod voluit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., n. 29)</note>-->
+              </hi>
+              . Itemque alibi dixi: <hi>Hoc enim aeterna lex illa, ad cujus considerationem redire jam tempus est, incommutabili stabilitate firmavit, ut in voluntate meritum sit; in beatitate autem et miseria praemium atque supplicium <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 14, n. 30)</note>-->
+              </hi>
+              . Et alio loco: <hi>Quid, inquam, quisque sectandum et amplectendum eligat, in voluntate esse positum constitit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 16, n. 34)</note>-->
+              </hi>
+              . Et in libro secundo: <hi>Homo enim ipse, inquam, in quantum homo est, aliquod bonum est, quia recte vivere cum vult, potest <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 1, n. 2)</note>-->
+              </hi>
+              . Et alio loco dixi: <hi>Recte fieri non posse, nisi eodem libero voluntatis arbitrio <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 18,
+                  n. 47)</note>-->
+              </hi>
+              . Et in libro tertio: <hi>Quid opus est, inquam, quaeri unde iste motus existat, quo voluntas avertitur ab incommutabili bono ad commutabile bonum; cum eum non nisi animi, et voluntarium, et ob hoc culpabilem esse fateamur: omnisque de hac re disciplina utilis ad id valeat, ut eo motu improbato atque cohibito, voluntatem nostram ad perfruendum sempiterno bono, a lapsu temporalium convertamus?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 3, c. 1, n. 2.)</note>-->
+              </hi>
+              Et alio loco: <hi>Optime, inquam, de te veritas clamat, Non enim posses aliud sentire esse in potestate nostra, nisi quod, cum volumus, facimus. Quapropter nihil tam in nostra potestate, quam ipsa voluntas, est. Ea enim prorsus nullo intervallo, mox ut volumus, praesto est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 3, n. 7)</note>-->
+              </hi>
+              . Item alio loco: <hi>Si enim tu laudaris, inquam, videndo quid facere debeas, cum id non videas, nisi in illo qui est incommutabilis veritas; quanto magis ille qui et velle praecepit, et posse praebuit, et non impune nolle permisit?</hi>
+              Deinde subjunxi dicens: <hi>Si enim hoc debet quisque quod accepit, et sic homo factus est, ut necessario peccet, hoc debet ut peccet. Cum ergo peccat, quod debet, facit: quod si scelus est dicere; neminem natura sua cogit ut peccet <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id.,
+                  c. 16, n. 46)</note>-->
+              </hi>
+              . Et iterum: <hi>Quae tandem esse poterit, inquam, ante voluntatem causa voluntatis? Aut enim et ipsa voluntas est; et a radice ista voluntatis non receditur: aut non est voluntas; et peccatum nullum habet. Aut igitur voluntas est prima causa peccandi; aut nullum peccatum est prima causa peccandi: nec est cui recte imputetur peccatum nisi peccanti. Non ergo est cui recte imputetur nisi volenti <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 17, n. 49)</note>-->
+              </hi>
+              . Et paulo post: <hi>Quis, inquam, peccat in eo quod nullo modo caveri potest? Peccatur autem: caveri igitur potest <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. c. 18, n. 50)</note>-->
+              </hi>
+              . Quo testimonio meo in quodam libro suo Pelagius usus est. Cui libro cum
+              respondissem, titulum libri mei esse volui, de Natura et Gratia.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e795">
+            <head xml:id="aretr-l1-Hd1e797">4</head>
+            <p xml:id="aretr-l1-d1e799">
+              In his atque hujusmodi verbis meis, quia gratia Dei commemorata non est, de qua
+              tunc non agebatur, putant Pelagiani, vel putare possunt, suam nos tenuisse
+              sententiam. Sed frustra hoc putant. Voluntas quippe est qua et peccatur, et recte
+              vivitur: quod his verbis egimus. Voluntas ergo ipsa nisi Dei gratia <pb ed="#P" n="0597"/>
+              liberetur a servitute, qua facta est serva peccati, et ut vitia superet,
+              adjuvetur; recte pieque vivi a mortalibus non potest. Et hoc divinum beneficium
+              quo liberatur, nisi eam praeveniret, jam meritis ejus daretur, et non esset
+              gratia, quae utique gratis datur. Quod in aliis opusculis nostris satis egimus,
+              istos inimicos hujus gratiae novos haereticos refellentes; quamvis et in his
+              libris, qui non contra illos omnino, quippe illi nondum erant, sed contra
+              Manichaeos conscripti sunt, de Libero Arbitrio; non omnimodo de ista Dei gratia
+              reticuimus, quam nefanda impietate conantur auferre. Diximus quippe in secundo
+              libro, non solum magna, sed etiam minima bona non esse posse, nisi ab illo a quo
+              sunt omnia bona, hoc est, Deo. Et paulo post: <hi>Virtutes, inquam, quibus recte vivitur, magna bona sunt: species autem quorumlibet corporum, sine quibus recte vivi potest, minima bona sunt: potentiae vero animi, sine quibus recte vivi non potest, media bona sunt. Virtutibus nemo male utitur: caeteris autem bonis, id est mediis et minimis, non solum bene, sed etiam male quisque uti potest. Et ideo virtute nemo male utitur; quia opus virtutis est bonus usus istorum, quibus etiam non bene uti possumus: nemo autem bene utendo, male utitur. Quare abundantia et magnitudo bonitatis Dei, non solum magna, sed etiam media et minima bona esse praestitit. Magis laudanda est bonitas ejus in magnis, quam in mediis; et magis in mediis, quam in minimis bonis: sed magis in omnibus, quam si non omnia tribuisset <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 19, n. 50)</note>-->
+              </hi>
+              . Et alio loco: <hi>Tu tantum, inquam, pietatem inconcussam tene</hi>
+              , <hi>ut nullum tibi bonum, vel sentienti, vel intelligenti, vel quoquo modo cogitanti occurrat, quod non sit ex Deo.</hi>
+              Itemque alio loco dixi: <hi>Sed quoniam non sicut sponte homo cecidit, ita etiam sponte surgere potest; porrectam nobis desuper dexteram Dei, id est Dominum nostrum Jesum Christum, firma fide teneamus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 20, n. 54)</note>-->
+              </hi>
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e819">
+            <head xml:id="aretr-l1-Hd1e821">5</head>
+            <p xml:id="aretr-l1-d1e823">
+              Et in libro tertio, cum dixissem illud, quo et Pelagium de meis opusculis usum
+              fuisse commemoravi, <hi>Quis enim, inquam, peccat in eo quod nullo modo caveri potest? Peccatur autem: caveri igitur potest;</hi>
+              continuo secutus adjunxi: <hi>Et tamen etiam per ignorantiam facta quaedam improbantur, et corrigenda judicantur; sicut in divinis auctoritatibus legimus. Ait enim Apostolus, « Misericordiam consecutus sum, quia ignorans feci</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Tim. I, 13)</note>-->
+              ;<hi>ait et propheta: « Delicta juventutis meae et ignorantiae meae ne memineris</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. XXIV, 7)</note>-->
+              . <hi>Sunt etiam necessitate facta improbanda, ubi vult homo recte facere et non potest. Nam unde sunt illae voces: « Non enim quod volo, facio bonum; sed quod odi malum, hoc ago. » Et illud: « Velle adjacet mihi; perficere autem bonum, non</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII, 15, 18)</note>-->
+              . <hi>Et illud: « Caro concupiscit adversus spiritum, spiritus autem adversus carnem. Haec enim invicem adversantur, ut non ea quae vultis, faciatis?</hi>
+              »<hi>
+                <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. V, 17.)</note>--> Sed haec omnia hominum sunt ex illa mortis damnatione
+                venientium. Nam si non est ista poena hominis, sed
+                natura; nulla ista peccata sunt. Si enim non receditur
+                <pb ed="#P" n="0598"/>
+                ab eo modo quo naturaliter factus est, ita ut melius esse
+                non possit; ea quae debet, facit, cum haec facit. Si autem
+                bonus homo esset, aliter esset; nunc autem quia ita est,
+                non est bonus, nec habet in potestate ut bonus sit, sive
+                non videndo qualis esse debeat, sive videndo et non valendo
+                esse qualem se debere esse videt. Poenam istam
+                esse quis dubitet? Omnis autem poena, si justa est, peccati
+                poena est, et supplicium nominatur. Si autem injusta
+                poena est, quoniam poenam esse nemo ambigit;
+                injusto aliquo dominante homini imposita est. Porro
+                quia de omnipotentia Dei et justitia dubitare dementis
+                est, justa haec poena est, et pro peccato aliquo penditur.
+                Non enim quisquam injustus dominator, aut subripere
+                hominem potuit velut ignoranti Deo, aut extorquere invito,
+                tanquam invalidiori, vel terrendo vel confligendo</hi>
+              , <hi>ut hominem injusta poena cruciaret. Relinquitur ergo ut haec poena justa de damnatione hominis veniat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 3,
+                  c. 18, nn. 50, 51)</note>-->
+              </hi>
+              . Et alio loco: <hi>Approbare, inquam, falsa pro veris ut erret invitus, et resistente atque torquente dolore carnalis vinculi, non posse a libidinosis operibus temperare, non est natura instituti hominis, sed poena damnati. Cum autem de libera voluntate recte faciendi loquimur, de illa scilicet in qua homo factus est, loquimur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., n. 52)</note>-->
+              </hi>
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e861">
+            <head xml:id="aretr-l1-Hd1e863">6</head>
+            <p xml:id="aretr-l1-d1e865">
+              Ecce tam longe antequam Pelagiana haeresis exstitisset, sic disputavimus, velut
+              jam contra illos disputaremus. Cum enim omnia bona dicerentur ex Deo, id est et
+              magna, et media, et minima: in mediis quidem bonis invenitur liberum voluntatis
+              arbitrium, quia et male illo uti possumus; sed tamen tale est, ut sine illo recte
+              vivere nequeamus. Bonus autem usus ejus jam virtus est, quae in magnis reperitur
+              bonis, quibus male uti nullus potest. Et quia omnia bona, sicut dictum est, et
+              magna, et media, et minima ex Deo sunt; sequitur, ut ex Deo sit etiam bonus usus
+              liberae voluntatis, quae virtus est, et in magnis numeratur bonis. Deinde dictum
+              est, ex qua miseria peccantibus justissime inflicta, liberet Dei gratia, quia
+              sponte homo, id est libero arbitrio, cadere potuit, non etiam surgere: ad quam
+              miseriam justae damnationis pertinet ignorantia et difficultas, quam patitur omnis
+              homo ab exordio nativitatis suae; nec ab isto malo, nisi Dei gratia, quisquam
+              liberatur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 20; et lib. 3, c. 18)</note>-->
+              : quam miseriam Pelagiani nolunt ex justa damnatione descendere, negantes
+              originale peccatum: quamvis ignorantia et difficultas, etiamsi essent hominis
+              primordia naturalia; nec sic culpandus, sed laudandus esset Deus, sicut in eodem
+              tertio libro disputavimus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 3, cc. 20, 21)</note>-->
+              . Quae disputatio contra Manichaeos habenda est, qui non accipiunt Scripturas
+              sanctas Veteris Instrumenti, in quibus originale peccatum narratur; et quidquid
+              inde in Litteris apostolicis legitur, detestabili impudentia immissum fuisse
+              contendunt a corruptoribus Scripturarum, tanquam <pb ed="#P" n="0599"/>
+              non fuerit ab Apostolis dictum. Contra Pelagianos autem hoc defendendum est, quod
+              utraque Scriptura commendat, quam se accipere profitentur. Hoc opus sic incipit: <hi>Dic mihi, quaeso te, utrum Deus non sit auctor mali.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e878">
+          <head xml:id="aretr-l1-Hd1e880">Caput 10</head>
+          <head xml:id="aretr-l1-Hd1e882" type="question-title">De Genesi adversus Manichaeos, libri duo</head>
+          <div xml:id="aretr-l1-Dd1e885">
+            <head xml:id="aretr-l1-Hd1e887">1</head>
+            <p xml:id="aretr-l1-d1e889">
+              Jam vero in Africa constitutus, scripsi duos libros de Genesi contra Manichaeos.
+              Quamvis enim in superioribus libris quidquid disputavi, unde ostenderem Deum summe
+              bonum et immutabilem creatorem esse omnium mutabilium naturarum, nec ullam esse
+              naturam malam sive substantiam, in quantum natura est atque substantia, adversus
+              Manichaeos nostra invigilaret intentio; isti tamen duo libri apertissime adversus
+              eos editi sunt in defensionem veteris legis, quam vehementi studio vesani erroris
+              oppugnant. In primo, ab eo quod scriptum est, <quote xml:id="aretr-l1-Qd1e891" source="http://scta.info/resource/gen1_1">In principio fecit Deus coelum et terram <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. I, 1)</note>-->
+              </quote>
+              , donec septem peragantur dies, ubi legitur Deus requievisse in die septimo. In
+              secundo autem, ab eo quod scriptum est, <hi>Hic liber creaturae coeli et terrae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. II, 4)</note>-->
+              </hi>
+              , donec Adam et mulier ejus dimissi sunt de paradiso, et custodia posita est ligno
+              vitae. Deinde in fine libri, errori Manichaeorum fidem catholicae veritatis
+              opposui; quid illi dicant, et nos quid dicamus, breviter aperteque complectens.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e903">
+            <head xml:id="aretr-l1-Hd1e905">2</head>
+            <p xml:id="aretr-l1-d1e907">
+              Quod vero dixi, <hi>Illud autem non irrationabilium avium oculos pascit, sed pura corda eorum qui Deo credunt, et ab amore visibilium rerum et temporalium, se ad ejus praecepta implenda convertunt; quod omnes homines possunt, si velint <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 3, n. 6)</note>-->
+              </hi>
+              , non existiment novi haeretici Pelagiani secundum eos esse dictum. Verum est enim
+              omnino, omnes homines hoc posse, si velint; sed praeparatur voluntas a Domino, et
+              tantum augetur munere charitatis, ut possint: quod hic ideo dictum non est,
+              quoniam praesenti necessarium non erat quaestioni. Quod vero ibi legitur,
+              benedictionem Dei qua dictum est, <quote xml:id="aretr-l1-Qd1e914" source="http://scta.info/resource/gen1_28">Crescite et multiplicamini <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. I, 28)</note>-->
+              </quote>
+              , in carnalem fecunditatem post peccatum conversam esse credendam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 19, n. 30)</note>-->
+              ; si non potest alio modo dictum videri, nisi ut putentur illi homines non
+              habituri fuisse filios homines nisi peccassent, omnino non approbo. Illud etiam
+              non est consequens, ut ideo intelligatur in allegoria tantummodo esse accipiendum,
+              quod herbae virides, et ligna fructifera omni generi bestiarum, et omnibus avibus,
+              et omnibus serpentibus in libro Geneseos dantur ad cibum, quia sunt et quadrupedia
+              et volatilia quae solis carnibus vivere videantur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 20, n. 31)</note>-->
+              . Fieri enim posset ut alerentur ab hominibus etiam de fructibus terrae, si
+              propter obedientiam qua ipsi homines Deo sine ulla iniquitate servirent,
+              mererentur omnes bestias et aves omni modo habere servientes. Item movere potest
+              quomodo dixerim de populo Israel, <hi>Adhuc corporali circumcisione et sacrificiis, tanquam in mari gentium populus ille legi serviebat (Id., <pb ed="#P" n="0600"/>
+                c. 23, n. 40)</hi>
+              ; quandoquidem apud gentes sacrificare non poterant, sicut eos et nunc videmus
+              sine sacrificiis remansisse; nisi forte quod per Pascha immolant ovem, hoc in
+              sacrificio deputetur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e930">
+            <head xml:id="aretr-l1-Hd1e932">3</head>
+            <p xml:id="aretr-l1-d1e934">
+              In secundo etiam libro illud quod posui, nomine pabuli significari posse vitam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 3, n. 4)</note>-->
+              , cum melioris interpretationis codices non habeant, <hi>pabulum;</hi>
+              sed, <hi>fenum;</hi>
+              non satis apte dictum videtur. Non enim congruit feni nomen significationi vitae,
+              quomodo pabuli. Item videor <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 5, n. 6)</note>-->
+              non recte appellasse verba prophetica quibus scriptum est, <hi>Quid superbit terra et cinis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eccli. X, 9)</note>-->
+              </hi>
+              ? quia non in ejus libro legitur, quem certi simus appellandum esse prophetam. Nec
+              illud Apostoli, ubi adhibet testimonium de Genesi, dicens, <quote xml:id="aretr-l1-Qd1e950" source="http://scta.info/resource/Icor15_45">Factus est primus homo Adam in animam viventem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 45)</note>-->
+              </quote>
+              ; sicut ille voluit, intellexi, cum exponerem quod scriptum est, <hi>Insufflavit Deus in faciem ejus flatum vitae, et factus est homo in animam vivam,</hi>
+              vel, <quote xml:id="aretr-l1-Qd1e957" source="http://scta.info/resource/gen2_7">in animam viventem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. II, 7)</note>-->
+              </quote>
+              . Apostolus enim ad hoc adhibuit illud testimonium, ut probaret esse corpus
+              animale: ego autem hinc putavi esse monstrandum, animalem factum prius hominem,
+              non corpus hominis solum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 8, n. 10)</note>-->
+              . Quod autem dixi, <hi>nulli naturae nocere peccata nisi sua <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id.,
+                  c. 29, n. 43)</note>-->
+              </hi>
+              , ideo dixi, quoniam justo qui nocet, non ei vere nocet, quandoquidem etiam
+              mercedem ejus auget in coelis: sibi autem peccando vere nocet; quia propter ipsam
+              voluntatem nocendi recipiet id, quod nocuit. Possunt sane Pelagiani ad suum dogma
+              trahere istam sententiam, et ideo dicere, parvulis aliena non nocuisse peccata,
+              quia dixi, <hi>nulli naturae nocere peccata nisi sua;</hi>
+              non intuentes ideo parvulos, qui utique pertinent ad humanam naturam, trahere
+              originale peccatum, quia in primis hominibus natura humana peccavit, ac per hoc
+              naturae humanae nulla nocuere peccata, nisi sua. Per unum quippe hominem, in quo
+              omnes peccaverunt, peccatum intravit in mundum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. V, 12)</note>-->
+              : non enim nulli homini, sed nulli naturae dixi peccata nocere, nisi sua. Item in
+              eo quod paulo post dixi, <hi>Nullum esse malum naturale <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2,
+                  c. 29, n. 43)</note>-->
+              </hi>
+              , possunt quaerere similem latebram, nisi hoc dictum ad naturam talem referatur,
+              qualis sine vitio primitus condita est: ipsa enim vere ac proprie natura hominis
+              dicitur. Translato autem verbo utimur, ut naturam dicamus etiam, qualis nascitur
+              homo, secundum quam locutionem dixit Apostolus: <hi>Fuimus enim et nos aliquando natura filii irae, sicut et caeteri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. II, 3)</note>-->
+              </hi>
+              . Hoc opus sic incipit: <hi>Si eligerent Manichaei quos deciperent.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e990">
+          <head xml:id="aretr-l1-Hd1e992">Caput 11</head>
+          <head xml:id="aretr-l1-Hd1e994" type="question-title">De Musica libri sex</head>
+          <div xml:id="aretr-l1-Dd1e997">
+            <head xml:id="aretr-l1-Hd1e999">1</head>
+            <p xml:id="aretr-l1-d1e1001">
+              Deinde, ut supra commemoravi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 Retract., c. 6)</note>-->
+              , sex libros de Musica scripsi; quorum ipse sextus maxime innotuit, quoniam res in
+              eo digna cognitione versatur, quomodo a corporalibus et spiritualibus, sed
+              mutabilibus numeris, perveniatur ad immutabiles <pb ed="#P" n="0601"/>
+              numeros, qui jam sunt in ipsa immutabili veritate, et sic invisibilia Dei, per ea
+              quae facta sunt, intellecta conspiciantur. Quod qui non possunt, et tamen ex fide
+              Christi vivunt, ad illa certius atque felicius conspicienda post hanc vitam
+              veniunt. Qui autem possunt, si desit eis fides Christi, qui unus mediator est Dei
+              et hominum, cum tota sapientia sua pereunt.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1009">
+            <head xml:id="aretr-l1-Hd1e1011">2</head>
+            <p xml:id="aretr-l1-d1e1013">
+              In hoc libro illud quod dixi, <hi>Corpora enim tanto meliora quanto numerosiora talibus numeris: anima vero istis quae per corpus accipit, carendo fit melior, cum sese avertit a carnalibus sensibus, et divinis sapientiae numeris reformatur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 6, c. 4, n. 7)</note>-->
+              </hi>
+              , non sic accipiendum est, quasi non sint futuri numeri corporales in corporibus
+              incorruptibilibus et spiritualibus; cum multo speciosiora et decentiora futura
+              sint: aut anima eos sensura non sit, quando erit optima, quemadmodum hic eis
+              carendo fit melior. Hic enim opus habet avertere se a carnalibus sensibus ad
+              intelligibilia capienda, quia infirma est, et minus idonea utrisque simul adhibere
+              intentionem suam: et in his corporalibus nunc illecebra cavenda est, quamdiu anima
+              illici ad delectationem turpem potest. Tunc autem tam firma erit atque perfecta,
+              ut numeris corporalibus non avertatur a contemplatione sapientiae, et ita sentiat
+              eos ut non illiciatur ab eis, nec eis carendo fiat melior; sed ita sit bona et
+              recta, ut nec latere possint eam nec occupare.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1022">
+            <head xml:id="aretr-l1-Hd1e1024">3</head>
+            <p xml:id="aretr-l1-d1e1026">
+              Item quod dixi, <hi>Haec autem sanitas tunc firmissima erit atque certissima, cum pristinae stabilitati certo suo tempore atque ordine hoc corpus fuerit restitutum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id.,
+                  c. 5, n. 13)</note>-->
+              </hi>
+              , non ita dictum putetur, quasi non sint futura post resurrectionem corpora
+              meliora, quam primorum hominum in paradiso fuerunt, cum illa jam non sint alenda
+              corporalibus alimentis, quibus alebantur ista: sed pristina stabilitas hactenus
+              accipienda est, quatenus aegritudinem ita nullam corpora illa patientur, sicut nec
+              ista pati possent ante peccatum.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1036">
+            <head xml:id="aretr-l1-Hd1e1038">4</head>
+            <p xml:id="aretr-l1-d1e1040">
+              Alio loco: <hi>Laboriosior est, inquam, hujus mundi amor. Quod enim in illo anima quaerit, constantiam scilicet aeternitatemque, non invenit: quoniam rerum transitu completur infirma pulchritudo, et quod in illa imitatur constantiam, a summo Deo per animam trajicitur: quoniam prior est species tantummodo tempore commutabilis, quam est ea, quae et tempore et locis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id.,
+                  c. 14, n. 43)</note>-->
+              </hi>
+              . Haec verba si eo modo accipi possunt, ut non intelligatur infima pulchritudo,
+              nisi in corporibus hominum, omniumque animalium, quae cum sensu corporis vivunt,
+              ratio manifesta defendit. Hoc quippe in ea pulchritudine imitatur constantiam,
+              quod in compage sua manent eadem corpora, in quantum manent: id autem a summo Deo
+              in ea per animam trajicitur. Anima quippe ipsam compagem tenet, ne dissolvatur, et
+              diffluat; quod videmus in corporibus animalium anima discedente contingere. Si
+              autem infima pulchritudo in omnibus corporibus intelligatur, cogit ista sententia
+              etiam ipsum mundum animal credere, ut etiam in ipsum, quod in illo imitatur
+              constantiam, a <pb ed="#P" n="0602"/>
+              summo Deo per animam trajiciatur. Sed animal esse istum mundum, sicut Plato
+              sensit, aliique philosophi quamplurimi, nec ratione certa indagare potui, nec
+              divinarum Scripturarum auctoritate persuaderi posse cognovi. Unde tale aliquid a
+              me dictum quo id accipi possit, etiam in libro de Immortalitate Animae temere
+              dictum notavi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 Retract., c. 5, n. 3)</note>-->
+              ; non quia hoc falsum esse confirmo, sed quia nec verum esse comprehendo, quod sit
+              animal mundus. Hoc sane inconcusse retinendum esse non dubito, Deum nobis non esse
+              istum mundum, sive anima ejus ulla, sive nulla sit. Quia si ulla est, ille qui eam
+              fecit, est Deus noster: si autem nulla est, nullorum Deus potest esse iste; quanto
+              minus noster? Esse tamen spiritualem vitalemque virtutem, etiam si non sit animal
+              mundus; quae virtus in Angelis sanctis ad decorandum atque administrandum mundum
+              Deo servit, et a quibus non intelligitur; rectissime creditur. Angelorum autem
+              sanctorum nomine, omnem sanctam creaturam spiritualem, in Dei secreto atque
+              occulto ministerio constitutam nunc appellaverim: sed spiritus angelicos sancta
+              Scriptura nomine animarum significare non solet. Proinde in eo quod circa finem
+              libri hujus dixi, <hi>Rationales et intellectuales numeri beatarum animarum atque sanctarum legem ipsam Dei, sine qua folium de arbore non cadit, et cui nostri capilli numerati sunt, nulla interposita natura excipientes, usque ad terrena et inferna jura transmittunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 6, c. 17, n. 58)</note>-->
+              </hi>
+              , non video quemadmodum vocabulum animarum secundum Scripturas sanctas positum
+              possit ostendi; quandoquidem hic non nisi Angelos sanctos intelligi volui, quos
+              habere animas nusquam me legisse in divinis eloquiis canonicis recolo. Hic liber
+              sic incipit: <hi>Satis diu pene</hi>
+              .
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1061">
+          <head xml:id="aretr-l1-Hd1e1063">Caput 12</head>
+          <head xml:id="aretr-l1-Hd1e1065" type="question-title">De Magistro, liber unus</head>
+          <p xml:id="aretr-l1-d1e1068">
+            Per idem tempus scripsi librum cujus est titulus, de Magistro: in quo disputatur et
+            quaeritur, et invenitur, magistrum non esse, qui docet hominem scientiam, nisi Deum,
+            secundum illud etiam quod in Evangelio scriptum est: <quote xml:id="aretr-l1-Qd1e1070" source="http://scta.info/resource/mt23_10">Unus est Magister vester Christus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXIII, 10)</note>-->
+            </quote>
+            . Hic liber sic incipit: <hi>Quid tibi videmur efficere velle cum loquimur?</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1079">
+          <head xml:id="aretr-l1-Hd1e1081">Caput 13</head>
+          <head xml:id="aretr-l1-Hd1e1083" type="question-title">De Vera Religione, liber unus</head>
+          <div xml:id="aretr-l1-Dd1e1086">
+            <head xml:id="aretr-l1-Hd1e1088">1</head>
+            <p xml:id="aretr-l1-d1e1090">
+              Tunc etiam de Vera Religione librum scripsi; in quo multipliciter et copiosissime
+              disputatur, unum verum Deum, id est Trinitatem, Patrem et Filium et Spiritum
+              sanctum religione vera colendum: et quanta misericordia ejus, per temporalem
+              dispensationem concessa sit hominibus christiana religio, quae vera religio est,
+              et ad eumdem cultum Dei quemadmodum sit homo quadam vita sua coaptandus. Maxime <pb ed="#P" n="0603"/>
+              tamen contra duas naturas Manichaeorum liber hic loquitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1096">
+            <head xml:id="aretr-l1-Hd1e1098">2</head>
+            <p xml:id="aretr-l1-d1e1100">
+              In hoc libro quodam loco: <hi>Sit, inquam, tibi manifestum atque perceptum, nullum errorem in religione esse potuisse, si anima pro Deo suo non coleret animam, aut corpus, aut phantasmata sua.</hi>
+              Hic animam pro universa creatura incorporali posui non loquens more Scripturarum,
+              quae animam quando non translato verbo utuntur, nescio utrum velint intelligi nisi
+              eam qua vivunt animalia mortalia, in quibus et homines sunt, quamdiu mortales
+              sunt. Paulo post autem eumdem sensum melius sum breviusque complexus, ubi dixi: <hi>Non ergo creaturae potius quam Creatori serviamus, nec evanescamus in cogitationibus nostris, et perfecta religio est.</hi>
+              Creaturam quippe uno nomine utramque, id est spiritualem corporalemque
+              significavi. Restat quod ibi dixi, <hi>aut phantasmata sua: </hi>
+              propter quod hic dixi, <hi>nec evanescamus in cogitationibus nostris.</hi>
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1112">
+            <head xml:id="aretr-l1-Hd1e1114">3</head>
+            <p xml:id="aretr-l1-d1e1116">
+              Item quod dixi, <hi>Ea est nostris temporibus christiana religio, quam cognoscere ac sequi securissima et certissima salus est,</hi>
+              secundum hoc nomen dictum est, non secundum ipsam rem, cujus hoc nomen est. Nam
+              res ipsa quae nunc christiana religio nuncupatur, erat apud antiquos, nec defuit
+              ab initio generis humani, quousque ipse Christus veniret in carne, unde vera
+              religio quae jam erat, coepit appellari christiana. Cum enim eum post
+              resurrectionem ascensionemque in coelum coepissent Apostoli praedicare, et plurimi
+              crederent, primum apud Antiochiam, sicut scriptum est, appellati sunt discipuli
+              Christiani <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Act. XI, 26)</note>-->
+              . Propterea dixi, <hi>Haec est nostris temporibus christiana religio;</hi>
+              non quia prioribus temporibus non fuit, sed quia posterioribus hoc nomen accepit.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1127">
+            <head xml:id="aretr-l1-Hd1e1129">4</head>
+            <p xml:id="aretr-l1-d1e1131">
+              Alio loco: <hi>Intende igitur, inquam, in haec quae sequuntur, diligenter et pie, quantum potes; tales enim adjuvat Deus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 10, n. 18-20)</note>-->
+              </hi>
+              . Quod non ita intelligendum est, quasi tantummodo tales adjuvet, cum adjuvet
+              etiam non tales ut sint tales, id est, ut diligenter et pie quaerant: tales autem
+              adjuvat ut inveniant. Itemque alibi: <hi>Deinde, inquam, jam erit consequens ut post mortem corporalem quam debemus primo peccato, tempore suo atque ordine suo hoc corpus restituatur pristinae stabilitati <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 12, n.
+                  25)</note>-->
+              </hi>
+              . Quod sic accipiendum est, quia etiam pristina stabilitas corporis quam peccando
+              amisimus, habebat tantam felicitatem, ut in defectum non vergeret senectutis. Huic
+              ergo pristinae stabilitati restituetur hoc corpus in resurrectione mortuorum. Sed
+              habebit amplius, ut nec alimentis corporalibus sustentetur; sed ad sufficientiam
+              vivificetur solo spiritu, cum resurrexerit in spiritum vivificantem, qua causa
+              etiam spirituale erit. Illud autem quod primum fuit, quamvis non moriturum, nisi
+              homo peccasset, tamen animale factum est in animam viventem.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1145">
+            <head xml:id="aretr-l1-Hd1e1147">5</head>
+            <p xml:id="aretr-l1-d1e1149">
+              Et alibi: <hi>Usque adeo, inquam, peccatum voluntarium malum est, ut nullo modo sit peccatum, si non sit voluntarium <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 14, n. 27)</note>-->
+              </hi>
+              . Potest videri falsa haec definitio; sed si diligenter discutiatur, invenietur
+              esse <pb ed="#P" n="0604"/>
+              verissima. Peccatum quippe illud cogitandum est, quod tantummodo peccatum est, non
+              quod est etiam poena peccati, sicut superius ostendi, cum quaedam commemorarem ex
+              libro tertio de Libero arbitrio <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 Retract., c. 9, n. 5)</note>-->
+              . Quamvis et illa quae non immerito non voluntaria peccata dicuntur, quia vel a
+              nescientibus vel a coactis perpetrantur, non omnimodo possunt sine voluntate
+              committi: quoniam et ille qui peccat ignorans, voluntate utique facit, quod cum
+              faciendum non sit, putat esse faciendum. Et ille qui concupiscente adversus
+              spiritum carne, non ea quae vult facit, concupiscit quidem nolens, et in eo non
+              facit quod vult: sed si vincitur, concupiscentiae consentit volens, et in eo non
+              facit nisi quod vult, liber scilicet justitiae, servusque peccati. Et illud quod
+              in parvulis dicitur originale peccatum, cum adhuc non utantur arbitrio voluntatis,
+              non absurde vocatur etiam voluntarium, quia ex prima hominis mala voluntate
+              contractum, factum est quodammodo haereditarium. Non itaque falsum est quod dixi, <hi>Usque adeo peccatum voluntarium malum est, ut nullo modo sit peccatum, si non sit voluntarium.</hi>
+              Ideo gratia Dei non solum reatus omnium praeteritorum solvitur in omnibus qui
+              baptizantur in Christo, quod fit Spiritu regenerationis; verum etiam in grandibus
+              voluntas ipsa sanatur, et praeparatur a Domino, quod fit spiritu fidei et
+              charitatis.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1164">
+            <head xml:id="aretr-l1-Hd1e1166">6</head>
+            <p xml:id="aretr-l1-d1e1168">
+              Alio loco in eo quod dixi de Domino Jesu Christo, <hi>Nihil egit vi, sed omnia suadendo et monendo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16,
+                  n. 31)</note>-->
+              </hi>
+              , non mihi occurrerat quod vendentes et ementes flagellando ejecit de templo. Sed
+              quid hoc, aut quantum est? Quamvis et daemones nolentes ab hominibus, non sermone
+              suasionis, sed vi potestatis ejecerit. Item alio loco: <hi>Prius, inquam, isti sequendi sunt, qui unum Deum summum, solum verum Deum et solum colendum esse dicunt: si apud hos veritas non eluxerit, tum demum migrandum est.</hi>
+              Quod ita potest videri dictum, quasi de hujus religionis veritate dubitaverim.
+              Dixi autem sicut ei congruebat ad quem scribebam. Sic enim dixi, <hi>si apud hos veritas non eluxerit,</hi>
+              nihil dubitans quod apud eos elucesceret; quemadmodum ait Apostolus, <quote xml:id="aretr-l1-Qd1e1179" source="http://scta.info/resource/Icor15_14">Si Christus non resurrexit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 14)</note>-->
+              </quote>
+              , non utique dubitans quod resurrexerit.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1186">
+            <head xml:id="aretr-l1-Hd1e1188">7</head>
+            <p xml:id="aretr-l1-d1e1190">
+              Item quod dixi, <hi>Nec miracula illa in nostra tempora durare permissa sunt, ne anima semper visibilia quaereret, et eorum consuetudine frigesceret genus humanum, quorum novitate flagravit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 25, nn. 46, 47)</note>-->
+              </hi>
+              , verum est quidem: non enim nunc usque cum manus imponitur baptizatis, sic
+              accipiunt Spiritum sanctum, ut loquantur linguis omnium gentium; aut nunc usque ad
+              umbram transeuntium praedicatorum Christi sanantur infirmi; et si qua talia tunc
+              facta sunt, quae postea cessasse manifestum est. Sed non sic accipiendum est quod
+              dixi, ut nunc in Christi nomine fieri miracula nulla credantur. Nam ego ipse
+              quando istum ipsum librum scripsi, ad Mediolanensium corpora martyrum in eadem
+              civitate caecum illuminatum <pb ed="#P" n="0605"/>
+              fuisse jam noveram, et alia nonnulla, qualia tam multa etiam istis temporibus
+              fiunt, ut nec omnia cognoscere, nec ea quae cognoscimus, enumerare possimus.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1201">
+            <head xml:id="aretr-l1-Hd1e1203">8</head>
+            <p xml:id="aretr-l1-d1e1205">
+              Et alio loco illud quod dixi, <hi>Sicut ait Apostolus, « Omnis ordo a Deo est,</hi>
+              » non eisdem verbis hoc dixit Apostolus, quamvis eadem videatur esse sententia.
+              Ait quippe ille: <quote xml:id="aretr-l1-Qd1e1209" source="http://scta.info/resource/rom13_1">Quae autem sunt, a Deo ordinatae sunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. XIII, 1)</note>-->
+              </quote>
+              . Et alibi: <hi>Prorsus, inquam, nemo nos fallat: quidquid recte vituperatur, in melioris comparatione respuitur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 41, nn. 77, 78)</note>-->
+              </hi>
+              . Hoc de substantiis atque naturis dictum est: inde enim disputabatur, non de
+              bonis actionibus atque peccatis. Itemque alibi: <hi>Sed nec sic quidem, inquam, ab homine homo diligendus est, ut diliguntur carnales fratres, vel filii, vel conjuges, vel quique cognati: aut affines, aut cives, nam et ista dilectio temporalis est. Non enim ullas tales necessitudines haberemus, quae nascendo et moriendo contingunt, si natura nostra in praeceptis et imagine Dei manens, in istam corruptionem non relegaretur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 46,
+                  n. 88)</note>-->
+              </hi>
+              . Hunc sensum prorsus improbo, quem jam et superius improbavi in primo libro de
+              Genesi contra Manichaeos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 Retract., c. 10, n. 2)</note>-->
+              . Ad hoc enim ducit, ut credantur illi conjuges primi non generaturi posteros
+              homines, nisi peccassent; tanquam necesse fuerit ut morituri gignerentur, si de
+              concubitu maris et feminae gignerentur. Nondum enim videram fieri potuisse ut non
+              morituri de non morituris nascerentur, si peccato illo magno non mutaretur in
+              deterius humana natura: ac per hoc, si et in parentibus et in filiis fecunditas
+              felicitasque mansisset, usque ad certum sanctorum numerum, quem praedestinavit
+              Deus, nascerentur homines non parentibus successuri morientibus, sed cum
+              viventibus regnaturi. Essent ergo etiam istae cognationes atque affinitates, si
+              nullus delinqueret, nullusque moreretur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1228">
+            <head xml:id="aretr-l1-Hd1e1230">9</head>
+            <p xml:id="aretr-l1-d1e1232">
+              Item alio loco: <hi>Ad unum Deum tendentes, inquam, et ei uni religantes animas nostras, unde religio dicta creditur, omni superstitione careamus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 55, n. 111)</note>-->
+              </hi>
+              . In his verbis meis ratio quae reddita est, unde sit dicta religio, plus mihi
+              placuit. Nam non me fugit aliam nominis hujus originem exposuisse latini sermonis
+              auctores, quod inde sit appellata religio, quod religitur: quod verbum compositum
+              est a legendo, id est eligendo, ut ita latinum videatur religo sicut eligo. Hic
+              liber sic incipit: <hi>Cum omnis vitae bonae ac beatae via.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1244">
+          <head xml:id="aretr-l1-Hd1e1246">Caput 14</head>
+          <head xml:id="aretr-l1-Hd1e1248" type="question-title">De Utilitate credendi, ad Honoratum liber unus</head>
+          <div xml:id="aretr-l1-Dd1e1251">
+            <head xml:id="aretr-l1-Hd1e1253">1</head>
+            <p xml:id="aretr-l1-d1e1255">
+              Jam vero apud Hipponem-regium presbyter scripsi librum de Utilitate credendi, ad
+              amicum meum quem deceptum a Manichaeis, adhuc eo errore noveram detineri, et
+              irridere in catholicae fidei disciplina, quod juberentur homines credere, non
+              autem quid esset verum certissima ratione docerentur. In hoc libro dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3, n. 9)</note>-->
+              : <hi>In quibus tamen legis praeceptis <pb ed="#P" n="0606"/>
+                atque mandatis, quibus nunc christiano uti fas
+                non est; quale vel sabbatum est, vel circumcisio, vel
+                sacrificia, et si quid hujusmodi est; tanta mysteria continentur,
+                ut omnis pius intelligat, nihil esse perniciosius,
+                quam quidquid ibi est, accipi ad litteram, id est ad verbum:
+                nihil autem salubrius, quam spiritu revelari. Inde
+                est,  « Littera occidit; spiritus autem vivificat</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Cor. III, 6)</note>-->
+              . Sed aliter exposui verba ista apostoli Pauli, et quantum mihi videtur, vel
+              potius ipsis rebus apparet, multo convenientius in eo libro qui inscribitur de
+              Spiritu et Littera: quamvis non sit et iste sensus respuendus.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1268">
+            <head xml:id="aretr-l1-Hd1e1270">2</head>
+            <p xml:id="aretr-l1-d1e1272">
+              Item dixi, <hi>Duae sunt enim personae in religione laudabiles. Una eorum qui jam invenerunt; quos etiam beatissimos judicari necesse est: alia eorum qui studiosissime et rectissime inquirunt. Primi ergo sunt jam in ipsa possessione; alteri in via, qua tamen certissime pervenitur.</hi>
+              In his verbis meis, si illi qui jam invenerunt, quos in ipsa possessione esse jam
+              diximus, sic accipiantur beatissimi, ut non in hac vita, sed in ea quam speramus
+              et ad quam per fidei viam tendimus, sint; non habet iste sensus errorem: ipsi enim
+              judicandi sunt quod quaerendum est invenisse, qui jam ibi sunt quo nos quaerendo
+              et credendo, id est viam fidei tenendo, cupimus pervenire. Si autem in hac vita
+              putantur isti esse vel fuisse, id verum esse non mihi videtur: non quia in hac
+              vita nihil veri omnino inveniri potest quod mente cernatur, non fide credatur; sed
+              quia tantum est quidquid est, ut non faciat beatissimos. Neque enim quod ait
+              Apostolus, <hi>Videmus nunc per speculum in aenigmate,</hi>
+              et, <hi>Nunc scio ex parte</hi>
+              ; non cernitur mente: cernitur plane, sed beatissimos nondum facit. Illud enim
+              beatissimos facit quod ait: <hi>Tunc autem facie ad faciem;</hi>
+              et, <quote xml:id="aretr-l1-Qd1e1282" source="http://scta.info/resource/Icor13_12">Tunc cognoscam sicut et cognitus sum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XIII, 12)</note>-->
+              </quote>
+              . Qui hoc invenerunt, ipsi dicendi sunt in beatitudinis possessione consistere, ad
+              quam ducit via fidei quam tenemus, et quo credendo cupimus pervenire. Sed quinam
+              sint illi beatissimi, qui jam sunt in ea possessione quo ducit haec via, magna
+              quaestio est. Et Angeli quidem sancti quod ibi sint, nulla quaestio est. Sed de
+              sanctis hominibus jam defunctis, utrum ipsi saltem dicendi sint jam in illa
+              possessione consistere merito quaeritur. Jam enim corpore quidem corruptibili, quo
+              anima aggravatur, exuti sunt; sed adhuc exspectant etiam ipsi redemptionem
+              corporis sui, et caro eorum requiescit in spe, nondum in futura incorruptione
+              clarescit. Sed utrum ad contemplandam cordis oculis veritatem, sicut dictum est, <hi>facie ad faciem,</hi>
+              nihil ex hoc minus habeant, non hic locus est disputando inquirere. Item quod
+              dixi, <hi>Nam scire magna et honesta vel etiam divina, beatissimum est,</hi>
+              ad eamdem beatitudinem referre debemus. In hac enim vita quantumcumque id sciatur,
+              nondum est beatissimum; quoniam incomparabiliter longe est amplius quod inde
+              nescitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1294">
+            <head xml:id="aretr-l1-Hd1e1296">3</head>
+            <p xml:id="aretr-l1-d1e1298">
+              Et quod dixi, <hi>Multum interesse utrum aliquid <pb ed="#P" n="0607"/>
+                mentis certa ratione teneatur, quod scire dicimus; an
+                famae vel litteris credendum posteris utiliter commendetur;</hi>
+              et paulo post, <hi>Quod scimus igitur, debemus rationi: quod credimus, auctoritati <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 11, n. 25)</note>-->
+              </hi>
+              , non sic accipiendum est, ut in sermone usitatiore vereamur nos dicere scire quod
+              idoneis testibus credimus. Proprie quippe cum loquimur, id solum scire dicimus,
+              quod mentis firma ratione comprehendimus. Cum vero loquimur verbis consuetudini
+              aptioribus, sicut loquitur etiam divina Scriptura, non dubitemus dicere scire nos,
+              et quod percipimus nostri corporis sensibus, et quod fide dignis credimus
+              testibus; dum tamen inter haec et illud quid distet intelligamus.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1313">
+            <head xml:id="aretr-l1-Hd1e1315">4</head>
+            <p xml:id="aretr-l1-d1e1317">
+              Item quod dixi, <hi>Nemini dubium est, omnes homines aut stultos esse aut sapientes <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 12, n. 27)</note>-->
+              </hi>
+              , potest videri esse contrarium illi quod legitur in libro tertio de Libero
+              Arbitrio, <hi>Quasi vero natura humana praeter stultitiam et sapientiam nullam mediam recipiat affectionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 24, n. 71)</note>-->
+              </hi>
+              . Sed illud ibi dictum est, ubi de primo homine quaerebatur utrum sapiens fuerit
+              factus, an stultus, an neutrum: quoniam nullo modo stultum dicere poteramus qui
+              sine vitio factus est, cum sit stultitia magnum vitium; et sapientem quomodo
+              diceremus qui potuit seduci, non satis apparebat. Ideoque ad compendium dicere
+              volui, quasi vero natura humana praeter stultitiam et sapientiam nullam mediam
+              recipiat affectionem. Intuebar quippe etiam parvulos, quos licet confiteamur
+              trahere originale peccatum, tamen nec sapientes nec stultos possumus proprie
+              dicere, nondum utentes libero arbitrio, seu bene seu male. Nunc autem aut
+              sapientes aut stultos esse omnes homines dixi, eos volens intelligi qui jam
+              ratione utuntur, qua discernuntur a pecoribus, ut homines sint, sicut dicimus
+              beatos esse omnes homines velle. Numquid enim in hac sententia tam vera atque
+              manifesta metuimus ne intelligantur et parvuli, qui hoc adhuc velle non possunt?
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1331">
+            <head xml:id="aretr-l1-Hd1e1333">5</head>
+            <p xml:id="aretr-l1-d1e1335">
+              Alio loco cum commemorassem, quae Dominus Jesus fecit cum hic esset in carne,
+              adjunxi, dicens: <hi>Cur, inquis, ista modo non fiunt?</hi>
+              Atque respondi: <hi>Quia non moverent nisi mira essent; si autem solita essent, mira non essent <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16, n. 34)</note>-->
+              </hi>
+              . Hoc autem dixi, quia non tanta nec omnia modo, non quia nulla fiunt etiam modo.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1346">
+            <head xml:id="aretr-l1-Hd1e1348">6</head>
+            <p xml:id="aretr-l1-d1e1350">
+              In fine autem libri: <hi>Sed quoniam sermo iste noster, inquam, multo processit longius quam putabam, hic finem libro faciamus, in quo memineris volo, nondum Manichaeos me coepisse refellere, et illas nugas nondum invasisse, neque de ipsa Catholica magnum aliquid aperuisse: sed voluisse tantummodo eruere tibi, si possem, falsam opinionem de veris Christianis malitiose aut imperite nobis insinuatam</hi>
+              , <hi>et erigere ad magna quaedam et divina discenda. Quare hoc volumen ita sese habeat: placatiore autem animo tuo facto, ero fortassis <pb ed="#P" n="0608"/>
+                in caeteris promptior <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 18, n. 36)</note>-->
+              </hi>
+              . Haec non ita dixi, quasi nihil adversus Manichaeos adhuc scripsissem, vel nihil
+              de doctrina catholica mandassem litteris, cum tot superius edita volumina de
+              utraque re non me tacuisse testentur: sed in hoc libro ad illum scripto nondum
+              Manichaeos refellere coeperam, et illas nugas nondum invaseram, neque de ipsa
+              Catholica magnum aliquid aperueram; quoniam sperabam, hoc initio facto, ad eum
+              ipsum me scripturum fuisse quae hic nondum scripseram. Hic liber sic incipit: <hi>Si mihi, Honorate, unum atque idem videretur esse.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1366">
+          <head xml:id="aretr-l1-Hd1e1368">Caput 15</head>
+          <head xml:id="aretr-l1-Hd1e1370" type="question-title">Contra Manichaeos, de Duabus Animabus liber unus</head>
+          <div xml:id="aretr-l1-Dd1e1373">
+            <head xml:id="aretr-l1-Hd1e1375">1</head>
+            <p xml:id="aretr-l1-d1e1377">
+              Post hunc librum scripsi adhuc presbyter contra Manichaeos de Duabus Animabus,
+              quarum dicunt unam partem Dei esse, alteram de gente tenebrarum, quam non
+              condiderit Deus, et quae sit Deo coaeterna; et has ambas animas, unam bonam,
+              alteram malam, in uno homine esse delirant: istam scilicet malam, propriam carnis
+              esse dicentes, quam carnem etiam dicunt gentis esse tenebrarum; illam vero bonam,
+              ex adventitia Dei parte, quae cum tenebrarum gente conflixerit, atque utramque
+              miscuerit: et omnia quidem bona hominis illi bonae animae; omnia vero mala illi
+              malae animae tribuunt. In hoc libro illud quod dixi, <hi>Nullam esse qualemcumque vitam, quae non eo ipso quo vita est, et in quantum omnino vita est, aa summum vitae fontem principiumque pertineat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 1, n. 1)</note>-->
+              </hi>
+              , ita dixi, ut tanquam creatura ad Creatorem pertinere intelligatur, non autem de
+              illo esse tanquam pars ejus existimetur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1386">
+            <head xml:id="aretr-l1-Hd1e1388">2</head>
+            <p xml:id="aretr-l1-d1e1390">
+              Item quod dixi, <hi>nusquam</hi>
+              scilicet, <hi>nisi in voluntate esse peccatum,</hi>
+              possunt Pelagiani pro se dictum putare, propter parvulos, quos ideo negant habere
+              peccatum quod eis in Baptismate remittatur, quia nondum arbitrio voluntatis
+              utuntur. Quasi vero peccatum quod eos ex Adam dicimus originaliter trahere, id est
+              reatu ejus implicatos, et ob hoc poenae obnoxios detineri, usquam esse potuit nisi
+              in voluntate, qua voluntate commissum est, quando divini praecepti est facta
+              transgressio. Potest etiam putari falsa esse ista sententia qua diximus, <hi>Nusquam nisi in voluntate esse peccatum,</hi>
+              quia dixit Apostolus: <hi>Si autem quod nolo, hoc facio, jam non ego operor illud, sed quod habitat in me peccatum.</hi>
+              Hoc enim peccatum usque adeo non est in voluntate, ut dicat: <hi>Quod nolo, hoc facio.</hi>
+              Quomodo ergo nusquam est nisi in voluntate peccatum? Sed hoc peccatum de quo sic
+              est locutus Apostolus, ideo peccatum vocatur, quia peccato factum est, et poena
+              peccati est; quandoquidem hoc de concupiscentia carnis dicitur, quod aperit in
+              consequentibus dicens: <quote xml:id="aretr-l1-Qd1e1403" source="http://scta.info/resource/rom7_16">Scio quia non habitat in me, hoc est in carne mea bonum: velle enim adjacet mihi, perficere autem bonum, non <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII, 16-18)</note>-->
+              </quote>
+              . Perfectio quippe boni <pb ed="#P" n="0609"/>
+              est, ut nec ipsa concupiscentia peccati sit in homine, cui quidem quando bene
+              vivitur, non consentit voluntas: verumtamen non perficit bonum, quia inest adhuc
+              concupiscentia cui repugnat voluntas; cujus concupiscentiae reatus in Baptismate
+              solvitur, sed infirmitas manet, cui donec sanetur, omnis fidelis qui bene
+              proficit, studiosissime reluctatur. Peccatum autem quod nusquam est nisi in
+              voluntate, illud praecipue intelligendum est, quod justa damnatio consecuta est.
+              Hoc enim per unum hominem introivit in mundum: quanquam et hoc peccatum quo
+              consentitur peccati concupiscentiae, non nisi voluntate committitur. Propter hoc
+              et alio loco dixi: <hi>Non igitur nisi voluntate peccatur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 9, n. 12)</note>-->
+              </hi>
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1417">
+            <head xml:id="aretr-l1-Hd1e1419">3</head>
+            <p xml:id="aretr-l1-d1e1421">
+              Itemque alio loco ipsam voluntatem definivi dicens: <hi>Voluntas est animi motus, cogente nullo, ad aliquid vel non amittendum vel adipiscendum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., n.
+                  14)</note>-->
+              </hi>
+              . Quod propterea dictum est, ut hac definitione volens a nolente discerneretur, et
+              sic ad illos referretur intentio, qui primi in paradiso fuerunt humano generi
+              origo mali, nullo cogente peccando, hoc est libera voluntate peccando, quia et
+              scientes contra praeceptum fecerunt, et ille tentator suasit ut hoc fieret, non
+              coegit. Nam et qui nesciens peccavit, non incongruenter nolens peccasse dici
+              potest, quamvis et ipse quod nesciens fecit, volens tamen fecit; ita nec ipsius
+              esse potuit sine voluntate peccatum. Quae voluntas utique sicut definita est,
+              animi motus fuit, nullo cogente, ad aliquid vel non amittendum, vel adipiscendum.
+              Quod enim si noluisset, non fecisset, non coactus est facere. Quia voluit ergo
+              fecit, etiamsi non quia voluit peccavit, nesciens peccatum esse quod fecit: ita
+              nec tale peccatum sine voluntate esse potuit, sed voluntate facti, non voluntate
+              peccati, quod tamen factum peccatum fuit; hoc enim factum est quod fieri non
+              debuit. Quisquis autem sciens peccat, si potest cogenti ad peccatum sine peccato
+              resistere, nec tamen facit, utique volens peccat; quoniam qui potest resistere,
+              non cogitur cedere. Qui vero cogenti cupiditati bona voluntate resistere non
+              potest, et ideo facit contra praecepta justitiae, jam hoc ita peccatum est, ut sit
+              etiam poena peccati. Quapropter peccatum sine voluntate esse non posse verissimum
+              est.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1431">
+            <head xml:id="aretr-l1-Hd1e1433">4</head>
+            <p xml:id="aretr-l1-d1e1435">
+              Itemque definitio peccati qua diximus, <hi>Peccatum est voluntas retinendi vel consequendi quod justitia vetat, et unde liberum est abstinere <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 11, n. 15)</note>-->
+              </hi>
+              , propterea vera est, quia id definitum est quod tantummodo peccatum est, non quod
+              etiam poena peccati. Nam quando tale est ut idem sit et poena peccati, quantum est
+              quod valet voluntas sub dominante cupiditate, nisi forte, si pia est, ut oret
+              auxilium? In tantum enim libera est, in quantum liberata est, et in tantum
+              appellatur voluntas. Alioquin tota cupiditas, quam voluntas proprie nuncupanda
+              est: <pb ed="#P" n="0610"/>
+              quae non est, sicut Manichaei desipiunt, alienae naturae additamentum, sed nostrae
+              vitium a quo non sanatur nisi gratia Salvatoris. Quod si quisquam dicit, etiam
+              ipsam cupiditatem nihil aliud esse quam voluntatem, sed vitiosam peccatoque
+              servientem; non resistendum est, nec de verbis, cum res constet, controversia
+              facienda. Etiam sic enim ostenditur sine voluntate nullum esse peccatum sive in
+              opere, sive in origine.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1446">
+            <head xml:id="aretr-l1-Hd1e1448">5</head>
+            <p xml:id="aretr-l1-d1e1450">
+              Rursus in eo quod dixi, <hi>Jam quaerere coeperam, utrum illud malum genus animarum, antequam bono misceretur, habuisset aliquam voluntatem. Si enim non habebat, sine peccato atque innocens erat, et ideo nullo modo malum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16, n. 17)</note>-->
+              </hi>
+              . Cur igitur, inquiunt, peccatum dicitis parvulorum, quorum voluntatem non tenetis
+              ream? Respondetur, non eos proprietate voluntatis, sed origine reos teneri. Omnis
+              enim homo terrenus quid est origine, nisi Adam? Porro autem Adam habebat utique
+              voluntatem, qua voluntate cum peccasset, peccatum per eum intravit in mundum.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1459">
+            <head xml:id="aretr-l1-Hd1e1461">6</head>
+            <p xml:id="aretr-l1-d1e1463">
+              Itemque in eo quod dixi, <hi>Natura esse malae animae nullo modo queunt,</hi>
+              si quaeritur quomodo accipiamus quod ait Apostolus: <hi>Fuimus et nosnatura filii irae, sicut et caeteri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. II, 3)</note>-->
+              </hi>
+              ; respondemus, naturam in his verbis meis me intelligi voluisse illam, quae
+              proprie natura dicitur, in qua sine vitio creati sumus. Nam ista propter originem
+              natura appellatur: quae origo utique habet vitium, quod est contra naturam. Et
+              iterum in eo quod dictum est, <hi>Peccati reum teneri quemquam, quia non fecit quod facere non potuit, summae iniquitatis et insaniae est,</hi>
+              Cur ergo, inquiunt, parvuli tenentur rei? Respondetur, quia ex ejus origine
+              tenentur, qui non fecit quod facere potuit, divinum scilicet servare mandatum.
+              Quod autem dixi, <hi>Illae animae quidquid faciunt, si natura non voluntate faciunt, id est, si libero et ad faciendum et ad non faciendum motu animi carent, si denique his abstinendi ab opere suo potestas nulla conceditur, peccatum earum tenere non possumus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 12, n. 17)</note>-->
+              </hi>
+              : propterea non perturbat de parvulis quaestio, quia ex illius origine rei
+              tenentur, qui voluntate peccavit, quando libero et ad faciendum et ad non
+              faciendum motu animi non carebat, eique ab opere malo abstinendi summa potestas
+              erat. Quod Manichaei de tenebrarum gente non dicunt, quam fabulosissime inducunt,
+              eamque naturam semper malam, nunquam bonam fuisse contendunt.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1481">
+            <head xml:id="aretr-l1-Hd1e1483">7</head>
+            <p xml:id="aretr-l1-d1e1485">
+              Illud autem quaeri potest quomodo dixerim, <hi>Etiam si sunt animae, quod interim incertum est, corporeis officiis, non peccato, sed natura deditae, nosque, quanquam sint inferiores, aliqua tamen interiore vicinitate contingunt; non illas ideo malas haberi oportere, quia nos cum eas sequimur et corporea diligimus, mali sumus;</hi>
+              quandoquidem de illis hoc dixi, de quibus superius <pb ed="#P" n="0611"/>
+              loqui coeperam dicens: <hi>Quanquam etiamsi eisdem concedatur inferiore alio genere animarum nos illici ad turpia; non inde conficiunt aut illas natura malas esse, aut istas summum bonum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 13, n. 20)</note>-->
+              </hi>
+              . De his enim disputationem usque ad hunc locum perduxi, ubi dixi: <hi>Etiamsi sunt animae, quod interim incertum est, corporeis officiis, non peccato, sed natura deditae,</hi>
+              etc. Quaeri ergo potest, cur, dixerim <hi>quod interim incertum est,</hi>
+              cum prorsus dubitare non debuerim, non esse tales animas. Sed hoc ideo dixi, quia
+              expertus sum qui dicerent diabolum et angelos ejus bonos esse in genere suo, et in
+              ea natura in qua eos creavit Deus ordine proprio tales quales sunt: sed nobis
+              malum esse, si illiciamur et seducamur ab eis; si autem caveamus eos atque
+              vincamus, decorum atque gloriosum. Et hoc qui dicunt, videntur sibi ut id probent,
+              de Scripturis adhibere idonea testimonia; vel illud quod scriptum est in libro Job <hi>(XL, 14)</hi>
+              , cum diabolus describeretur, <hi>Hoc est initium figmenti Domini quod fecit ad illudendum ab Angelis suis;</hi>
+              vel illud, <hi>Draco hic quem finxisti ad illudendum ei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal.
+                  CIII, 26)</note>-->
+              </hi>
+              . Quam quaestionem, quae non adversus Manichaeos qui hoc non sentiunt, sed
+              adversus alios qui hoc sentiunt suscipienda esset atque solvenda, pertractare
+              atque enodare tunc nolui, ne librum multo quam vellem facerem longiorem: cum
+              viderem etiam si hoc concederetur, tamen debere Manichaeos ac jam posse convinci,
+              introducentes insanissimo errore, naturam mali aeterno bono coaeternam. Ideo ergo
+              dixi, <hi>quod interim incertum est,</hi>
+              non quod ego inde dubitarem, sed quod inter me et illos, quos ita sapere
+              inveneram, nondum esset ista quaestio dissoluta; quam tamen in aliis longe
+              posterioribus libris meis de Genesi ad litteram, secundum Scripturas sanctas
+              quanta potui manifestatione dissolvi.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1514">
+            <head xml:id="aretr-l1-Hd1e1516">8</head>
+            <p xml:id="aretr-l1-d1e1518">
+              Alio loco, <hi>Propterea, inquam, corporea diligendo peccamus, quia spiritualia diligere et justitia jubemur, et natura possumus, et tunc in nostro genere optimi et beatissimi sumus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 13, n. 20)</note>-->
+              </hi>
+              . Ubi quaeri potest cur, <hi>natura,</hi>
+              et non, Gratia possumus, dixerim. Sed contra Manichaeos de natura quaestio
+              versabatur. Et utique id agit gratia, ut sanata natura quod vitiata non potest,
+              possit per eum qui venit quaerere et salvum facere quod perierat. Quam tamen
+              gratiam etiam tunc recolens oravi pro familiarissimis meis qui mortifero illo
+              adhuc tenebantur errore, et dixi: <hi>Deus magne, Deus omnipotens, Deus summae bonitatis, quem inviolabilem et incorruptibilem credi atque intelligi fas est, Trina Unitas, quam catholica Ecclesia colit, supplex oro, expertus in me misericordiam tuam, ne homines cum quibus mihi a pueritia in omni convictu fuit summa consensio, in tuo cultu a me dissentire permittas <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 15, n. 24)</note>-->
+              </hi>
+              . Sic utique orans, jam fide retinebam, non solum conversos ad Deum gratia ejus
+              adjuvari, ut proficiant ac perficiantur, ubi adhuc dici potest, pro merito
+              conversionis illorum istam dari <pb ed="#P" n="0612"/>
+              gratiam; verum etiam ut convertantur ad Deum, ad ipsam Dei gratiam pertinere:
+              quandoquidem pro eis oravi qui erant ab illo nimis aversi, atque ut ad illam
+              converterentur oravi. Hic liber sic incipit: <hi>Opitulante Dei misericordia.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1539">
+          <head xml:id="aretr-l1-Hd1e1541">Caput 16</head>
+          <head xml:id="aretr-l1-Hd1e1543" type="question-title">Acta contra Fortunatum Manichaeum, liber unus</head>
+          <div xml:id="aretr-l1-Dd1e1546">
+            <head xml:id="aretr-l1-Hd1e1548">1</head>
+            <p xml:id="aretr-l1-d1e1550">
+              Eodem tempore presbyterii mei, contra Fortunatum quemdam Manichaeorum presbyterum
+              disputavi, qui plurimum temporis apud Hipponem vixerat, seduxeratque tam multos,
+              ut propter illos ibi eum delectaret habitare. Quae disputatio nobis altercantibus
+              excepta est a notariis, veluti Gesta conficerentur; nam et diem habet, et
+              consulem. Hanc in librum memoriae mandandam conferre curavimus. Versatur ibi
+              quaestio unde sit malum: me asserente exortum fuisse hominis malum ex libero
+              voluntatis arbitrio; illo autem naturam mali Deo coaeternam persuadere moliente.
+              Sed consequenti die tandem confessus est, nihil se adversus nos invenire quod
+              diceret. Nec sane catholicus factus est, sed tamen ab Hippone discessit.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1553">
+            <head xml:id="aretr-l1-Hd1e1555">2</head>
+            <p xml:id="aretr-l1-d1e1557">
+              In hoc libro illud quod dixi, <hi>Animam dico esse factam a Deo, ut caetera omnia quae a Deo facta sunt; et inter illa quae Deus omnipotens fecit, principalem locum datum esse animae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Disput. 1, n. 13)</note>-->
+              </hi>
+              , ita dixi, ut hoc generaliter de universa creatura rationali accipi vellem,
+              quamvis in Scripturis sanctis animas dictas esse Angelorum, aut non omnino, aut
+              non possit facile reperiri, sicut supra jam diximus. Item alio loco: <hi>Ego dico, inquam, peccatum non esse, si non propria voluntate peccetur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Disput. 2, n. 21)</note>-->
+              </hi>
+              . Ubi peccatum illud intelligi volui, quod non est etiam poena peccati: nam de
+              tali poena dixi alibi in eadem disputatione, quod dicendum fuit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Disput. 1, n. 15)</note>-->
+              . Itemque dixi: <hi>Ut postea eadam ipsa caro, quae nos poenis torsit in peccatis manentes, subjiciatur nobis in resurrectione, et nulla adversitate nos quatiat, quominus legem et praecepta divina servemus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Disput. 2, n. 22)</note>-->
+              </hi>
+              . Quod non ita est accipiendum, tanquam et in illo Dei regno, ubi incorruptibile
+              atque immortale corpus habebimus, de Scripturis divinis lex et praecepta sumenda
+              sint: sed quia perfectissime ibi lex aeterna servabitur, et illa duo praecepta de
+              diligendo Deo et proximo, non in lectione, sed in ipsa perfecta et sempiterna
+              dilectione tenebimus. Hoc opus sic incipit: <hi>Quinto calendas septembris, Arcadio Augusto bis et Rufino viris clarissimis consulibus.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1582">
+          <head xml:id="aretr-l1-Hd1e1584">Caput 17</head>
+          <head xml:id="aretr-l1-Hd1e1586" type="question-title">De Fide et Symbolo, libe unus</head>
+          <p xml:id="aretr-l1-d1e1589">
+            Per idem tempus coram episcopis hoc mihi jubentibus, qui plenarium totius Africae
+            concilium Hipponeregio habebant de Fide et Symbolo presbyter disputavi. Quam
+            disputationem, nonnullis eorum qui nos familiarius diligebant studiosissime
+            instantibus, in librum contuli; in quo de rebus ipsis ita disseritur, ut tamen non
+            fiat verborum illa contextio, quae tenenda memoriter competentibus traditur. In hoc
+            libro cum de resurrectione carnis ageretur: <hi>Resurget, <pb ed="#P" n="0613"/>
+              unquam, corpus secundum christianam fidem, quae fallere 
+              non potest. Quod cui videtur incredibile, qualis
+              sit nunc caro attendit, qualis autem futura sit non considerat:
+              quia illo tempore immutationis angelicae, non jam
+              caro erit et sanguis, sed tantum corpus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 10, n. 23)</note>-->
+            </hi>
+            ; et caetera quae ibi de corporum terrestrium in corpora coelestia mutatione
+            disserui, quoniam dixit Apostolus, cum inde loqueretur, <hi>Caro et sanguis regnum Dei non possidebunt.</hi>
+            Sed quisquis ea sic accipit, ut existimet ita corpus terrenum, quale nunc habemus,
+            in corpus coeleste resurrectione mutari, ut nec membra ista, nec carnis sit futura
+            substantia; procul dubio corrigendus est, commonitus de corpore Domini, qui post
+            resurrectionem in eisdem membris non solum conspiciendus oculis, verum etiam manibus
+            tractandus apparuit, carnemque se habere etiam sermone firmavit, dicens: <quote xml:id="aretr-l1-Qd1e1600" source="http://scta.info/resource/lc24_39">Palpate et videte, quia spiritus carnem et ossa non habet, sicut me videtis habere <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XXIV, 39)</note>-->
+            </quote>
+            . Unde constat Apostolum non carnis substantiam negasse in regno Dei futuram; sed
+            aut homines qui secundum carnem vivunt, carnis et sanguinis nomine nuncupasse, aut
+            ipsam carnis corruptionem, quae tunc utique nulla erit. Nam cum dixisset, <hi>Caro et sanguis regnum Dei non possidebunt;</hi>
+            bene intelligitur, tanquam exponendo quid dixerit, continuo subdidisse: <quote xml:id="aretr-l1-Qd1e1607" source="http://scta.info/resource/Icor15_50">Neque corruptio incorruptionem possidebit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV,
+                50)</note>-->
+            </quote>
+            . De qua re ad persuadendum infidelibus difficili, diligenter quantum potui me
+            disseruisse reperiet, quisquis de Civitate Dei librum legerit novissimum. Hic liber
+            sic incipit: <hi>Quoniam scriptum est.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1617">
+          <head xml:id="aretr-l1-Hd1e1619">Caput 18</head>
+          <head xml:id="aretr-l1-Hd1e1621" type="question-title">De Genesi ad litteram imperfectus, liber unus</head>
+          <p xml:id="aretr-l1-d1e1624">
+            Cum de Genesi duos libros contra Manichaeos condidissem; quoniam secundum
+            allegoricam significationem Scripturae verba tractaveram, non ausus naturalium rerum
+            tanta secreta ad litteram exponere, hoc est quemadmodum possent secundum historicam
+            proprietatem quae ibi dicta sunt accipi: volui experiri in hoc quoque negotiosissimo
+            ac difficillimo opere quid valerem; sed in Scripturis exponendis tirocinium meum sub
+            tanta sarcinae mole succubuit. Et nondum perfecto uno libro, ab eo quem sustinere
+            non poteram labore conquievi. Sed in hoc opere cum mea opuscula retractarem, iste
+            ipse ut erat imperfectus venit in manus; quem neque edideram, et abolere decreveram,
+            quoniam scripsi postea duodecim libros quorum titulus est, De Genesi ad litteram. In
+            quibus quamvis multa quaesita potius quam inventa videantur, tamen eis iste nullo
+            modo est comparandus. Verum et hunc posteaquam retractavi, manere volui ut esset
+            index, quantum existimo, non inutilis rudimentorum meorum in enucleandis atque
+            scrutandis divinis eloquiis, ejusque titulum esse volui, de Genesi ad litteram
+            imperfectus. Inveni quippe eum usque ad haec verba dictatum: <hi>Pater tantum Pater est, nec Filius aliud est quam Filius; quia et cum dicitur similitudo <pb ed="#P" n="0614"/>
+              Patris, quanquam ostendat nullam intervenire dissimilitudinem,
+              non tamen solus est Pater, si habet similitudinem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16, n. 60)</note>-->
+            </hi>
+            . Post haec repetivi verba Scripturae rursus consideranda atque tractanda, <quote xml:id="aretr-l1-Qd1e1633" source="http://scta.info/resource/gen1_26">Et dixit Deus: Faciamus hominem ad imaginem et similitudinem nostram <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. I, 26)</note>-->
+            </quote>
+            . Huc usque dictatum librum imperfectum reliqueram. Quod autem ibi sequitur,
+            addendum putavi cum eum retractarem: nec sic tamen perfeci, sed hoc quoque addito
+            imperfectum reliqui. Si enim perfecissem, saltem de omnibus operibus et verbis Dei,
+            quae ad sextum diem pertinent, disputassem. In hoc libro ea notare quae mihi
+            displicent, vel defendere quae aliis non bene intellecta displicere possunt,
+            superfluum mihi visum est. Breviter enim potius admoneo ut illi duodecim libri
+            legantur, quos longe postea episcopus feci, et ex ipsis de isto judicetur. Hic ergo
+            sic incipit: <hi>De obscuris naturalium rerum, quae omnipotente Deo artifice facta sentimus, non affirmando, sed quaerendo tractandum est.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1642">
+          <head xml:id="aretr-l1-Hd1e1644">Caput 19</head>
+          <head xml:id="aretr-l1-Hd1e1646" type="question-title">De Sermone Domini in monte, libri duo</head>
+          <div xml:id="aretr-l1-Dd1e1649">
+            <head xml:id="aretr-l1-Hd1e1651">1</head>
+            <p xml:id="aretr-l1-d1e1653">
+              Per idem tempus de Sermone Domini in monte, secundum Matthaeum, duo volumina
+              scripsi. In quorum primo propter id quod scriptum est, «<hi>Beati pacifici, quoniam ipsi filii Dei vocabuntur</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. V, 9)</note>-->
+              ;<hi>Sapientia, inquam, congruit pacificis, in quibus jam ordinata sunt omnia, nullusque motus adversus rationem rebellis est, sed cuncta obtemperant spiritui hominis, cum et ipse obtemperet Deo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 4, n. 11)</note>-->
+              </hi>
+              . Quod merito movet quomodo dixerim. Non enim cuiquam provenire in hac vita
+              potest, ut lex repugnans legi mentis omnino non sit in membris. Quando quidem
+              etiam si ei sic resisteret spiritus hominis, ut in nullum ejus laberetur assensum;
+              non ideo tamen illa non repugnaret. Hoc ergo quod dictum est, <hi>Nullum esse motum adversus rationem rebellem,</hi>
+              recte accipi potest id nunc agentibus pacificis, domando concupiscentias carnis,
+              ut ad istam pacem plenissimam quandoque veniatur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1668">
+            <head xml:id="aretr-l1-Hd1e1670">2</head>
+            <p xml:id="aretr-l1-d1e1672">
+              Proinde quod alio loco, cum eamdem sententiam evangelicam repetens dixissem, <quote xml:id="aretr-l1-Qd1e1674" source="http://scta.info/resource/mt5_9">Beati pacifici, quoniam ipsi filii Dei vocabuntur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. V, 9)</note>-->
+              </quote>
+              ; adjunxi dicens, <hi>Et ista quidem in hac vita compleri possunt, sicut completa esse in Apostolis credimus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1,
+                  c. 4, n. 12)</note>-->
+              </hi>
+              : sic accipiendum est, non ut in Apostolis hic viventibus nullum carnis motum
+              arbitremur spiritui repugnasse; sed hactenus hic ista posse compleri, quatenus in
+              Apostolis credimus esse completa, ea mensura scilicet perfectionis humanae, quanta
+              in hac vita potest esse perfectio. Non enim dictum est, Ista in hac vita compleri
+              possunt, nam completa esse in Apostolis credimus; sed dictum est, <hi>sicut completa esse in Apostolis credimus,</hi>
+              ut ita compleantur sicut in illis completa sunt, id est quadam perfectione, cujus
+              capax est ista vita, non sicut complenda sunt illa quam speramus pace plenissima,
+              quando dicetur: <quote xml:id="aretr-l1-Qd1e1686" source="http://scta.info/resource/Icor15_55">Ubi est, mors, contentio tua?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 55.)</note>-->
+              </quote>
+              <pb ed="#P" n="0615"/>
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1695">
+            <head xml:id="aretr-l1-Hd1e1697">3. </head>
+            <p xml:id="aretr-l1-d1e1699">
+              Alio loco <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 6, n. 17)</note>-->
+              quod interposui testimonium, <quote xml:id="aretr-l1-Qd1e1703" source="http://scta.info/resource/io3_34">Non enim ad mensuram dat Deus spiritum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. III, 34)</note>-->
+              </quote>
+              , nondum intellexeram de Christo proprie verius accipi. Aliis quippe hominibus
+              nisi ad mensuram daretur spiritus, non duplum peteret Elisaeus quam fuit in Elia.
+              Item quod scriptum est, <quote xml:id="aretr-l1-Qd1e1708" source="http://scta.info/resource/mt5_18">Iota unum, aut unus apex non transiet a lege donec omnia fiant <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. V, 18)</note>-->
+              </quote>
+              , cum exponerem, nihil dixi posse aliud intelligi, nisi vehementem perfectionis
+              expressionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 8, n. 20)</note>-->
+              . Ubi merito quaeritur, utrum ista perfectio sic possit intelligi, ut tamen verum
+              sit, neminem jam utentem voluntatis arbitrio hic vivere sine peccato. A quo enim
+              usque ad unum apicem lex perfici potest, nisi a quo fiunt universa divina mandata?
+              Sed in eisdem mandatis est etiam quod jubemur dicere, <quote xml:id="aretr-l1-Qd1e1715" source="http://scta.info/resource/mt6_12">Dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 12)</note>-->
+              </quote>
+              : quam orationem usque in finem saeculi tota dicit Ecclesia. Omnia ergo mandata
+              facta deputantur, quando quidquid non fit ignoscitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1723">
+            <head xml:id="aretr-l1-Hd1e1725">4</head>
+            <p xml:id="aretr-l1-d1e1727">
+              Sane quod ait Dominus, <hi>Quicumque solverit unum de mandatis istis minimis, et docuerit sic,</hi>
+              et caetera, usque ad eum locum ubi ait, <hi>Nisi abundaverit justitia vestra plus quam Scribarum et Pharisaeorum, non intrabitis in regnum coelorum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. V, 18-20)</note>-->
+              </hi>
+              ; multo melius et convenientius exposui in aliis posterioribus sermonibus meis,
+              quod etiam hic retexere longum est. Ad hoc autem iste ibi perducitur sensus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 9, n. 21)</note>-->
+              , ut eorum sit justitia major, quam Scribarum et Pharisaeorum, qui dicunt et
+              faciunt. De Scribis quippe et Pharisaeis alio loco ipse Dominus ait: <quote xml:id="aretr-l1-Qd1e1738" source="http://scta.info/resource/mt23_3">Dicunt enim, et non faciunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXIII, 3)</note>-->
+              </quote>
+              . Illud etiam melius intelleximus postea quod scriptum est: <hi>Qui irascitur fratri suo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. V, 22)</note>-->
+              </hi>
+              . Codices enim graeci non habent, <hi>sine causa</hi>
+              , sicut hic positum est; quamvis idem ipse sit sensus. Illud enim diximus
+              intuendum, quid sit irasci fratri suo; quoniam non fratri irascitur, qui peccato
+              fratris irascitur. Qui ergo fratri, non peccato irascitur, sine causa irascitur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1753">
+            <head xml:id="aretr-l1-Hd1e1755">5</head>
+            <p xml:id="aretr-l1-d1e1757">
+              Item quod dixi, <hi>Hoc et de patre et de matre et de caeteris vinculis sanguinis intelligendum est, ut in eis oderimus quod genus humanum nascendo et moriendo sortitum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 15, n. 41)</note>-->
+              </hi>
+              , ita sonat, quasi non essent futurae istae necessitudines, si nullo naturae
+              humanae praecedente peccato nemo moreretur; quem sensum jam superius improbavi.
+              Essent enim profecto cognationes et affinitates, etiamsi originali nullo existente
+              peccato, sine morte cresceret et multiplicaretur genus humanum. Ac per hoc aliter
+              solvenda est quaestio, cur Dominus praeceperit diligendos inimicos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. V, 44)</note>-->
+              , cum alio loco praecipiat odio habendos et parentes et filios <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XIV, 26)</note>-->
+              , non sicut hic soluta est, sed sicut eam posterius saepe solvimus: id est, ut
+              diligamus inimicos lucrandos regno <pb ed="#P" n="0616"/>
+              Dei, et oderimus in propinquis, si impediunt a regno Dei.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1772">
+            <head xml:id="aretr-l1-Hd1e1774">6</head>
+            <p xml:id="aretr-l1-d1e1776">
+              Item de praecepto quo prohibetur uxor dimitti, nisi propter fornicationem, hic
+              quidem scrupulosissime disputavi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 91)</note>-->
+              . Sed quam velit Dominus intelligi fornicationem, propter quam liceat dimittere
+              uxorem; utrum eam quae damnatur in stupris, an illam de qua dicitur, <hi>Perdidisti omnem qui fornicatur abs te <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. LXEII, 27)</note>-->
+              </hi>
+              , in qua utique et ista est (neque enim non fornicatur a Domino, qui tollens
+              membra Christi, facit ea membra meretricis); etiam atque etiam cogitandum est
+              atque requirendum. Nec volo in re tanta tamque ad dignoscendum difficili putare
+              lectorem, istam sibi nostram disputationem debere sufficere: sed legat et alia,
+              sive nostra quae postea scripta sunt, sive aliorum melius considerata atque
+              tractata; vel ipse si potest, ea quae hic merito movere possunt, vigilantiore
+              atque intelligentiore mente discutiat. Non quia omne peccatum fornicatio est;
+              neque enim omnem peccantem Deus perdit, qui quotidie sanctos suos exaudit,
+              dicentes, <quote xml:id="aretr-l1-Qd1e1785" source="http://scta.info/resource/mt6_12">Dimitte nobis debita nostra <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 12)</note>-->
+              </quote>
+              : cum perdat omnem qui fornicatur ab eo. Sed quatenus intelligenda atque limitanda
+              sit haec fornicatio, et utrum etiam propter hanc liceat dimittere uxorem,
+              latebrosissima quaestio est. Licere tamen propter istam quae in stupris
+              committitur, nulla quaestio est. Et ubi dixi hoc permissum esse, non jussum, non
+              attendi aliam Scripturam dicentem: <quote xml:id="aretr-l1-Qd1e1790" source="http://scta.info/resource/prov18_22">Qui tenet adulteram, stultus et impius est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prov. XVIII, 22)</note>-->
+              </quote>
+              . Nec sane adulteram dixerim fuisse deputandam illam mulierem, etiam posteaquam
+              audivit a Domino, <quote xml:id="aretr-l1-Qd1e1795" source="http://scta.info/resource/io8_11">Nec ego te damnabo; vade, deinceps jam noli peccare <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan.
+                  VIII, 11)</note>-->
+              </quote>
+              , si hoc obedienter audivit.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1802">
+            <head xml:id="aretr-l1-Hd1e1804">7</head>
+            <p xml:id="aretr-l1-d1e1806">
+              Loco alio peccatum fratris ad mortem, de quo dicit Joannes apostolus, <quote xml:id="aretr-l1-Qd1e1808" source="http://scta.info/resource/Iio5_16">Non pro illo dico ut roget quis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Joan. V, 16)</note>-->
+              </quote>
+              , ita definivi ut dicerem: <hi>Peccatum fratris ad mortem puto esse cum post agnitionem Dei per gratiam Domini nostri Jesu Christi quisque oppugnat fraternitatem, et adversus ipsam gratiam qua reconciliatus est Deo, invidentiae facibus agitatur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 22,
+                  n. 73)</note>-->
+              </hi>
+              . Quod quidem non confirmavi, quoniam hoc putare me dixi: sed tamen addendum fuit,
+              si in hac tam scelerata mentis perversitate finierit hanc vitam; quoniam de
+              quocumque pessimo in hac vita constituto non est utique desperandum, nec pro illo
+              imprudenter oratur, de quo non desperatur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1820">
+            <head xml:id="aretr-l1-Hd1e1822">8</head>
+            <p xml:id="aretr-l1-d1e1824">
+              In secundo item libro: <hi>Nulli, inquam, licebit ignorare Dei regnum, cum ejus Unigenitus non solum intelligibiliter, sed etiam visibiliter in homine Dominico de coelo venerit, judicaturus vivos et mortuos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2,
+                  c. 6, n. 20)</note>-->
+              </hi>
+              . Sed non video utrum recte dicatur homo Dominicus qui est mediator Dei et
+              hominum, homo Christus Jesus, cum sit utique Dominus: dominicus autem homo quis in
+              ejus sancta familia non potest dici? Et hoc quidem ut dicerem, apud quosdam legi
+              tractatores catholicos divinorum eloquiorum. Sed ubicumque hoc dixi, dixisse me
+              nollem. Postea quippe <pb ed="#P" n="0617"/>
+              vidi non esse dicendum, quamvis nonnulla possit ratione defendi. Item quod dixi, <hi>Nullius enim fere conscientia Deum potest odisse <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 14, n. 48)</note>-->
+              </hi>
+              , non video fuisse dicendum. Multi enim sunt de quibus scriptum est: <hi>Superbia eorum qui oderunt te <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal.
+                  LXXIII, 23)</note>-->
+              </hi>
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1845">
+            <head xml:id="aretr-l1-Hd1e1847">9</head>
+            <p xml:id="aretr-l1-d1e1849">
+              Alio loco in eo quod dixi, <hi>Ob hoc dixisse Dominum, « Sufficit dici malitia sua</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 34)</note>-->
+              , <hi>quia cibos sumere urgebit ipsa necessitas, quam propterea malitiam nominatam arbitror quia poenalis nobis est; pertinet enim ad hanc fragilitatem quam peccando meruimus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 17, n. 56)</note>-->
+              </hi>
+              , non attendi etiam primis hominibus data fuisse in paradiso corporis alimenta,
+              antequam istam mortis poenam peccando meruissent. Sic enim erant immortales in
+              corpore nondum spirituali, sed animali, ut tamen in ejusmodi immortalitate
+              corporalibus alimentis uterentur. Item quod dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id., c. 19, n. 66)</note>-->
+              , <hi>Quam sibi Deus elegit « gloriosam Ecclesiam, non habentem maculam neque rugam</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. V, 27)</note>-->
+              , non ideo dixi, quia nunc ex omni parte jam talis est; quamvis ad hoc electa non
+              dubitaretur, ut talis sit quando Christus apparuerit vita ejus: tunc enim et ipsa
+              cum illo apparebit in gloria; propter quam gloriam dicta est Ecclesia gloriosa.
+              Item quod Dominus ait, <hi>Petite, et accipietis; quaerite, et invenietis; pulsate, et aperietur vobis,</hi>
+              operose quidem tria ista quid inter se differant exponendum putavi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, c. 21)</note>-->
+              ; sed longe melius ad instantissimam petitionem omnia referuntur. Hoc quippe
+              ostendit, ubi eodem verbo cuncta conclusit, dicens: <quote xml:id="aretr-l1-Qd1e1871" source="http://scta.info/resource/mt7_7">Quanto magis Pater vester qui in coelis est, dabit bona petentibus se <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth.
+                  VII, 7, 11)</note>-->
+              </quote>
+              ? non enim dixit, petentibus, et quaerentibus, et pulsantibus. Hoc opus sic
+              incipit: <hi>Sermonem quem locutus est Dominus.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1881">
+          <head xml:id="aretr-l1-Hd1e1883">Caput 20</head>
+          <head xml:id="aretr-l1-Hd1e1885" type="question-title">Psalmus contra partem Donati</head>
+          <p xml:id="aretr-l1-d1e1888">
+            Volens etiam causam Donatistarum ad ipsius humillimi vulgi et omnino imperitorum
+            atque idiotarum notitiam pervenire, et eorum quantum fieri posset per nos inhaerere
+            memoriae, Psalmum qui eis cantaretur, per latinas litteras feci: sed usque ad V
+            litteram. Tales autem abecedarios appellant. Tres vero ultimas omisi; sed pro eis
+            novissimum quasi epilogum adjunxi, tanquam eos mater alloqueretur Ecclesia.
+            Hypopsalma etiam quod responderetur, et prooemium causae, quod nihilominus
+            cantaretur, non sunt in ordine litterarum: earum quippe ordo incipit post prooemium.
+            Ideo autem non aliquo carminis genere id fieri volui, ne me necessitas metrica ad
+            aliqua verba quae vulgo minus sunt usitata compelleret. Iste Psalmus sic incipit: <hi>Omnes qui gaudetis de pace, modo verum judicate;</hi>
+            quod ejus hypopsalma est.
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1894">
+          <head xml:id="aretr-l1-Hd1e1896">Caput 21</head>
+          <head xml:id="aretr-l1-Hd1e1898" type="question-title">Contra Epistolam Donati haeretici, liber unus. --[Non exstat.]</head>
+          <div xml:id="aretr-l1-Dd1e1901">
+            <head xml:id="aretr-l1-Hd1e1903">1</head>
+            <p xml:id="aretr-l1-d1e1905">
+              Librum etiam contra Epistolam Donati, qui partis Donati secundus post Majorinum
+              episcopus apud Carthaginem fuit, eodem presbyterii mei tempore scripsi; in qua
+              epistola ille agit, ut non nisi in ejus <pb ed="#P" n="0618"/>
+              communione baptisma Christi esse credatur: cui nos contradicimus in hoc libro.
+              Dixi in quodam loco de apostolo Petro, quod in illo tanquam in petra fundata sit
+              Ecclesia; qui sensus etiam cantatur ore multorum in versibus beatissimi Ambrosii,
+              ubi de gallo gallinaceo ait: <hi>Hoc ipsa petra Ecclesiae canente, culpam diluit.</hi>
+              Sed scio me postea saepissime sic exposuisse quod a Domino dictum est, <hi>Tu es Petrus, et super hanc petram aedificabo Ecclesiam meam;</hi>
+              ut super hunc intelligeretur quem confessus est Petrus dicens, <quote xml:id="aretr-l1-Qd1e1913" source="http://scta.info/resource/mt16_18">Tu es Christus filius Dei vivi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XVI, 18, 16)</note>-->
+              </quote>
+              : ac sic Petrus ab hac petra appellatus personam Ecclesiae figuraret, quae super
+              hanc petram aedificatur, et accepit claves regni coelorum. Non enim dictum est
+              illi, Tu es petra; sed, <hi>Tu es Petrus.</hi>
+              Petra autem erat Christus; quem confessus Simon, sicut eum tota Ecclesia
+              confitetur, dictus est Petrus. Harum autem duarum sententiarum quae sit
+              probabilior, eligat lector.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1922">
+            <head xml:id="aretr-l1-Hd1e1924">2</head>
+            <p xml:id="aretr-l1-d1e1926">
+              Alio loco dixi, <hi>Nullius mortem Deus quaerit;</hi>
+              quod sic accipiendum, quia homo sibi acquisivit mortem deserens Deum, et acquirit
+              qui non recurrit ad Deum, secundum quod scriptum est: <quote xml:id="aretr-l1-Qd1e1930" source="http://scta.info/resource/sap1_13">Deus mortem non fecit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Sap. I, 13)</note>-->
+              </quote>
+              . Sed etiam illud non minus verum est: <hi>Vita et mors a Domino Deo est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eccli. XI, 14)</note>-->
+              </hi>
+              : vita scilicet a donante, mors a vindicante.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1942">
+            <head xml:id="aretr-l1-Hd1e1944">3</head>
+            <p xml:id="aretr-l1-d1e1946">
+              Item quod dixi Donatum, cujus epistolam refellebam, rogasse ut Imperator inter
+              ipsum et Caecilianum transmarinos episcopos judices daret; non ipsum, sed alium
+              Donatum, ejusdem tamen schismatis, hoc fecisse probabilius invenitur. Ille autem
+              non erat Carthaginensis Donatistarum episcopus, sed a Casis-nigris, qui tamen
+              primus apud Carthaginem ipsum nefarium schisma commisit. Nec sane Donatus
+              Carthaginensis ut Christiani rebaptizarentur instituit; quod ego eum instituisse
+              credideram, quando ejus epistolae respondebam. Nec de libro Ecclesiastici ipse
+              abstulit de media sententia verba ad rem necessaria, ubi cum scriptum sit, <hi>Qui baptizatur a mortuo, et iterum tangit illum, quid proficit lavatio ejus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. XXXIV,
+                  30)</note>-->
+              </hi>
+              ? iste sic posuit tanquam scriptum esset, <hi>Qui baptizatur a mortuo, quid proficit lavatio ejus?</hi>
+              Nos autem et antequam esset pars Donati, sic habuisse codices plurimos, verumtamen
+              afros, ut non esset in medio, <hi>et iterum tangit illum,</hi>
+              postea didicimus. Quod si tunc scissem, non in istum tanquam in furem divini
+              eloquii, vel violatorem tanta dixissem. Hic liber sic incipit: <hi>Abs te ipso praesente audieram.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e1962">
+          <head xml:id="aretr-l1-Hd1e1964">Caput 22</head>
+          <head xml:id="aretr-l1-Hd1e1966" type="question-title">Contra Adimantum Manichaei discipulum, liber unus</head>
+          <div xml:id="aretr-l1-Dd1e1969">
+            <head xml:id="aretr-l1-Hd1e1971">1</head>
+            <p xml:id="aretr-l1-d1e1973">
+              Eodem tempore venerunt in manus meas quaedam disputationes Adimanti, qui fuerat
+              Manichaei discipulus <pb ed="#P" n="0619"/>
+              quas conscripsit adversus Legem et Prophetas, velut contraria eis evangelica et
+              apostolica Scripta demonstrare conatus. Huic ergo respondi, verba ejus ponens,
+              eisque reddens responsionem meam. Quod opus uno volumine conclusi, et in eo
+              quibusdam quaestionibus non semel, sed iterum respondi, quoniam quod primum
+              responderam perierat, et tunc inventum est, cum jam iterum respondissem. Aliquas
+              sane earumdem quaestionum popularibus ecclesiasticis sermonibus solvi: adhuc etiam
+              quibusdam non respondi; aliquae remanserunt, quae rebus aliis magis urgentibus
+              praetermissae sunt, cumulo quoque oblivionis adjuncto.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e1979">
+            <head xml:id="aretr-l1-Hd1e1981">2</head>
+            <p xml:id="aretr-l1-d1e1983">
+              In hoc ergo dixi: <hi>Certis enim quibusdam umbris et figuris rerum ante Domini adventum, secundum mirabilem atque ordinatissimam distributionem temporum, populus ille tenebatur qui Testamentum Vetus accepit; tamen in eo tanta praedicatio et praenuntiatio Novi Testamenti est, ut nulla in evangelica atque apostolica doctrina reperiantur, quamvis ardua et divina praecepta et promissa, quae illis etiam Libris veteribus desint <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap.
+                  3, n. 4)</note>-->
+              </hi>
+              . Sed addendum erat, Pene, atque dicendum, Ut pene nulla in evangelica atque
+              apostolica doctrina reperiantur, quamvis ardua et divina praecepta et promissa,
+              quae illis etiam Libris veteribus desint. Quid est enim quod in sermone evangelico
+              in monte Dominus dicit, <quote xml:id="aretr-l1-Qd1e1990" source="http://scta.info/resource/mt5_21">Audistis quia dictum est antiquis hoc; ego autem dico vobis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. V, 21)</note>-->
+              </quote>
+              ; si nihil ipse amplius praecepit quam praeceptum est in illis veteribus Libris?
+              Deinde regnum coelorum illi populo fuisse promissum non legimus in iis quae
+              promissa sunt Lege data per Moysen in monte Sina <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Exod. XIX, 3-6)</note>-->
+              , quod proprie Vetus dicitur Testamentum; quod praefiguratum dicit Apostolus per
+              ancillam Sarae et filium ejus: sed et ibi figuratum est et Novum per ipsam Saram
+              et filium ejus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. IV, 22-31)</note>-->
+              . Proinde si figurae discutiantur, omnia ibi prophetata reperiuntur, quae sunt
+              praesentata, vel exspectantur praesentanda per Christum. Verumtamen propter
+              quaedam praecepta non figurata, sed propria, quae non in Vetere Testamento, sed in
+              Novo inveniuntur, cautius et moderatius diceretur, Pene nulla, quam nulla hic esse
+              quae non sint et illic; quamvis illic sint illa duo praecepta de dilectione Dei et
+              proximi, quo rectissime omnia et legitima et prophetica et evangelica et
+              apostolica referuntur.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2001">
+            <head xml:id="aretr-l1-Hd1e2003">3</head>
+            <p xml:id="aretr-l1-d1e2005">
+              Item quod dixi, <hi>Tribus modis in Scripturis sanctis filiorum nomen accipitur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 5, n. 1)</note>-->
+              </hi>
+              , minus considerate dictum est. Et alios enim quosdam modos sine dubio
+              praetermisimus; sicut dicitur filius gehennae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXIII, 15)</note>-->
+              , vel filius adoptivus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VIII, 14, 15)</note>-->
+              : quae utique nec secundum naturam, nec secundum doctrinam, nec secundum
+              imitationem dicuntur. Quorum trium modorum tanquam sola sint exempla reddidimus;
+              secundum naturam, sicut Judaei filii Abrahae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. VIII, 37)</note>-->
+              : secundum doctrinam, sicut filios suos, quos Evangelium docuit, Apostolus vocat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. IV, 14)</note>-->
+              : secundum imitationem, sicut filii Abrahae nos sumus, cujus imitamur fidem <hi>(Galat. <pb ed="#P" n="0620"/>
+                IV, 28)</hi>
+              . Quod autem dixi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 12, n. 5)</note>-->
+              , <quote xml:id="aretr-l1-Qd1e2028" source="http://scta.info/resource/Icor15_54">Cum induerit incorruptionem et immortalitatem, jam non caro et sanguis erit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 54)</note>-->
+              </quote>
+              ; secundum corruptionem carnalem dictum est carnem non futuram, non secundum
+              substantiam, secundum quam Domini corpus etiam post resurrectionem caro appellata
+              est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XXIV, 39)</note>-->
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2038">
+            <head xml:id="aretr-l1-Hd1e2040">4</head>
+            <p xml:id="aretr-l1-d1e2042">
+              Alio loco <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 26)</note>-->
+              , <hi>Nisi quisque, inquam, voluntatem mutaverit, bonum operari non potest, quod in nostra potestate esse positum alio loco docet, ubi ait: « Aut facite arborem bonam, et fructum ejus bonum; aut facite arborem malam, et fructum ejus malum</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XII, 33)</note>-->
+              . Quod non est contra gratiam Dei quam praedicamus. In potestate quippe hominis
+              est mutare in melius voluntatem; sed ea potestas nulla est nisi à Deo detur, de
+              quo dictum est: <quote xml:id="aretr-l1-Qd1e2050" source="http://scta.info/resource/io1_12">Dedit eis potestatem filios Dei fieri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. I, 12)</note>-->
+              </quote>
+              . Cum enim hoc sit in potestate quod, cum volumus, facimus, nihil tam in potestate
+              quam ipsa voluntas est; sed praeparatur voluntas à Domino. Eo modo ergo dat
+              potestatem. Sic intelligendum est et quod dixi postea, <hi>In nostra potestate esse, ut vel inseri bonitate Dei, vel excidi ejus severitate mereamur;</hi>
+              quia in potestate nostra non est, nisi quod nostram sequitur voluntatem: quae cum
+              fortis et potens praeparatur a Domino, facile fit opus pietatis, etiam quod
+              difficile atque impossibile fuit. Hic liber sic incipit: <hi>De eo quod scriptum est, « In principio fecit Deus coelum et terram.</hi>
+              »
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e2064">
+          <head xml:id="aretr-l1-Hd1e2066">Caput 23</head>
+          <head xml:id="aretr-l1-Hd1e2068" type="question-title">Expositio quarumdam propositionum ex Epistola Apostoli ad Romanos</head>
+          <div xml:id="aretr-l1-Dd1e2071">
+            <head xml:id="aretr-l1-Hd1e2073">1</head>
+            <p xml:id="aretr-l1-d1e2075">
+              Cum presbyter adhuc essem, contigit ut apud Carthaginem inter nos qui simul
+              eramus, ad Romanos Apostoli Epistola legeretur, et quaedam interrogabar a
+              fratribus: quibus cum, sicut poteram, responderem, voluerunt scribi potius quae
+              dicebam, quam sine litteris fundi. Ubi cum eis obtemperarem, liber unus accessit
+              superioribus opusculis meis. In quo libro: <hi>Quod autem ait, inquam, « Scimus quia lex spiritualis est; ego autem carnalis sum; » satis ostendit non posse impleri Legem, nisi a spiritualibus, quales facit gratia Dei.</hi>
+              Quod utique non ex persona Apostoli accipi volui, qui jam spiritualis erat; sed
+              hominis sub Lege positi, nondum sub gratia. Sic enim prius haec verba sapiebam;
+              quae postea lectis quibusdam divinorum tractatoribus eloquiorum, quorum me moveret
+              auctoritas, consideravi diligentius et vidi etiam de ipso Apostolo posse intelligi
+              quod ait, <hi>Scimus quoniam Lex spiritualis est; ego autem carnalis sum: </hi>
+              quod in eis libris quos contra Pelagianos nuper scripsi, quantum potui diligenter
+              ostendi. In isto ergo libro et hoc quod dictum est, <hi>Ego autem carnalis sum;</hi>
+              et deinde caetera usque ad eum locum, ubi dicit, <quote xml:id="aretr-l1-Qd1e2083" source="http://scta.info/resource/rom7_14">Miser ego homo, quis me liberabit de corpore mortis hujus? Gratia Dei per Jesum Christum Dominum nostrum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII, 14-25)</note>-->
+              </quote>
+              : dixi hominem describi adhuc sub Lege, nondum sub gratia constitutum, bene facere
+              volentem, sed victum concupiscentia carnis male facientem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 41-46)</note>-->
+              . A cujus concupiscentiae dominatu <pb ed="#P" n="0621"/>
+              non liberat, nisi gratia Dei per Jesum Christum Dominum nostrum, dono Spiritus
+              sancti, per quem diffusa charitas in cordibus nostris vincit carnis
+              concupiscentias, ne consentiamus eis ad male faciendum; sed potius bona faciamus.
+              Unde quidem jam evertitur haeresis Pelagiana, quae vult, non ex Deo nobis, sed ex
+              nobis esse charitatem qua bene ac pie vivimus. Sed in illis libris quos adversus
+              eos edidimus, etiam spiritualis hominis jamque sub gratia constituti melius
+              intelligi verba ista monstravimus, propter carnis corpus, quod spirituale nondum
+              est, erit autem in resurrectione mortuorum; et propter ipsam carnis
+              concupiscentiam, cum qua ita confligunt sancti, non ei consentientes ad malum, ut
+              tamen ejus motibus, quibus repugnantibus resistunt, non careant in hac vita: non
+              eos autem habebunt in illa, ubi absorbebitur mors in victoriam. Propter hanc
+              itaque concupiscentiam motusque ipsos, quibus ita resistitur, ut tamen sint in
+              nobis, potest quisque sanctus jam sub gratia positus dicere ista omnia, quae hic
+              esse dixi verba hominis nondum sub gratia positi, sed sub Lege. Quod hic ostendere
+              longum est, et hoc ubi ostenderim dictum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 6)</note>-->
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2097">
+            <head xml:id="aretr-l1-Hd1e2099">2</head>
+            <p xml:id="aretr-l1-d1e2101">
+              Item disputans quid elegerit Deus in nondum nato, cui dixit serviturum esse
+              majorem; et quid in eodem majore similiter nondum nato reprobaverit, de quibus
+              propter hoc commemoratur, quamvis longe postea prolatum propheticum testimonium, <quote xml:id="aretr-l1-Qd1e2103" source="http://scta.info/resource/rom9_13">Jacob dilexi, Esau autem odio habui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 13)</note>-->
+              </quote>
+              : ad hoc perduxi ratiocinationem, ut dicerem: <hi>Non ergo elegit Deus opera cujusquam in praescientia, quae ipse daturus est; sed fidem elegit in praescientia, ut quem sibi crediturum esse praescivit, ipsum etegerit cui Spiritum sanctum daret, ut bona operando etiam vitam aeternam consequeretur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 60)</note>-->
+              </hi>
+              . Nondum diligentius quaesiveram, nec adhuc inveneram qualis sit electio gratiae;
+              de qua idem dicit Apostolus, <quote xml:id="aretr-l1-Qd1e2113" source="http://scta.info/resource/rom11_5">Reliquiae per electionem gratiae salvae factae sunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. XI, 5)</note>-->
+              </quote>
+              : quae utique non est gratia si eam merita ulla praecedant, ne jam quod datur, non
+              secundum gratiam, sed secundum debitum reddatur potius meritis quam donetur.
+              Proinde quod continuo dixi, <hi>Dicit enim idem apostolus, « idem Deus qui operatur omnia in omnibus</hi>
+              »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XII, 6)</note>-->
+              ;<hi>nusquam autem dictum est, Deus credit omnia in omnibus: </hi>
+              ac deinde subjunxi, <hi>Quod ergo credimus, nostrum est; quod autem bonum operamur, illius est qui credentibus dat Spiritum sanctum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 61)</note>-->
+              </hi>
+              ; profecto non dicerem, si jam scirem etiam ipsam fidem inter Dei munera reperiri;
+              quae dantur in eodem Spiritu. Utrumque ergo nostrum est propter arbitrium
+              voluntatis, et utrumque tamen datum est per Spiritum fidei et charitatis. Neque
+              enim sola charitas, sed sicut scriptum est, <hi>Charitas cum fide a Deo Patre et Domino nostro Jesu Christo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. VI, 23)</note>-->
+              </hi>
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2137">
+            <head xml:id="aretr-l1-Hd1e2139">3</head>
+            <p xml:id="aretr-l1-d1e2141">
+              Et quod paulo post dixi, <hi>Nostrum est enim credere et velle, illius autem dare credentibus et volentibus facultatem bene operandi per Spiritum sanctum, per quem charitas diffunditur in cordibus nostris <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 61)</note>-->
+              </hi>
+              , verum est quidem, sed eadem regula, et utrumque <pb ed="#P" n="0622"/>
+              ipsius est, quia ipse praeparat voluntatem; et utrumque nostrum, quia non fit nisi
+              volentibus nobis. Ac per hoc quod etiam postea dixi, <hi>Quia neque velle possumus nisi vocemur; et cum post vocationem voluerimus, non sufficit voluntas nostra et cursus noster, nisi Deus et vires currentibus praebeat, et perducat quo vocat;</hi>
+              ac deinde subjunxi, <quote xml:id="aretr-l1-Qd1e2152" source="http://scta.info/resource/rom9_16">Manifestum est ergo, non volentis ne que currentis, sed miserentis Dei esse <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 16)</note>-->
+              </quote>
+              , <hi>quod bene operamur: </hi>
+              omnino verissimum est. Sed parum de ipsa vocatione disserui, quae fit secundum
+              propositum Dei: non enim omnium qui vocantur talis est, sed tantum electorum.
+              Itaque quod paulo post dixi, <hi>Sicut enim in iis quos eligit Deus, non opera sed fides inchoat meritum, ut per munus Dei bene operentur; sic in iis quos damnat, infidelitas et impietas inchoat poenae meritum, ut per ipsam poenam etiam male operentur;</hi>
+              verissime dixi: sed fidei meritum etiam ipsum esse donum Dei, nec putavi
+              quaerendum esse, nec dixi.
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2165">
+            <head xml:id="aretr-l1-Hd1e2167">4</head>
+            <p xml:id="aretr-l1-d1e2169">
+              Et alio loco: <hi>Cujus enim miseretur,</hi>
+              inquam, <hi>facit eum bene operari; et quem obdurat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., 18)</note>-->
+              </hi>
+              , <hi>relinquit eum ut male operetur. Sed et illa misericordia praecedenti merito fidei tribuitur; et ista obduratio praecedenti impietati <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 62)</note>-->
+              </hi>
+              . Quod quidem verum est; sed adhuc quaerendum erat utrum et meritum fidei de
+              misericordia Dei veniat, id est, utrum ista misericordia ideo tantummodo fiat in
+              homine, quia fidelis est, an etiam facta fuerit ut fidelis esset. Legimus enim,
+              dicente Apostolo, <quote xml:id="aretr-l1-Qd1e2183" source="http://scta.info/resource/Icor7_25">Misericordiam consecutus sum, ut fidelis essem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. VII, 25)</note>-->
+              </quote>
+              : non ait, Quia fidelis eram. Fideli ergo datur quidem, sed data est etiam ut
+              esset fidelis. Rectissime itaque alio loco in eodem libro dixi, <hi>Quoniam si non ex operibus, sed misericordia Dei et vocamur ut credamus, et credentibus praestatur ut bene operemur, non est gentibus ista invidenda misericordia <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prop. 64)</note>-->
+              </hi>
+              : quamvis minus ibi diligenter de illa, quae per Dei propositum fit, vocatione
+              tractaverim. Hic liber sic incipit: <hi>Sensus hi sunt in Epistola Pauli ad Romanos.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e2199">
+          <head xml:id="aretr-l1-Hd1e2201">Caput 24</head>
+          <head xml:id="aretr-l1-Hd1e2203" type="question-title">Expositio Epistolae ad Galatas, liber unus</head>
+          <div xml:id="aretr-l1-Dd1e2206">
+            <head xml:id="aretr-l1-Hd1e2208">1</head>
+            <p xml:id="aretr-l1-d1e2210">
+              Post hunc librum exposui ejusdem apostoli Epistolam ad Galatas, non carptim, id
+              est aliqua praeter mittens, sed continuanter et totam. Hanc autem expositionem uno
+              volumine comprehendi. In quo illud quod dictum est, <hi>Priores ergo apostoli veraces, qui non ab hominibus, sed a Deo per hominem missi sunt, per Jesum Christum scilicet adhuc mortalem. Verax etiam novissimus apostolus, qui per Jesum Christum totum jam Deum post resurrectionem ejus missus est,</hi>
+              propter immortalitatem dictum est, <hi>totum jam Deum,</hi>
+              quam post resurrectionem habere coepit; non propter divinitatem semper immortalem,
+              a qua nunquam recessit, in qua totus Deus erat, et cum moriturus adhuc erat. Hunc
+              autem sensum sequentia manifestant; adjunxi enim dicens: <hi>Priores sunt caeteri Apostoli per Jesum Christum adhuc ex parte hominem, id est mortalem: <pb ed="#P" n="0623"/>
+                novissimus est apostolus Paulus per Jesum Christum
+                jam totum Deum, id est ex omni parte immortalem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Num. 2)</note>-->
+              </hi>
+              . Hoc enim dixi, exponens quod ait Apostolus, <hi>Non ab hominibus, neque per hominem, sed per Jesum Christum et Deum Patrem: </hi>
+              quasi jam Jesus Christus non sit homo. Sequitur enim, <hi>Qui suscitavit illum a mortuis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. I, 1)</note>-->
+              </hi>
+              : ut hinc appareret cur dixerit, <hi>Neque per hominem.</hi>
+              Proinde, propter immortalitatem jam nunc non homo Christus Deus: propter
+              substantiam vero naturae humanae, in qua ascendit in coelum, etiam nunc mediator
+              Dei et hominum homo Christus Jesus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Tim. II, 5)</note>-->
+              , quoniam sic veniet quomodo eum viderunt qui viderunt euntem in coelum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Act. I, 11)</note>-->
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l1-Dd1e2239">
+            <head xml:id="aretr-l1-Hd1e2241">2</head>
+            <p xml:id="aretr-l1-d1e2243">
+              Item quod dixi, <hi>Gratia Dei est qua nobis donantur peccata, ut reconciliemur Deo: pax autem qua reconciliamur Deo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Num. 3)</note>-->
+              </hi>
+              , sic accipiendum est, ut tamen sciamus etiam utrumque ad generalem Dei gratiam
+              pertinere: quomodo in populo Dei aliud specialiter Israel, aliud Judas; et tamen
+              utrumque generaliter Israel. Item cum exponerem, <hi>Quid ergo? Lex transgressionis gratia proposita est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. III, 19)</note>-->
+              </hi>
+              , ita distinguendum putavi, ut interrogatio esset, <hi>Quid ergo?</hi>
+              ac deinde responsio, <hi>Lex transgressionis gratia proposita est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Num. 24)</note>-->
+              </hi>
+              . Quod quidem non abhorret a vero; sed melior mihi videtur ista distinctio, ut
+              interrogatio sit, <hi>Quid ergo lex?</hi>
+              et inferatur responsio, <hi>Transgressionis gratia proposita est.</hi>
+              Quod autem dixi: <hi>Ordinatissime itaque subjunxit, « Quod si spiritu ducimini, non adhuc estis sub Lege » : ut intelligamus eos esse sub Lege, quorum spiritus ita concupiscit adversus carnem, ut non ea quae volunt faciant; id est, non se teneant invictos in charitate justitiae, sed a concupiscente adversum se carne vincantur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Num. 47)</note>-->
+              </hi>
+              ; hoc ex illo sensu est, quo sentiebam id quod dictum est, <hi>Caro concupiscit adversus spiritum, et spiritus adversus carnem: haec enim sibi invicem adversantur; ut non ea quae vultis faciatis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. V, 17, 18)</note>-->
+              </hi>
+              , ad eos pertinere qui sub Lege sunt, nondum sub gratia. Adhuc enim non
+              intellexeram haec verba et illis qui sub gratia sunt, non sub Lege, propterea
+              convenire, quia et ipsi concupiscentias carnis, contra quas spiritu concupiscunt,
+              quamvis eis non consentiant, nollent tamen ullas habere si possent. Et ideo non
+              quaecumque volunt faciunt, quia volunt eis carere, nec possunt. Tunc enim eas non
+              habebunt, quando nec corruptibilem carnem. Hic liber sic incipit: <hi>Causa propter quam scribit Apostolus.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l1-Dd1e2282">
+          <head xml:id="aretr-l1-Hd1e2284">Caput 25</head>
+          <head xml:id="aretr-l1-Hd1e2286" type="question-title">Epistolae ad Romanos inchoata Expositio, liber unus</head>
+          <p xml:id="aretr-l1-d1e2289">
+            Epistolae quoque ad Romanos, sicut ad Galatas, expositionem susceperam. Sed hujus
+            operis, si perficeretur, plures libri erant futuri; quorum unum in sola disputatione
+            ipsius salutationis absolvi, ab initio scilicet usque ad illud, ubi ait: <hi>Gratia vobis et pax a Deo Patre nostro, et Domino Jesu Christo.</hi>
+            Factum est quippe ut immoraremur cum vellemus solvere incidentem <pb ed="#P" n="0624"/>
+            sermoni nostro difficillimam quaestionem de peccato in Spiritum sanctum, quod non
+            remittatur neque in hoc saeculo neque in futuro. Sed deinde alia volumina cessavi
+            adjungere exponendo Epistolam totam, ipsius operis magnitudine ac labore deterritus,
+            et in alia faciliora deflexus sum. Ita factum est ut librum quem feceram primum,
+            relinquerem solum, cujus esse titulum volui: Epistolae ad Romanos inchoata
+            Expositio. Ubi quod dixi, <hi>gratiam esse in dimissione peccatorum, pacem vero in reconciliatione Dei,</hi>
+            ubicumque hoc dixi, non sic accipiendum est ac si pax ipsa et reconciliatio non
+            pertineat ad gratiam generalem, sed quod specialiter nomine gratiae remissionem
+            significaverit peccatorum. Sicut Legem et specialiter dicimus, secundum quod dictum
+            est, <quote xml:id="aretr-l1-Qd1e2297" source="http://scta.info/resource/mt22_40">Lex et Prophetae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXII, 40)</note>-->
+            </quote>
+            ; et generaliter, ut in ea sint et Prophetae. Hic liber sic incipit: <hi>In Epistola quam Paulus apostolus scripsit ad Romanos.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e2306">
+          <head xml:id="aretr-l1-Hd1e2308">Caput 26</head>
+          <head xml:id="aretr-l1-Hd1e2310" type="question-title">De Diversis Quaestionibus octoginta tribus, liber unus</head>
+          <p xml:id="aretr-l1-d1e2313">
+            Est etiam inter illa quae scripsimus quoddam prolixum opus, qui tamen unus deputatur
+            liber cujus est titulus: de Diversis Quaestionibus octoginta tribus. Cum autem
+            dispersae fuissent per chartulas multas, quoniam ab ipso primo tempore conversionis
+            meae, posteaquam in Africam venimus, sicut interrogabar a fratribus, quando me
+            vacantem videbant, nulla a me servata ordinatione dictatae sunt; jussi eas jam
+            episcopus colligi, et unum ex eis librum fieri, adhibitis numeris, ut quod quisque
+            legere voluerit, facile inveniat. Harum quaestionum est prima, utrum anima a seipsa
+            sit. Secunda, de libero arbitrio. Tertia, utrum Deo auctore sit homo deterior.
+            Quarta, quae sit causa ut sit homo deterior. Quinta, utrum animal irrationale beatum
+            esse possit. Sexta, de malo. Septima, quae proprie in animante anima dicatur.
+            Octava, utrum per se anima moveatur. Nona, utrum corporeis sensibus percipi veritas
+            possit. In qua illud quod dixi, <hi>Omne quod corporeus sensus attingit, quod et sensibile dicitur, sine ulla intermissione temporis commutatur,</hi>
+            sine dubio verum quidem non est in corporibus resurrectionis incorruptibilibus; sed
+            nunc ea nullus nostri corporis sensus attingit, nisi forte divinitus tale aliquid
+            reveletur. Decima, utrum corpus a Deo sit. Undecima, quare Christus de femina natus
+            sit. Duodecima, loco ubi titulus est, Sententia cujusdam sapientis; non est mea: sed
+            quia per me innotuit quibusdam fratribus, qui tunc a me ista diligentissime
+            colligebant, et placuit eis, inter nostra eam scribere voluerunt. Est autem cujusdam
+            Fontei Carthaginensis, de mente mundanda ad videndum Deum, quod paganus quidem
+            scripsit, sed christianus baptizatus est mortuus. Decima tertia est, quo documento
+            constet homines bestiis excellere. Decima quarta, non fuisse corpus Domini nostri
+            Jesu Christi phantasma <pb ed="#P" n="0625"/>
+            Decima quinta, de intellectu. Decima sexta, de Filio Dei. Decima septima, de
+            scientia Dei. Decima octava, de Trinitate. Decima nona, de Deo et creatura.
+            Vigesima, de loco Dei. Vigesima prima, utrum Deus auctor mali non sit. Ubi videndum
+            est, ne male intelligatur quod dixi, <hi>Mali auctor non est, quia omnium quae sunt auctor est; quia in quantum sunt, in tantum bona sunt: </hi>
+            et ne hinc putetur non ab illo esse poenam malorum, quae utique malum est iis qui
+            puniuntur. Sed hoc ita dixi quemadmodum dictum est, <quote xml:id="aretr-l1-Qd1e2321" source="http://scta.info/resource/sap1_13">Deus mortem non fecit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Sap. I, 13)</note>-->
+            </quote>
+            ; cum alibi scriptum sit: <hi>Mors et vita a Domino Deo est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eccli. XI, 14)</note>-->
+            </hi>
+            . Malorum ergo poena, quae a Deo est, malum est quidem malis; sed in bonis Dei
+            operibus est, quoniam justum est ut mali puniantur, et utique bonum est omne quod
+            justum est. Vigesima secunda, Deum non pati necessitatem. Vigesima tertia, de Patre
+            et Filio. Ubi dixi quod eam ipse genuerit, qua sapiens dicitur, sapientiam: sed
+            melius istam quaestionem in libro postea de Trinitate tractavimus. Vigesima quarta,
+            utrum et peccatum et recte factum in libero sit voluntatis arbitrio. Quod ita esse
+            omnino verissimum est: sed ut ad recte faciendum liberum sit, Dei gratia liberatur.
+            Vigesima quinta, de cruce Christi. Vigesima sexta, de differentia peccatorum.
+            Vigesima septima, de providentia. Vigesima octava, quare Deus mundum facere
+            voluerit. Vigesima nona, utrum aliquid sit sursum aut deorsum in universo.
+            Trigesima, utrum omnia in utilitatem hominis creata sint. Trigesima prima, nec ipsa
+            mea est, sed Ciceronis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Tullius, De Offic., lib. 1)</note>-->
+            : verum quia et haec per me innotuit fratribus, inter ista quae colligebant
+            scripserunt eam, volentes nosse quemadmodum virtutes animi ab illo divisae ac
+            definitae sint. Trigesima secunda, utrum rem illam alius alio magis intelligat,
+            atque ita ejusdem rei per infinitum eat intelligentia. Trigesima tertia, de metu.
+            Trigesima quarta, utrum non aliud amandum sit quam metu carere. Trigesima quinta,
+            quid amandum sit. In qua illud quod dixi, <hi>id esse amandum, quod nihil est aliud habere, quam nosse,</hi>
+            non satis approbo. Neque enim Deum non habebant, quibus dictum est, <quote xml:id="aretr-l1-Qd1e2336" source="http://scta.info/resource/Icor3_16">Nescitis quia templum Dei estis vos, et Spiritus Dei habitat in vobis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. III, 16)</note>-->
+            </quote>
+            nec tamen eum noverant, vel non sicut noscendus est noverant. Item quod dixi, <hi>Nemo igitur beatam vitam novit, et miser est,</hi>
+            Novit, dixi, quomodo noscenda est. Nam quis eam penitus nescit, eorum duntaxat qui
+            jam ratione utuntur; quandoquidem beatos se esse velle noverunt? Trigesima sexta, de
+            nutrienda charitate. Ubi dixi: <hi>Deus igitur et animus quo amatur, charitas proprie dicitur purgatissima et consummata, si nihil aliud amatur.</hi>
+            Quod si verum est, quomodo ergo Apostolus ait: <hi>Nemo unquam carnem suam odio habuit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. V, 29)</note>-->
+            </hi>
+            . Et ex hoc admonet ut diligantur uxores. Sed ideo dictum est, <hi>proprie dilectio <pb ed="#P" n="0626"/>
+              dicitur,</hi>
+            quoniam caro diligitur quidem, nec tamen proprie, sed propter animam cui subjacet ad
+            usum. Nam etsi propter seipsam videtur diligi, cum eam nolumus esse deformem, ad
+            aliud referendum est decus ejus, ad illud scilicet a quo decora sunt omnia.
+            Trigesima septima, de semper nato. Trigesima octava, de conformatione animae.
+            Trigesima nona, de alimentis. Quadragesima, cum animarum natura una sit, unde
+            hominum diversae voluntates. Quadragesima prima, cum omnia Deus fecerit, quare non
+            aequaliter fecerit. Quadragesima secunda, quemadmodum Dei Sapientia Dominus Jesus
+            Christus et in utero matris fuerit et in coelis. Quadragesima tertia, quare Filius
+            Dei in homine apparuit, et Spiritus sanctus in columba <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. III, 16)</note>-->
+            . Quadragesima quarta, quare tanto post venit Dominus Jesus Christus. Ubi cum
+            generis humani tanquam unius hominis aetates commemorarem, dixi: <hi>Nec oportuit venire divinitus magistrum, cujus imitatione in mores optimos formaretur, nisi tempore juventutis.</hi>
+            Et adjunxi ad hoc valere quod Apostolus dicit, sub Lege tanquam sub paedagogo
+            parvulos custoditos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. III, 23)</note>-->
+            . Sed potest movere cur alibi dixerimus, Christum in generis humani sexta aetate
+            tanquam in senectute venisse <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1 de Gen. contra Manich., c. 23, n. 40)</note>-->
+            . Hoc ergo quod de juventute dictum est, ad vigorem fervoremque fidei refertur, quae
+            per dilectionem operatur; illud autem de senectute, ad temporum numerum. Potest enim
+            intelligi utrumque in universitate hominum, quod non potest in aetatibus singulorum:
+            sicut in corpore non potest esse simul et juventus et senectus, in animo autem
+            potest; illa propter alacritatem, ista propter gravitatem. Quadragesima quinta,
+            adversus mathematicos. Quadragesima sexta, de ideis. Quadragesima septima, utrum
+            aliquando cogitationes nostras videre possimus. Ubi quod dixi, <hi>angelica corpora, qualia nos speramus habituros, lucidissima atque aetherea esse credendum est;</hi>
+            si hoc sine membris quae nunc habemus, et sine substantia, quamvis incorruptibilis,
+            tamen carnis accipiatur, erratur. Multo autem melius in opere de Civitate Dei,
+            quaestio ista tractata est, de videndis cogitationibus nostris <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 22, c. 29)</note>-->
+            . Quadragesima octava, de credibilibus. Quadragesima nona, quare filii Israel
+            sacrificabant visibiliter pecorum victimas. Quinquagesima, de aequalitate Filii.
+            Quinquagesima prima, de homine facto ad imaginem et similitudinem Dei. Ubi quid est,
+            quod dixi, <hi>Homo sine vita non recte appellatur;</hi>
+            cum dicatur homo etiam cadaver hominis? Ergo saltem dicere debui, Non proprie
+            dicitur; ubi dixi, <hi>non recte dicitur.</hi>
+            Item dixi: <hi>Neque inscite distinguitur, quod aliud sit imago et similitudo Dei, aliud ad imaginem et similitudinem Dei, sicut hominem factum accipimus.</hi>
+            Quod non ita intelligendum est, quasi homo non dicatur imago Dei, cum dicat
+            Apostolus, <quote xml:id="aretr-l1-Qd1e2375" source="http://scta.info/resource/Icor11_7">Vir quidem non debet velare caput, cum sit imago et gloria Dei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XI, 7)</note>-->
+            </quote>
+            : sed dicitur etiam ad imaginem Dei, quod Unigenitus non dicitur, qui tantummodo
+            imago est, non ad imaginem. Quinquagesima secunda, de eo quod dictum est, <quote xml:id="aretr-l1-Qd1e2380" source="http://scta.info/resource/gen6_6">Poenitet me fecisse hominem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. VI, 6, 7)</note>-->
+            </quote>
+            . Quinquagesima tertia, de auro et argento <pb ed="#P" n="0627"/>
+            quod Israelitae ab Aegyptiis acceperunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Exod. III, 22; et XII, 35)</note>-->
+            . Quinquagesima quarta, de eo quod scriptum est, <hi>Mihi autem adhaerere Deo, bonum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. LXXII, 28)</note>-->
+            </hi>
+            : Ubi quod dixi, <hi>Quod autem est omni anima melius, id Deum dicimus,</hi>
+            magis dici debuit, Omni creato spiritu melius. Quinquagesima quinta, de eo quod
+            scriptum est, <quote xml:id="aretr-l1-Qd1e2397" source="http://scta.info/resource/cant6_7">Sexaginta sunt reginae, octoginta concubinae, et adolescentulae quarum non est numerus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cant. VI, 7)</note>-->
+            </quote>
+            . Quinquagesima sexta, de annis quadraginta sex aedificati templi. Quinquagesima
+            septima, de centum quinquaginta tribus piscibus. Quinquagesima octava, de Joanne
+            Baptista. Quinquagesima nona, de decem virginibus. Sexagesima, <quote xml:id="aretr-l1-Qd1e2402" source="http://scta.info/resource/mt24_36">de die autem et hora nemo scit, neque Angeli coelorum, neque Filius hominis, nisi Pater solus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXIV, 36)</note>-->
+            </quote>
+            . Sexagesima prima, de eo quod scriptum est in Evangelio, turbas Dominum in monte
+            pavisse de quinque panibus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. XIV, 15-21)</note>-->
+            . Ubi quod dixi, <hi>duos pisces duas illas significare personas, regiam scilicet et sacerdotalem, ad quas etiam sacrosancta illa unctio pertinebat;</hi>
+            dicendum potius fuit, Maxime pertinebat, quoniam unctos aliquando legimus et
+            Prophetas. Item quod dixi, <quote xml:id="aretr-l1-Qd1e2412" source="http://scta.info/resource/lc3_31">Lucas qui tanquam ascendentem post abolitionem peccatorum sacerdotem Christum insinuavit, per Nathan ascendit ad David <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. III, 31)</note>-->
+            </quote>
+            : <hi>quia Nathan propheta missus erat, cujus correptione David ipsius peccati abolitionem poenitendo impetravit,</hi>
+            non sic accipiendum est tanquam ipse fuerit Nathan propheta, qui filius David: quia
+            nec hic dictum est, quia ipse propheta missus erat; sed dictum est, <hi>quia Nathan propheta missus erat,</hi>
+            ut mysterium non in eodem homine, sed in eodem nomine intelligatur. Sexagesima
+            secunda, de eo quod scriptum est in Evangelio, quod <quote xml:id="aretr-l1-Qd1e2421" source="http://scta.info/resource/io4_1">baptizabat Jesus plures quam Joannes; quamvis ipse non baptizaret, sed discipuli ejus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. IV, 1, 2)</note>-->
+            </quote>
+            . Ubi quod dixi, <hi>Latro ille cui dictum est: « Amen dico tibi; hodie mecum eris in paradiso</hi>
+            »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XXIII, 43)</note>-->
+            ;<hi>qui nec ipsum baptismum acceperat: </hi>
+            hoc quidem et alios ante nos rectores sanctae Ecclesiae posuisse in suis litteris
+            invenimus; sed quibus documentis satis possit ostendi quod non fuerit baptizatus
+            ille latro, ignoro. De qua re in posterioribus quibusdam opusculis nostris
+            diligentius disputatum est, maxime in eo quod ad Vincentium Victorem de Animae
+            Origine scripsimus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 3 de Animae Orig., c. 9, n. 43)</note>-->
+            . Sexagesima tertia, de Verbo. Sexagesima quarta, de muliere Samaritana. Sexagesima
+            quinta, de resurrectione Lazari. Sexagesima sexta, de eo quod scriptum est, <hi>An ignoratis, fratres (scientibus enim Legem loquor), quia Lex dominatur homini, in quantum tempus vivit?</hi>
+            usque ad eum locum in quo scriptum est: <hi>Vivificabit et mortalia corpora vestra per inhabitantem Spiritum ejus in vobis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII-VIII,
+                11)</note>-->
+            </hi>
+            . Ubi illud quod ait Apostolus, <hi>Scimus autem quia Lex spiritualis est; ego autem carnalis sum,</hi>
+            exponere volens, dixi, <hi>Id est carni consentio, nondum spirituali gratia liberatus: </hi>
+            quod non sic accipiendum est, quasi spiritualis homo jam sub gratia constitutus,
+            etiam de <pb ed="#P" n="0628"/>
+            seipso non possit hoc dicere, et caetera usque ad cum locum ubi dictum est, <hi>Miser ego homo, quis me liberabit de corpore mortis hujus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. VII, 14-24)</note>-->
+            </hi>
+            ? quod postea didici, sicut jam sum ante confessus. Rursus exponens quod ait
+            Apostolus, <hi>Corpus quidem mortuum est propter peccatum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. VIII, 10)</note>-->
+            </hi>
+            : <hi>Mortuum, inquam, corpus dicit, quamdiu tale est ut indigentia rerum temporalium molestet animam.</hi>
+            Sed multo melius mihi postea visum est, ideo mortuum corpus dictum, quod habeat jam
+            moriendi necessitatem, quam non habuit ante peccatum. Sexagesima septima, de eo quod
+            scriptum est, <hi>Existimo enim quod indignae sint passiones hujus temporis ad futuram gloriam quae revelabitur in nobis;</hi>
+            usque ad id quod dictum est, <hi>Spe enim salvi facti sumus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., 18-24)</note>-->
+            </hi>
+            . Ubi cum exponerem quod scriptum est, <hi>Et ipsa creatura liberabitur a servitute interitus;</hi>
+            dixi: <hi>Et ipsa creatura, id est ipse homo, cum jam signaculo imaginis propter peccatum amisso remansit tantummodo creatura.</hi>
+            Quod non ita accipiendum est quasi totum amiserit homo quod habebat imaginis Dei.
+            Nam si omnino non amisisset, non esset propter quod diceretur, <quote xml:id="aretr-l1-Qd1e2473" source="http://scta.info/resource/rom12_2">Reformamini in novitate mentis vestrae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. XII, 2)</note>-->
+            </quote>
+            ; et, <quote xml:id="aretr-l1-Qd1e2478" source="http://scta.info/resource/IIcor3_18">in eamdem imaginem transformamur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Cor. III, 18)</note>-->
+            </quote>
+            : sed rursum, si totum amisisset, nihil maneret unde diceretur, <hi>Quanquam in imagine ambulet homo, tamen vane conturbatur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal.
+                XXXVIII, 7)</note>-->
+            </hi>
+            . Item quod dixi, <hi>spiritualiter summos Angelos vivere, infimos vero animaliter;</hi>
+            audacius dictum est de infimis quam ut possit vel Scripturis sanctis, vel ipsis
+            rebus ostendi: quia etsi forsitan potest, difficillime potest. Sexagesima octava, de
+            eo quod scriptum est: <quote xml:id="aretr-l1-Qd1e2491" source="http://scta.info/resource/rom9_20">O homo, tu quis es, qui respondeas Deo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 20)</note>-->
+            </quote>
+            ? Ubi dixi: <hi>Quia etiamsi levioribus quisque peccatis, aut certe quamvis gravioribus et multis, tamen magno gemitu et dolore poenitendi misericordia Dei dignus fuerit; non ipsius est, qui si relinqueretur, interiret, sed miserentis Dei, qui ejus precibus doloribusque subvenit. Parum est enim velle, nisi Deus misereatur; sed Deus non miseretur qui ad pacem vocat, nisi voluntas praecesserit ad pacem.</hi>
+            Hoc dictum est post poenitentiam. Nam est misericordia Dei etiam ipsam praeveniens
+            voluntatem, quae si non esset, non praepararetur voluntas a Domino. Ad eam
+            misericordiam pertinet et ipsa vocatio quae etiam fidem praevenit. De qua paulo post
+            cum agerem dixi: <hi>Haec autem vocatio quae sive in singulis hominibus, sive in populis atque in ipso genere humano per temporum opportunitates operatur, altae et profundae ordinationis est. Quo pertinet etiam illud, « In utero sanctificavi te</hi>
+            »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jerem. I, 5)</note>-->
+            ;<hi>Et, « Cum esses in renibus patris tui, vidi te; » Et, « Jacob dilexi, Esau autem odio habui</hi>
+            »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 13; Malach. I, 2, 3)</note>-->
+            , <hi>et caetera.</hi>
+            Quamvis testimonium illud, <hi>Cum esses in renibus patris tui, vidi te;</hi>
+            unde mihi tanquam scriptum sit, occurrerit, nescio. Sexagesima nona, de eo quod
+            scriptum <pb ed="#P" n="0629"/>
+            est. <quote xml:id="aretr-l1-Qd1e2513" source="http://scta.info/resource/Icor15_28">Tunc et ipse Filius subjectus erit ei qui illi subjecit omnia <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 28)</note>-->
+            </quote>
+            . Septuagesima, de eo quod Apostolus dicit: <hi>Absorpta est mors in victoriam. Ubi est, mors, contentio tua? ubi est mors, aculeus tuus? Aculeus autem mortis peccatum, virtus vero peccati lex <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid., 54,
+                55)</note>-->
+            </hi>
+            . Septuagesima prima, de eo quod scriptum est: <hi>Invicem onera vestra portate, et sic adimplebitis legem Christi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. VI, 2)</note>-->
+            </hi>
+            . Septuagesima secunda, de temporibus aeternis. Septuagesima tertia, de eo quod
+            scriptum est: <hi>Et habitu inventus ut homo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Philipp.
+                II, 7)</note>-->
+            </hi>
+            . Septuagesima quarta, de eo quod scriptum est in Epistola Pauli ad Colossenses: <hi>In quo habemus redemptionem et remissionem peccatorum, qui est imago Dei invisibilis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Coloss. I, 14, 15)</note>-->
+            </hi>
+            . Septuagesima quinta, de haereditate Dei. Septuagesima sexta, de eo quod apostolus
+            Jacobus dicit: <quote xml:id="aretr-l1-Qd1e2539" source="http://scta.info/resource/iac2_20">Vis autem scire, o homo inanis, quia fides sine operibus otiosa est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jacobi II, 20)</note>-->
+            </quote>
+            ? Septuagesima septima, de timore; utrum peccatum sit. Septuagesima octava, de
+            pulchritudine simulacrorum. Septuagesima nona, quare magi Pharaonis fecerunt
+            miracula quaedam sicut Moyses famulus Dei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Exod. VII, 22)</note>-->
+            . Octogesima, adversus Apollinaristas. Octogesima prima, de Quadragesima et
+            Quinquagesima. Octogesima secunda, de eo quod scriptum est: <quote xml:id="aretr-l1-Qd1e2546" source="http://scta.info/resource/hebr12_6">Quem enim diligit Dominus corripit; flagellat autem <pb ed="#P" n="0630"/>
+              omnem filium quem recipit 
+              <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Hebr. XII, 6)</note>-->
+            </quote>
+            . Octogesima tertia, de conjugio, in eo quod Dominus ait: <quote xml:id="aretr-l1-Qd1e2553" source="http://scta.info/resource/mt19_9">Si quis dimiserit uxorem suam excepta causa fornicationis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth.
+                XIX, 9)</note>-->
+            </quote>
+            . Hoc opus sic incipit: <hi>Utrum anima a</hi>
+            seipsa sit.
+          </p>
+        </div>
+        <div xml:id="aretr-l1-Dd1e2563">
+          <head xml:id="aretr-l1-Hd1e2565">Caput 27</head>
+          <head xml:id="aretr-l1-Hd1e2567" type="question-title">De Mendacio, liber unus</head>
+          <p xml:id="aretr-l1-d1e2570">
+            Item de Mendacio scripsi librum, qui etsi cum aliquo labore intelligitur, habet
+            tamen non inutilem ingenii et mentis exercitationem, magisque moribus ad veriloquium
+            diligendum proficit. Hunc quoque auferre statueram de opusculis meis, quia et
+            obscurus et anfractuosus, et omnino molestus mihi videbatur, propter quod eum nec
+            edideram. Deinde cum postea scripsissem alterum, cujus titulus est, Contra
+            Mendacium, multo magis istum non esse decreveram et jusseram, sed non est factum.
+            Itaque in ista retractatione opusculorum meorum cum eum incolumen reperissem, etiam
+            ipsum retractatum manere praecepi: maxime quia in eo nonnulla sunt necessaria, quae
+            in illo altero non sunt. Propterea vero illius inscriptio est, Contra Mendacium;
+            istius autem, De Mendacio: quoniam per illum totum oppugnatio est aperta mendacii;
+            istius autem magna pars in inquisitionis disputatione versatur. Ad eumdem tamen
+            finem uterque dirigitur. Hic liber sic incipit: <hi>Magna quaestio est de Mendacio.</hi>
+          </p>
+        </div>
+      </div>
+      
+    </body>
+  </text>
+</TEI>

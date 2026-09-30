@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2</title>
+        <author ref="#Augustine">Augustinus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2</title>
+          <date when="2026-09-30">September 30, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci32P">PL 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="aretr-l2">
+        <head xml:id="aretr-l2-Hd1e95">Liber 2</head>
+        <div xml:id="aretr-l2-Dd1e97">
+          <head xml:id="aretr-l2-Hd1e99">Caput 1</head>
+          <head xml:id="aretr-l2-Hd1e101" type="question-title">Ad Simplicianum, libri duo</head>
+          <div xml:id="aretr-l2-Dd1e104">
+            <head xml:id="aretr-l2-Hd1e106">1</head>
+            <p xml:id="aretr-l2-d1e108">
+              Librorum quos episcopus elaboravi, primi duo <pb ed="#P" n="0629"/>
+              sunt ad Simplicianum Ecclesiae Mediolanensis antistitem, qui beatissimo successit
+              Ambrosio, de diversis quaestionibus, quarum duas ex Epistola Pauli apostoli ad
+              Romanos, in primum librum contuli. Harum prior est de eo quod scriptum est, <hi>Quid ergo dicemus? Lex peccatum est? Absit;</hi>
+              usque ad illud ubi ait: <quote xml:id="aretr-l2-Qd1e114" source="http://scta.info/resource/rom7_7">Quis me liberabit de corpore mortis hujus? Gratia Dei per Jesum Christum Dominum nostrum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII, 7-25)</note>-->
+              </quote>
+              . In qua illa Apostoli verba, <hi>Lex spiritualis est; ego autem carnalis sum,</hi>
+              etc., quibus caro contra spiritum confligere ostenditur, eo modo exposui, tanquam
+              homo describatur adhuc sub Lege, nondum sub gratia constitutus. Longe enim postea
+              etiam spiritualis hominis (et hoc probabilius) esse posse illa verba cognovi.
+              Posterior in hoc libro quaestio est, ab eo loco ubi ait, <hi>Non solum autem, sed et Rebecca ex uno concubitu habens Isaac patris nostri;</hi>
+              usque ad illud ubi ait: <hi>Nisi Dominus sabaoth reliquisset nobis semen, sicut Sodoma facti essemus, et sicut Gomorrha similes fuissemus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. IX, 10-29)</note>-->
+              </hi>
+              . In cujus quaestionis solutione laboratum est quidem pro libero arbitrio
+              voluntatis humanae; sed vicit Dei gratia: nec nisi ad illud potuit perveniri, ut
+              liquidissima veritate dixisse intelligatur Apostolus, <quote xml:id="aretr-l2-Qd1e129" source="http://scta.info/resource/Icor4_7">Quis enim te discernit? quid autem habes quod non accepisti? Si autem accepisti, <pb ed="#P" n="0630"/>
+                quid gloriaris quasi non acceperis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. IV, 7)</note>-->
+              </quote>
+              ? Quod volens etiam martyr Cyprianus ostendere, hoc totum ipso titulo definivit,
+              dicens: <hi>In nullo gloriandum, quando nostrum nihil est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cypr., lib. 3, testim. 4)</note>-->
+              </hi>.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e143">
+            <head xml:id="aretr-l2-Hd1e145">2</head>
+            <p xml:id="aretr-l2-d1e147">
+              In secundo libro tractantur caeterae quaestiones, et pro nostra quantulacumque
+              facultate solvuntur, quae sunt omnes de scriptura quae Regnorum appellatur. Harum
+              prima est de eo quod scriptum est, <quote xml:id="aretr-l2-Qd1e149" source="http://scta.info/resource/Ireg10_10">Et insiliit spiritus Domini in Saül <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Reg. X, 10)</note>-->
+              </quote>
+              ; cum alibi dicatur, <hi>Et spiritus Domini malus in Saül <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid.
+                  XVI, 14)</note>-->
+              </hi>
+              . Quam cum exponerem, dixi: <hi>Quamvis sit in cujusque potestate quid velit, non est tamen in cujusquam potestate quid possit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 2, quaest. 1)</note>-->
+              </hi>
+              . Quod ideo dictum est, quia non dicimus esse in potestate nostra, nisi quod, cum
+              volumus, fit; ubi prius et maxime est ipsum velle. Sine ullo quippe intervallo
+              temporis praesto est voluntas ipsa, cum volumus; sed hanc quoque ad bene vivendum
+              desuper accipimus potestatem, cum praeparatur voluntas a Domino. Secunda quaestio
+              est, quomodo dictum sit, <quote xml:id="aretr-l2-Qd1e164" source="http://scta.info/resource/Ireg15_11">Poenitet me quod constituerim regem Saül <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Reg. XV, 11)</note>-->
+              </quote>
+              . Tertia, utrum spiritus immundus qui erat in pythonissa, potuerit agere ut Samuel
+              a Saüle videretur, et loqueretur cum eo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid. XXVIII, 7-20)</note>-->
+              . Quarta, de eo quod scriptum est: <quote xml:id="aretr-l2-Qd1e172" source="http://scta.info/resource/IIreg7_18">Intravit rex David, et sedit ante Dominum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Reg.
+                  VII, 18)</note>-->
+              </quote>
+              . Quinta, de eo quod dixit Elias: <quote xml:id="aretr-l2-Qd1e177" source="http://scta.info/resource/IIIreg17_20">O Domine, testis hujus viduae cum qua ego inhabito apud ipsam: <pb ed="#P" n="0631"/>
+                tu male fecisti occidere filium ejus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(III Reg. XVII, 20)</note>-->
+              </quote>
+              . Hoc opus sic incipit: <hi>Gratissimam plane.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e189">
+          <head xml:id="aretr-l2-Hd1e191">Caput 2</head>
+          <head xml:id="aretr-l2-Hd1e193" type="question-title">Contra Epistolam quam vocant Fundamenti, liber unus</head>
+          <p xml:id="aretr-l2-d1e196">
+            Liber contra Epistolam Manichaei, quam vocant Fundamenti, principia ejus sola
+            redarguit; sed in caeteris illius partibus annotationes ubi videbatur, affixae sunt,
+            quibus tota subvertitur, et quibus commonerer, si quando contra totam scribere
+            vacavisset. Hic liber sic incipit: <hi>Unum verum Deum.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e202">
+          <head xml:id="aretr-l2-Hd1e204">Caput 3</head>
+          <head xml:id="aretr-l2-Hd1e206" type="question-title">De Agone Christiano, liber unus</head>
+          <p xml:id="aretr-l2-d1e209">
+            Liber de Agone Christiano fratribus in eloquio latino ineruditis humili sermone
+            conscriptus est, fidei regulam continens, et praecepta vivendi. In quo illud quod
+            positum est, <hi>Nec eos audiamus, qui carnis resurrectionem futuram negant, et commemorant quod ait apostolus Paulus, « caro et sanguis regnum Dei non possidebunt; » non intelligentes quod ipse dicit Apostolus, « Oportet corruptibile hoc induere incorruptionem, et mortale hoc induere immortalitatem</hi>
+            »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XV, 50, 53)</note>-->
+            ;<hi>cum enim hoc factum fuerit, jam non erit caro et sanguis, sed coeleste corpus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 32, n. 34)</note>-->
+            </hi>
+            : non sic accipiendum est, quasi carnis non sit futura substantia, sed carnis et
+            sanguinis nomine ipsam corruptionem carnis et sanguinis intelligendus est Apostolus
+            nuncupasse; quae utique in regno illo non erit, ubi caro incorruptibilis erit.
+            Quamvis et aliter possit intelligi, ut carnem et sanguinem opera carnis et sanguinis
+            dixisse accipiamus Apostolum, et eos regnum Dei non possessuros, qui perseveranter
+            ista dilexerint. Hic liber sic incipit: <hi>Corona victoriae.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e224">
+          <head xml:id="aretr-l2-Hd1e226">Caput 4</head>
+          <head xml:id="aretr-l2-Hd1e228" type="question-title">De Doctrina Christiana, libri quatuor</head>
+          <div xml:id="aretr-l2-Dd1e231">
+            <head xml:id="aretr-l2-Hd1e233">1</head>
+            <p xml:id="aretr-l2-d1e235">
+              Libros de Doctrina Christiana, cum imperfectos comperissem, perficere malui quam
+              eis sic relictis ad alia retractanda transire. Complevi ergo tertium qui scriptus
+              fuerat usque ad eum locum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 25, n. 36)</note>-->
+              ubi commemoratum est ex Evangelio testimonium de muliere, quae abscondit fermentum
+              in tribus mensuris farinae donec fermentaretur totum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XIII, 21)</note>-->
+              . Addidi etiam novissimum librum, et quatuor libris opus illud implevi; quorum
+              primi tres adjuvant ut Scripturae intelligantur, quartus autem quomodo quae
+              intelligimus proferenda sint.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e243">
+            <head xml:id="aretr-l2-Hd1e245">2</head>
+            <p xml:id="aretr-l2-d1e247">
+              In secundo sane libro de auctore libri, quem plures vocant Sapientiam Salomonis,
+              quod etiam ipsum sicut Ecclesiasticum Jesus Sirach scripserit, non ita constare
+              sicut a me dictum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 8, n. 13)</note>-->
+              , postea didici, et omnino probabilius comperi non esse hunc ejus libri auctorem.
+              Ubi autem dixi, <hi>His quadraginta quatuor libris Testamenti Veteris terminatur auctoritas;</hi>
+              ex consuetudine qua jam loquitur Ecclesia, Vetus Testamentum, appellavi: Apostolus
+              autem <pb ed="#P" n="0632"/>
+              non videtur appellare Vetus Testamentum, nisi quod datum estin monte Sina <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. IV, 24)</note>-->
+              . Et in eo quod dixi, <hi>De temporum historia sanctum Ambrosium solvisse quaestionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 28, n. 43)</note>-->
+              </hi>
+              , tanquam coaetanei fuerint Plato et Jeremias; me fefellit memoria. Nam quid ille
+              de hac re episcopus dixerit, in libro ejus legitur, quem de sacramentis, sive de
+              philosophia scripsit. Hoc opus sic incipit: <hi>Sunt praecepta quaedam.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e269">
+          <head xml:id="aretr-l2-Hd1e271">Caput 5</head>
+          <head xml:id="aretr-l2-Hd1e273" type="question-title">Contra Partem Donati, libri duo. --[Non exstant.]</head>
+          <p xml:id="aretr-l2-d1e276">
+            Sunt duo libri mei, quorum titulus est, Contra Partem Donati. In quorum primo libro
+            dixi, non mihi placere ullius saecularis potestatis impetu schismaticos ad
+            communionem violenter arctari. Et vere tunc mihi non placebat, quoniam nondum
+            expertus eram, vel quantum mali eorum auderet impunitas, vel quantum eis in melius
+            mutandis conferre posset diligentia disciplinae. Hoc opus sic incipit: <hi>Quoniam Donatistae nobis.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e282">
+          <head xml:id="aretr-l2-Hd1e284">Caput 6</head>
+          <head xml:id="aretr-l2-Hd1e286" type="question-title">Confessionum libri tredecim</head>
+          <div xml:id="aretr-l2-Dd1e289">
+            <head xml:id="aretr-l2-Hd1e291">1</head>
+            <p xml:id="aretr-l2-d1e293">
+              Confessionum mearum libri tredecim, et de malis et de bonis meis Deum laudant
+              justum et bonum, atque in eum excitant humanum intellectum et affectum; interim
+              quod ad me attinet, hoc in me egerunt cum scriberentur, et agunt cum leguntur.
+              Quid de illis alii sentiant, ipsi viderint; multis tamen fratribus eos multum
+              placuisse et placere scio. A primo usque ad decimum de me scripti sunt: in tribus
+              caeteris, de Scripturis sanctis, ab eo quod scriptum est, <hi>In principio fecit Deus coelum et terram,</hi>
+              usque ad sabbati requiem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. I, 1; II, 2)</note>-->
+              .
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e301">
+            <head xml:id="aretr-l2-Hd1e303">2</head>
+            <p xml:id="aretr-l2-d1e305">
+              In quarto libro, cum de amici morte animi mei miseriam confiterer, dicens quod
+              anima nostra una quodammodo facta fuerat ex duabus, <hi>et ideo, inquam, forte mori metuebam, ne totus ille moreretur, quem multum amaveram <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 6)</note>-->
+              </hi>
+              : quae mihi quasi declamatio levis, quam gravis confessio videtur, quamvis
+              utcumque temperata sit haec ineptia in eo quod additum est, <hi>forte.</hi>
+              Et in libro tertio decimo quod dixi, <hi>Firmamentum factum inter spirituales aquas superiores et corporales inferiores <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 32)</note>-->
+              </hi>
+              ; non satis considerate dictum est: res autem in abdito est valde. Hoc opus sic
+              incipit: <hi>Magnus es, Domine.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e324">
+          <head xml:id="aretr-l2-Hd1e326">Caput 7</head>
+          <head xml:id="aretr-l2-Hd1e328" type="question-title">Contra Faustum manichaeum, libri triginta tres</head>
+          <div xml:id="aretr-l2-Dd1e331">
+            <head xml:id="aretr-l2-Hd1e333">1</head>
+            <p xml:id="aretr-l2-d1e335">
+              Contra Faustum manichaeum blasphemantem Legem et Prophetas, et eorum Deum, et
+              incarnationem Christi; Scripturas autem Novi Testamenti, quibus convincitur,
+              falsatas esse dicentem, scripsi grande opus, verbis ejus propositis reddens
+              responsiones meas. Triginta et tres disputationes sunt; quas etiam libros cur non
+              dixerim? Nam etsi sunt in eis aliqui perbreves, tamen libri sunt. Unus vero eorum,
+              ubi a nobis adversum ejus criminationes, Patriarcharum vita defenditur, tantae
+              prolixitatis est, quantae nullus fere librorum meorum.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e338">
+            <head xml:id="aretr-l2-Hd1e340">2</head>
+            <p xml:id="aretr-l2-d1e342">
+              In libro ergo tertio cum solverem quaestionem, <pb ed="#P" n="0633"/>
+              quomodo potuerit duos patres habere Joseph, dixi quidem <hi>quod ex alio natus, ab alio fuerit adoptatus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3)</note>-->
+              </hi>
+              ; sed genus quoque adoptionis dicere debui: sic enim sonat quod dixi, tanquam eum
+              vivus adoptaverit alius pater. Lex autem filios etiam mortuis adoptabat, jubens ut
+              fratris sine filiis mortui duceret frater uxorem, et fratri defuncto semen ex
+              eadem suscitaret <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Deut. XXV, 5, 6)</note>-->
+              : quae profecto de duobus unius hominis patribus expeditior ibi redditur ratio.
+              Uterini autem fratres fuerunt in quibus hoc contigit ut unius defuncti qui
+              vocabatur Heli, duceret alter uxorem, id est Jacob, a quo Matthaeus narrat genitum
+              esse Joseph: sed uterino fratri suo eum genuit, cujus filium Lucas dicit fuisse
+              Joseph, non utique genitum, sed ex Lege adoptivum. Hoc in eorum litteris inventum
+              est, qui recenti memoria post ascensionem Domini de hac re scripserunt. Nam etiam
+              nomen ejusdem mulieris quae peperit Jacob patrem Joseph de priore marito Mathan,
+              qui fuit pater Jacob, avus Joseph, secundum Matthaeum; et de marito posteriore
+              Melchi peperit Heli, cujus erat adoptivus Joseph, non tacuit Africanus. Quod
+              quidem, cum Fausto responderem, nondum legeram; sed tamen per adoptionem potuisse
+              contingere ut unus homo duos haberet patres, dubitare non poteram.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e355">
+            <head xml:id="aretr-l2-Hd1e357">3</head>
+            <p xml:id="aretr-l2-d1e359">
+              In duodecimo et tertio decimo, de filio Noe secundo qui est appellatus Cham, ita
+              disputatum est, tanquam non in filio suo Chanaan, sicut Scriptura demonstrat, sed
+              in seipso fuerit a patre maledictus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 12, c. 23; et lib. 13, c. 10)</note>-->
+              . In quarto decimo de sole et luna talia dicta sunt, tanquam sentiant, et ideo
+              tolerent vanos adoratores suos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 12)</note>-->
+              : quamvis verba ibi accipi possint ab animali ad inanimale translata, modo
+              locutionis qui vocatur graece metaphora; sicut de mari scriptum est quod <hi>fremat in utero matris suae, volens progredi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Job. 38, 8, sec. LXX)</note>-->
+              </hi>
+              , cum utique non habeat voluntatem. In undetrigesimo, <hi>Absit, inquam, ut sit in membris sanctorum etiam genitalibus aliqua turpitudo. Dicuntur quidem inhonesta, quia non habent eam speciem decoris, quam membra quae in promptu locata sunt <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 4)</note>-->
+              </hi>
+              : sed probabilior in aliis postea scriptis nostris reddita ratio est, cur ea
+              dixerit etiam Apostolus inhonesta <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XII, 23)</note>-->
+              , propter legem scilicet in membris repugnantem legi mentis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VII, 23)</note>-->
+              , quae de peccato accidit, non de prima nostrae institutione naturae. Hoc opus sic
+              incipit: <hi>Faustus quidam fuit.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e385">
+          <head xml:id="aretr-l2-Hd1e387">Caput 8</head>
+          <head xml:id="aretr-l2-Hd1e389" type="question-title">Contra Felicem manichaeum, libri duo</head>
+          <p xml:id="aretr-l2-d1e392">
+            Contra manichaeum quemdam nomine Felicem, praesente populo, in ecclesia biduo
+            disputavi. Hipponem quippe venerat, eumdem seminaturus errorem; unus enim erat ex
+            doctoribus eorum, quamvis ineruditus liberalibus litteris, sed tamen versutior
+            Fortunato. Gesta sunt ecclesiastica, sed inter meos libros computantur. Duo ergo
+            libri sunt, inquorum secundo disputatum est de libero voluntatis arbitrio, sive ad
+            malum <pb ed="#P" n="0634"/>
+            operandum, sive ad bonum: sed de gratia qua vere liberi fiunt, de quibus scriptum
+            est, <quote xml:id="aretr-l2-Qd1e396" source="http://scta.info/resource/io8_36">Si vos Filius liberaverit, tunc vere liberi eritis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. VIII, 36)</note>-->
+            </quote>
+            , diligentius disputare, quoniam talis erat cum quo agebamus, nulla sumus
+            necessitate compulsi. Hoc opus sic incipit: <hi>Honorio Augusto sextum consule, septimo idus decembris.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e405">
+          <head xml:id="aretr-l2-Hd1e407">Caput 9</head>
+          <head xml:id="aretr-l2-Hd1e409" type="question-title">De Natura Boni, liber unus</head>
+          <p xml:id="aretr-l2-d1e412">
+            Liber de Natura Boni adversus Manichaeos est, ubi ostenditur naturam incommutabilem
+            Deum esse ac summum bonum, atque ab illo esse caeteras naturas sive spirituales sive
+            corporales, atque omnes in quantum naturae sunt, bonas esse; et quid vel unde sit
+            malum, et quanta mala Manichaei ponant in natura boni et quanta bona in natura mali,
+            quas naturas finxit error ipsorum. Hic liber sic incipit: <hi>Summum bonum, quo superius non est, Deus est.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e418">
+          <head xml:id="aretr-l2-Hd1e420">Caput 10</head>
+          <head xml:id="aretr-l2-Hd1e422" type="question-title">Contra Secundinum manichaeum, liber unus</head>
+          <p xml:id="aretr-l2-d1e425">
+            Secundinus quidam, non ex eis quos Manichaei electos, sed ex eis quos auditores
+            vocant, quem ne facie quidem noveram, scripsit ad me velut amicus, honorifice
+            objurgans quod oppugnarem litteris illam haeresim, et admonens ne facerem, atque ad
+            eam potius sectandam exhortans, cum ejus defensione, et fidei catholicae
+            reprehensione. Huic respondi; sed quia in ejusdem opusculi capite non posui quis cui
+            scriberet, non in epistolis meis, sed in libris habetur. Illic ab exordio conscripta
+            est etiam ejus epistola. Hujus autem voluminis mei titulus est, Contra Secundinum
+            manichaeum: quod, mea sententia, omnibus quae adversus illam pestem scribere potui,
+            facile praepono. Hic liber sic incipit: <hi>Tua in me benevolentia.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e432">
+          <head xml:id="aretr-l2-Hd1e434">Caput 11</head>
+          <head xml:id="aretr-l2-Hd1e436" type="question-title">Contra Hilarum, liber unus. --[Non exstat.]</head>
+          <p xml:id="aretr-l2-d1e439">
+            Inter haec Hilarus quidam vir tribunitius, laicus catholicus, nescio unde adversus
+            Dei ministros, ut fieri assolet, irritatus, morem qui tunc esse apud Carthaginem
+            coeperat ut hymni ad altare dicerentur de Psalmorum libro, sive ante oblationem,
+            sive cum distribueretur populo quod fuisset oblatum, maledica reprehensione,
+            ubicumque poterat, lacerabat, asserens fieri non oportere. Huic respondi, jubentibus
+            fratribus, et vocatur liber ipse, Contra Hilarum. Hic liber sic incipit: <hi>Qui dicunt mentionem Veteris Testamenti.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e445">
+          <head xml:id="aretr-l2-Hd1e447">Caput 12</head>
+          <head xml:id="aretr-l2-Hd1e449" type="question-title">Quaestiones Evangeliorum, libri duo</head>
+          <p xml:id="aretr-l2-d1e452">
+            Sunt quaedam expositiones quorumdam locorum ex Evangelio secundum Matthaeum, et
+            aliae similiter secundum Lucam; in unum librum illae, in alterum istae redactae
+            sunt. Titulus operis hujus est: Quaestiones Evangeliorum. Sed quare illa sola de
+            supradictis evangelicis Libris exposita fuerint, quae his libris meis continentur,
+            et quae ista sint, prologus meus, adjunctis atque annumeratis eisdem quaestionibus,
+            ita ut <pb ed="#P" n="0635"/>
+            quisque legere quod voluerit, numeros secutus inveniat, satis indicat. In primo ergo
+            libro <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 27)</note>-->
+            , in eo quod positum est, <quote xml:id="aretr-l2-Qd1e458" source="http://scta.info/resource/mt20_17">Dominum seorsum duobus discipulis suam retulisse passionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XX, 17)</note>-->
+            </quote>
+            , mendositas codicis nos fefellit: nam <hi>duodecim</hi>
+            scriptum est; non, <hi>duobus.</hi>
+            In secundo libro volens exponere quomodo duos patres potuerit habere Joseph, cujus
+            conjux dicta est virgo Maria; illud quod perhibetur fratrem duxisse defuncti fratris
+            uxorem, ut ei semen secundum legem suscitaret <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Deut. XXV, 5)</note>-->
+            , ideo dixi <hi>esse infirmum, quoniam qui nasceretur, nomen defuncti Lex eum jubebat accipere <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 5)</note>-->
+            </hi>
+            : non est verum. Nomen enim defuncti quod dictum est, ad hoc Lex valere praecepit,
+            ut ejus filius diceretur; non ut hoc quod ille vocaretur. Hoc opus sic incipit: <hi>Hoc opus non ita scriptum est.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e479">
+          <head xml:id="aretr-l2-Hd1e481">Caput 13</head>
+          <head xml:id="aretr-l2-Hd1e483" type="question-title">Annotationes in Job, liber unus</head>
+          <p xml:id="aretr-l2-d1e486">
+            Liber cujus est titulus, Annotationes in Job, utrum meus habendus sit, an potius
+            eorum qui eas, sicut potuerunt vel voluerunt, redegerunt in unum corpus descriptas
+            de frontibus codicis, non facile dixerim. Suaves enim paucissimis intelligentibus
+            sunt, qui tamen necesse est offendantur multa non intelligentes; quia nec ipsa verba
+            quae exponuntur, ita descripta sunt in multis locis, ut appareat quid exponatur.
+            Deinde brevitatem sententiarum tanta secuta est obscuritas, ut eam lector vix ferre
+            possit, quem necesse est plurima non intellecta transire. Postremo tam mendosum
+            comperi opus ipsum in codicibus nostris ut emendare non possem, nec editum a me dici
+            vellem, nisi quia scio fratres id habere, quorum studio non potuit denegari. Hic
+            liber sic incipit: <hi>Et opera magna erant ei super terram.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e492">
+          <head xml:id="aretr-l2-Hd1e494">Caput 14</head>
+          <head xml:id="aretr-l2-Hd1e496" type="question-title">De Catechizandis rudibus, liber unus</head>
+          <p xml:id="aretr-l2-d1e499">
+            Est etiam liber noster de Catechizandis rudibus hoc ipso titulo praenotatus. In quo
+            libro ubi dixi: <hi>Nec angelus qui cum spiritibus aliis satellitibus suis superbiendo deseruit obedientiam Dei, et diabolus factus est, aliquid nocuit Deo, sed sibi: novit enim Deus ordinare deserentes se animas <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 18, n. 30)</note>-->
+            </hi>
+            ; convenientius diceretur, Se spiritus, quoniam de Angelis agebatur. Hic liber sic
+            incipit: <hi>Petisti a me, frater Deogratias.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e510">
+          <head xml:id="aretr-l2-Hd1e512">Caput 15</head>
+          <head xml:id="aretr-l2-Hd1e514" type="question-title">De Trinitate, libri quindecim</head>
+          <div xml:id="aretr-l2-Dd1e517">
+            <head xml:id="aretr-l2-Hd1e519">1</head>
+            <p xml:id="aretr-l2-d1e521">
+              Libros de Trinitate, quae Deus est, quindecim scripsi per aliquot annos. Sed cum
+              eorum duodecimum nondum perfecissem, et eos diutius tenerem quam possent sustinere
+              qui vehementer illos habere cupiebant, subtracti sunt mihi minus emendati quam
+              deberent ac possent, quando eos edere voluissem. Quod posteaquam comperi, quia et
+              alia eorum apud <pb ed="#P" n="0636"/>
+              nos exemplaria remanserant, statueram eos jam ipse non edere, sed sic habere ut in
+              alio aliquo opusculo meo quid mihi de his evenerit dicerem: urgentibus tamen
+              fratribus, quibus resistere non valui, emendavi eos quantum emendandos putavi, et
+              complevi, et edidi adjungens eis a capite epistolam, quam scripsi ad venerabilem
+              Aurelium episcopum Carthaginensis Ecclesiae; quo tanquam prologo exposui et quid
+              accidisset, et quid facere mea cogitatione voluissem, et quid fratrum charitate
+              compellente fecissem.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e527">
+            <head xml:id="aretr-l2-Hd1e529">2</head>
+            <p xml:id="aretr-l2-d1e531">
+              In quorum libro undecimo cum de corpore visibili agerem, dixi: <hi>Quocirca id amare, alienari est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap.
+                  5, n. 9)</note>-->
+              </hi>
+              . Quod secundum eum amorem dictum est, quo aliquid sic amatur, ut eo fruendo
+              existimet beatum se esse qui hoc amat. Nam non est alienari, in laudem Creatoris
+              amare speciem corporalem, ut ipso creatore fruens quisque vere beatus sit. Itemque
+              in eodem, ubi dixi, <hi>Nec avem quadrupedem memini, quia non vidi; sed phantasiam talem facillime intueor, dum alicui formae volatili, qualem vidi, adjungo alios duos pedes, quales itidem vidi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 10, n. 17)</note>-->
+              </hi>
+              , haec dicens non potui recolere volatilia quadrupedia quae Lex commemorat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Levit. XI, 20)</note>-->
+              . Neque enim computat in pedibus duo posteriora crura quibus locustae saliunt,
+              quas dicit mundas, et ideo discernit ab immundis talibus volatilibus, quae non
+              saliunt illis cruribus, sicut sunt scarabaei. Omnia quippe hujusmodi volatilia
+              quadrupedia vocantur in Lege.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e547">
+            <head xml:id="aretr-l2-Hd1e549">3</head>
+            <p xml:id="aretr-l2-d1e551">
+              In duodecimo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. X, n. 15)</note>-->
+              , velut expositio verborum Apostoli, ubi ait, <hi>Omne peccatum quodcumque fecerit homo, extra corpus est,</hi>
+              non mihi satisfacit; nec sic puto intelligendum quod dictum est, <quote xml:id="aretr-l2-Qd1e557" source="http://scta.info/resource/Icor6_18">Qui autem fornicatur, in corpus proprium peccat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor.
+                  VI, 18)</note>-->
+              </quote>
+              , tanquam ille hoc faciat, qui propter adipiscenda ea quae per corpus sentiuntur,
+              ut in his finem boni sui ponat, aliquid agit. Hoc enim longe plura peccata
+              complectitur, quam illa fornicatio quae concubitu perpetratur illicito, de qua
+              locutum, cum hoc diceret, Apostolum apparet. Hoc opus, excepta epistola quae
+              postmodum ad ejus caput adjuncta est, sic incipit: <hi>Lecturus haec quae de Trinitate disserimus.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e567">
+          <head xml:id="aretr-l2-Hd1e569">Caput 16</head>
+          <head xml:id="aretr-l2-Hd1e571" type="question-title">De Consensu Evangelistarum, libri quatuor</head>
+          <p xml:id="aretr-l2-d1e574">
+            Per eosdem annos quibus paulatim libros de Trisitate dictabam, scripsi et alios
+            labore continuo, interponens eos illorum temporibus, in quibus sunt libri quatuor de
+            Consensu Evangelistarum, propter eos qui tanquam dissentientibus calumniantur:
+            quorum primus liber adversus illos conscriptus est, qui tanquam maxime sapientem
+            Christum vel honorant vel honorare se fingunt; et ideo nolunt Evangelio credere;
+            quia non ab ipso illa conscripta sunt, sed ab ejus discipulis, quos existimant ei
+            divinitatem, qua crederetur Deus, errore tribuisse. In quo libro quod dixi, <hi>Ex Abraham coepisse gentem Hebraeorum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 14,
+                n. 21)</note>-->
+            </hi>
+            ; est quidem et hoc credibile, ut Hebraei, velut Abrahaei, dicti esse videantur: sed
+            ex illo verius intelliguntur appellati, qui vocabatur Heber, tanquam <pb ed="#P" n="0637"/>
+            Heberaei, de qua re in libro sexto decimo de Civitate Dei, satis disserui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 11)</note>-->
+            . In secundo, cum agerem de duobus patribus Joseph, ab altero dixi genitum, ab
+            altero adoptatum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3, n. 5)</note>-->
+            . Sed dicendum fuit, alteri adoptatum. Defuncto enim, quod magis credendum est,
+            secundum Legem fuerat adoptatus; quoniam qui eum genuit, ejus matrem, fratris
+            defuncti conjugem duxerat. Item ubi dixi, <hi>Lucas vero ad ipsum David per Nathan ascendit, per quem prophetam Deus peccatum illius expiavit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 4, n. 12)</note>-->
+            </hi>
+            ; per cujus nominis prophetam, dicere debui, ne putaretur idem fuisse homo, cum
+            alter fuerit, quamvis et ipse hoc vocaretur. Hoc opus sic incipit: <hi>Inter omnes divinas auctoritates.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e598">
+          <head xml:id="aretr-l2-Hd1e600">Caput 17</head>
+          <head xml:id="aretr-l2-Hd1e602" type="question-title">Contra Epistolam Parmeniani, libri tres</head>
+          <p xml:id="aretr-l2-d1e605">
+            In tribus libris contra Epistolam Parmeniani Donatistarum Carthaginensis episcopi
+            successorisque Donati, quaestio magna versatur et solvitur: utrum in unitate et
+            eorumdem communione Sacramentorum mali contaminent bonos, et quemadmodum non
+            contaminent disputatur, propter Ecclesiam toto orbe diffusam, cui calumniando
+            schisma fecerunt. In quorum libro tertio, cum dissereretur quomodo sit accipiendum
+            quod ait Apostolus, <quote xml:id="aretr-l2-Qd1e607" source="http://scta.info/resource/Icor5_13">Auferte malum ex vobis ipsis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. V, 13)</note>-->
+            </quote>
+            ; illud quod dixi, <hi>Ut ex seipso quisque auferat malum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 1, n. 2)</note>-->
+            </hi>
+            , non sic esse intelligendum, sed sic potius ut homo malus auferatur ex hominibus
+            bonis, quod fit per ecclesiasticam disciplinam, satis graeca lingua indicat, ubi
+            sine ambiguitate scriptum est, ut intelligatur, Hunc malum, non, Hoc malum, quamvis
+            et secundum istum intellectum responderim Parmeniano. Hoc opus sic incipit: <hi>Multa quidem alias adversus Donatistas.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e621">
+          <head xml:id="aretr-l2-Hd1e623">Caput 18</head>
+          <head xml:id="aretr-l2-Hd1e625" type="question-title">De Baptismo, libri septem</head>
+          <p xml:id="aretr-l2-d1e628">
+            Contra Donatistas, auctoritate beatissimi episcopi et martyris Cypriani se defendere
+            molientes, septem libros de Baptismo scripsi; in quibus docui nihil sic valere ad
+            refellendos Donatistas, et ad eorum prorsus ora claudenda, ne adversus Catholicam
+            suum schisma defendant, quomodo litteras factumque Cypriani. Ubicumque autem in his
+            libris commemoravi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lib. 1, c. 17; lib. 3, c. 18; et lib. 4, cc. 3, 4)</note>-->
+            , <quote xml:id="aretr-l2-Qd1e632" source="http://scta.info/resource/eph5_27">Ecclesiam non habentem maculam aut rugam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Eph. V, 27)</note>-->
+            </quote>
+            ; non sic accipiendum est quasi jam sit, sed quae praeparatur ut sit, quando
+            apparebit etiam gloriosa. Nunc enim propter quasdam ignorantias et infirmitates
+            membrorum <pb ed="#P" n="0638"/>
+            suorum, habet unde quotidie tota dicat: <quote xml:id="aretr-l2-Qd1e639" source="http://scta.info/resource/mt6_12">Dimitte nobis debita nostra <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 12)</note>-->
+            </quote>
+            . In quarto libro cum dicerem <hi>vicem Baptismi posse habere passionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 22,
+                n. 29)</note>-->
+            </hi>
+            , non satis idoneum posui illius latronis exemplum, qui utrum non fuerit baptizatus,
+            incertum est. In libro septimo, de vasis aureis et argenteis in domo magna
+            constitutis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 51, n. 99)</note>-->
+            , sensum Cypriani secutus sum, qui haec accepit in bonis; in malis autem lignea et
+            fictilia <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cypr. Epist. 51, ad Maximum, etc.)</note>-->
+            : ad illa referens quod dictum est, <hi>Alia quidem in honorem;</hi>
+            ad haec autem quod dictum est, <quote xml:id="aretr-l2-Qd1e656" source="http://scta.info/resource/IItim2_20">Alia vero in contumeliam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Tim. II, 20)</note>-->
+            </quote>
+            . Sed magis approbo quod apud Tychonium postea reperi vel adverti, in utrisque
+            intelligendum quaedam in honorem, non sola scilicet aurea et argentea; et rursus in
+            utrisque quaedam in contumeliam, non utique sola lignea et fictilia. Hoc opus sic
+            incipit: <hi>In eis libris quos adversus Epistolam Parmeniani.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e665">
+          <head xml:id="aretr-l2-Hd1e667">Caput 19</head>
+          <head xml:id="aretr-l2-Hd1e669" type="question-title">Contra quod attulit Centurius a Donatistis, liber unus. --[Non exstat.]</head>
+          <p xml:id="aretr-l2-d1e672">
+            Cum adversus partem Donati multa crebris disputationibus ageremus, attulit ad
+            Ecclesiam quidam laicus tunc eorum nonnulla contra nos dictata vel scripta in paucis
+            velut testimoniis, quae suae causae suffragari putant: his brevissime respondi.
+            Hujus libelli titulus est: Contra quod attulit Centurius a Donatistis. Et incipit
+            sic: <hi>Dicis eo quod scriptum est a Salomone: « Ab aqua aliena abstine te.</hi>
+            »
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e678">
+          <head xml:id="aretr-l2-Hd1e680">Caput 20</head>
+          <head xml:id="aretr-l2-Hd1e682" type="question-title">Ad Inquisitiones Januarii, libri duo</head>
+          <p xml:id="aretr-l2-d1e685">
+            Libri duo, quorum est titulus, Ad Inquisitiones Januarii, multa de Sacramentis
+            continent disputata, sive quae universaliter, sive quae partiliter, id est non
+            peraeque in omnibus locis observat Ecclesia: nec tamen commemorari omnia potuerunt;
+            sed satis ad inquisita responsum est. Quorum librorum prior, epistola est; habet
+            quippe in capite, quis, ad quem scribat: sed ideo inter libros annumeratur hoc opus,
+            quoniam sequens qui nomina nostra non habet, multo est prolixior, et in eo multo
+            plura tractantur. In primo igitur quod de manna dixi, <hi>Quia unicuique secundum propriam voluntatem in ore sapiebat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3,
+                n. 4)</note>-->
+            </hi>
+            , non mihi occurrit unde possit probari, nisi ex libro Sapientiae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Sap. XVI, 20)</note>-->
+            , quem Judaei non recipiunt in auctoritatem canonicam; quod tamen fidelibus potuit
+            provenire, non illis adversus Deum murmuratoribus, qui profecto alias escas non
+            desiderarent, si hoc eis saperet manna quod vellent. Hoc opus sic incipit: <hi>Ad ea quae me interrogasti.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e698">
+          <head xml:id="aretr-l2-Hd1e700">Caput 21</head>
+          <head xml:id="aretr-l2-Hd1e702" type="question-title">De Opere Monachorum, liber unus</head>
+          <p xml:id="aretr-l2-d1e705">
+            Ut de Opere Monachorum librum scriberem, illa necessitas compulit, quod cum apud
+            Carthaginem monasteria esse coepissent, alii se suis manibus transigebant,
+            obtemperantes Apostolo; alii vero ita ex oblationibus religiosorum vivere volebant,
+            ut nihil operantes unde necessaria vel haberent vel supplerent, se potius implere
+            praeceptum evangelicum existimarent <pb ed="#P" n="0639"/>
+            atque jactarent, ubi Dominus ait: <quote xml:id="aretr-l2-Qd1e709" source="http://scta.info/resource/mt6_26">Respicite volatilia coeli et lilia agri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI, 26)</note>-->
+            </quote>
+            . Unde etiam inter laicos inferioris propositi, sed tamen studio ferventes, existere
+            coeperant tumultuosa certamina, quibus Ecclesia turbaretur, aliis hoc, aliis aliud
+            defendentibus. Huc accedebat quod criniti erant quidam eorum, qui operandum non esse
+            dicebant. Unde contentiones, hinc reprehendentium, inde quasi purgantium, pro
+            partium studiis augebantur. Propter haec venerabilis senex Aurelius, Ecclesiae
+            ipsius civitatis episcopus, ut hinc aliquid scriberem jussit; et feci. Hic liber sic
+            incipit: <hi>Jussioni tuae, sancte frater Aureli.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e718">
+          <head xml:id="aretr-l2-Hd1e720">Caput 22</head>
+          <head xml:id="aretr-l2-Hd1e722" type="question-title">De Bono Conjugali, liber unus</head>
+          <div xml:id="aretr-l2-Dd1e725">
+            <head xml:id="aretr-l2-Hd1e727">1</head>
+            <p xml:id="aretr-l2-d1e729">
+              Joviniani haeresis sacrarum virginum meritum aequando pudicitiae conjugali tantum
+              valuit in urbe Roma, ut nonnullas etiam sanctimoniales de quarum pudicitia
+              suspicio nulla praecesserat, dejecisse in nuptias diceretur, hoc maxime argumento
+              cum eas urgeret dicens: Tu ergo melior quam Sara, melior quam Susanna, sive Anna?
+              et caeteras commemorando testimonio sanctae Scripturae commendatissimas feminas,
+              quibus se illae meliores, vel etiam pares cogitare non possent. Hoc modo etiam
+              virorum sanctorum sanctum caelibatum, commemoratione patrum conjugatorum et
+              comparatione, frangebat. Huic monstro sancta Ecclesia quae ibi est, fidelissime ac
+              fortissime restitit. Remanserant autem istae disputationes ejus in quorumdam
+              sermunculis ac susurris, quas palam suadere nullus audebat. Sed etiam occulte
+              venenis repentibus, facultate quam donabat Dominus, occurrendum fuit: maxime
+              quoniam jactabatur Joviniano responderi non potuisse cum laude, sed cum
+              vituperatione nuptiarum. Propter hoc librum edidi, cujus inscriptio est, de Bono
+              Conjugali. Ubi de propagatione filiorum prius quam homines mortem peccando
+              mererentur, quoniam concubitus mortalium corporum res videtur, quaestio magna
+              dilata est: sed in aliis postea litteris nostris, satis quantum arbitror,
+              explicatur.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e732">
+            <head xml:id="aretr-l2-Hd1e734">2</head>
+            <p xml:id="aretr-l2-d1e736">
+              Dixi etiam quodam loco: <hi>Quod enim est cibus ad salutem hominis, hoc est concubitus ad salutem generis; et utrumque non est sine delectatione carnali, quae tamen modificata, et temperantia refrenante in usum naturalem redacta, libido esse non potest <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16,
+                  n. 18)</note>-->
+              </hi>
+              . Quod ideo dictum est, quoniam libido non est bonus et rectus usus libidinis.
+              Sicut enim malum est male uti bonis, ita bonum est bene uti malis: de qua <pb ed="#P" n="0640"/>
+              re alias, maxime contra novos haereticos Pelagianos, diligentius disputavi. De
+              Abraham quod dixi, <hi>Ex hac obedientia pater ille Abraham, qui sine uxore non fuit, esse sine unico filio et a se occiso paratus fuit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 23,
+                  n. 31)</note>-->
+              </hi>
+              , non satis approbo. Magis enim filium, si esset occisus, resuscitatione sibi mox
+              fuisse reddendum, credidisse credendus est, sicut in Epistola legitur quae est ad
+              Hebraeos <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Hebr. XI, 19)</note>-->
+              . Hic liber sic incipit: <hi>Quoniam unusquisque homo, humani generis pars est.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e758">
+          <head xml:id="aretr-l2-Hd1e760">Caput 23</head>
+          <head xml:id="aretr-l2-Hd1e762" type="question-title">De Sancta Virginitate, liber unus</head>
+          <p xml:id="aretr-l2-d1e765">
+            Posteaquam scripsi de Bono Conjugali, exspectabatur ut scriberem de Sancta
+            Virginitate, nec distuli: atque id Dei munus, et quam magnum, et quanta humilitate
+            custodiendum esset, uno, sicut potui, volumine ostendi. Hic liber sic incipit: <hi>Librum de Bono Conjugali nuper edidimus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e771">
+          <head xml:id="aretr-l2-Hd1e773">Caput 24</head>
+          <head xml:id="aretr-l2-Hd1e775" type="question-title">De Genesi ad litteram, libri duodecim</head>
+          <div xml:id="aretr-l2-Dd1e778">
+            <head xml:id="aretr-l2-Hd1e780">1</head>
+            <p xml:id="aretr-l2-d1e782">
+              Per idem tempus de Genesi libros duodecim scripsi ab exordio, donec de paradiso
+              dimissus est Adam et flammea romphaea posita est custodire viam ligni vitae. Cum
+              autem ad hoc usque undecim libri peracti essent, duodecimum addidi, in quo
+              diligentius de paradiso disputatum est. Titulus eorum librorum inscribitur, de
+              Genesi ad litteram: id est, non secundum allegoricas significationes, sed secundum
+              rerum gestarum proprietatem. In quo opere plura quaesita quam inventa sunt: et
+              eorum quae inventa sunt, pauciora firmata; caetera vero ita posita, velut adhuc
+              requirenda sint. Hos sane libros posterius coepi, sed prius terminavi quam de
+              Trinitate: ideo eos nunc ordine, quo coepi recolui.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e785">
+            <head xml:id="aretr-l2-Hd1e787">2</head>
+            <p xml:id="aretr-l2-d1e789">
+              In quinto libro <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 19, n. 38)</note>-->
+              , et ubicumque in eis libris posui, <hi>De semine cui repromissum est, quod dispositum sit per Angelos in manu mediatoris <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. III, 19)</note>-->
+              </hi>
+              ; non sic habet Apostolus, sicut veriores codices post inspexi, maxime graecos. De
+              Lege enim dictum est, quod tanquam de semine dictum multi latini codices habent
+              per interpretantis errorem. In sexto libro quod dixi, <hi>Adam imaginem Dei, secundum quam factus est, perdidisse peccato <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 27,
+                  n. 28)</note>-->
+              </hi>
+              , non sic accipiendum est, tanquam in eo nulla remanserit, sed quod tam deformis,
+              ut reformatione opus haberet. In duodecimo de inferis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 33, n. 62)</note>-->
+              , magis mihi videor docere debuisse, quod sub terris sint, quam rationem reddere
+              cur sub terris esse credantur, sive dicantur, quasi non ita sit. Hoc opus sic
+              incipit: <hi>Omnis divina Scriptura bipartita est.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e810">
+          <head xml:id="aretr-l2-Hd1e812">Caput 25</head>
+          <head xml:id="aretr-l2-Hd1e814" type="question-title">Contra Litteras Petiliani, libri tres</head>
+          <p xml:id="aretr-l2-d1e817">
+            Antequam finirem libros de Trinitate, et libros de Genesi ad litteram, irruit causa
+            respondendi Litteris Petiliani donatistae, quas adversus Catholicam scripsit, quam
+            differre non potui. Et scripsi in hanc rem tria volumina, quorum primo primae parti
+            Epistolae ipsius, quam scripsit ad suos, quia non tota in nostras manus venerat, sed
+            prior parva pars ejus, quanta potui celeritate et veritate respondi. Etiam ipsa
+            Epistola est <pb ed="#P" n="0641"/>
+            ad nostros, sed ideo inter libros habetur, quia caeteri duo in eadem causa libri
+            sunt. Postea quippe invenimus totam, eique tanta diligentia respondi, quanta Fausto
+            manichaeo; verba scilicet ejus sub ipsius nomine prius ponens particulatim, et sub
+            meo per singula responsionem meam. Sed prius quod scripseram, antequam totam
+            reperiremus, pervenit ad Petilianum: et iratus respondere conatus est, in me potius
+            dicens quidquid eum libuit, in causa vero omnino deficiens: quod cum posset collatis
+            utriusque nostrum scriptis facillime adverti, tamen propter tardiores hoc ipse
+            respondendo demonstrare curavi; sic est additus eidem nostro operi liber tertius.
+            Hoc opus in primo libro sic incipit: <hi>Nosti nos saepe voluisse.</hi>
+            In secundo autem sic: <hi>Primis partibus Epistolae Petiliani.</hi>
+            In tertio autem sic: <hi>Legi, Petiliane, litteras tuas.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e829">
+          <head xml:id="aretr-l2-Hd1e831">Caput 26</head>
+          <head xml:id="aretr-l2-Hd1e833" type="question-title">Ad Cresconium grammaticum partis Donati, libri quatuor</head>
+          <p xml:id="aretr-l2-d1e836">
+            Grammaticus etiam quidam donatista Cresconius, cum invenisset epistolam meam, qua
+            primas partes, quae in manus nostras tunc venerant Epistolae Petiliani redargui,
+            putavit mihi esse respondendum, et hoc ipsum scripsit ad me. Cui operi ejus libris
+            quatuor respondi, ita sane ut tribus peragerem quod universa responsio flagitabat.
+            Sed cum viderem de sola Maximianensium causa, quos suos schismaticos damnaverunt, et
+            eorum aliquos rursus in suis honoribus receperunt, Baptismumque ab eis extra suam
+            communionem datum non repetiverunt, responderi posse ad cuncta quae scripsit; etiam
+            quartum librum addidi, in quo idipsum, quantum potui, diligenter atque evidenter
+            ostendi. Hos autem quatuor libros quando scripsi, jam contra Donatistas leges
+            dederat Honorius imperator. Hoc opus sic incipit: <hi>Quando ad te, Cresconi, mea scripta pervenire possent ignorans.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e842">
+          <head xml:id="aretr-l2-Hd1e844">Caput 27</head>
+          <head xml:id="aretr-l2-Hd1e846" type="question-title">Probationum et Testimoniorum contra Donatistas, liber unus. --[Non exstat]</head>
+          <p xml:id="aretr-l2-d1e849">
+            Post haec, ut ad Donatistas pervenirent contra eorum errorem et pro catholica
+            veritate necessaria documenta curavi, sive de ecclesiasticis, sive de publicis
+            Gestis, sive de Scripturis canonicis. Et primo ad illos eadem promissa direxi, ut
+            ipsi ea, si fieri posset, exposcerent. Quae cum venissent in eorum quorumdam manus,
+            nescio quis exstitit qui suo nomine tacito contra haec scriberet, ita se confitens
+            donatistam, tanquam hoc vocaretur. Cui ego respondens, alium librum scripsi. Illa
+            vero documenta quae promiseram, eidem libello quo eadem promiseram junxi, et ex
+            utroque unum esse volui; eumque sic edidi, ut in parietibus basilicae quae
+            Donatistarum fuerat, prius propositus legeretur, cujus titulus est: Probationum et
+            Testimoniorum <pb ed="#P" n="0642"/>
+            contra Donatistas. In quo libro absolutionem Felicis Aptungensis ordinatoris
+            Caeciliani, non hoc ordine posuimus quo postea nobis claruit, Consulibus diligenter
+            inspectis, sed tanquam post Caecilianum fuerit absolutus, cum ante sit factum. Illud
+            etiam quod commemorato Judae apostoli testimonio, ubi ait: <hi>Ii sunt qui segregant semetipsos, animales, spiritum non habentes <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Judae 19)</note>-->
+            </hi>
+            , adjunxi etiam dicens: <hi>De quibus et Paulus apostolus dicit: « Animalis autem homo non « percipit ea quae sunt spiritus Dei</hi>
+            »<!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. II, 14)</note>-->
+            ; non sunt isti illis coaequandi, quos omnino ab Ecclesia schisma praecidit. Istos
+            quippe idem apostolus Paulus parvulos dicit esse in Christo, quos nondum escam
+            valentes capere, lacte nutrit tamen <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. III, 1, 2)</note>-->
+            : illi autem non in filiis parvulis, sed in mortuis et perditis computandi sunt, ut
+            si quis eorum correctus Ecclesiae fuerit copulatus, recte de illo dici possit: <quote xml:id="aretr-l2-Qd1e865" source="http://scta.info/resource/lc15_32">Mortuus erat, et revixit; perierat, et inventus est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XV, 32)</note>-->
+            </quote>
+            . Hic liber sic incipit: <hi>Qui timetis consentire Ecclesiae catholicae.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e874">
+          <head xml:id="aretr-l2-Hd1e876">Caput 28</head>
+          <head xml:id="aretr-l2-Hd1e878" type="question-title">Contra Donatistam nescio quem, liber unus. --[Non exstat]</head>
+          <p xml:id="aretr-l2-d1e881">
+            Alterius libri quem supra commemoravi, titulum esse volui, Contra nescio quem
+            Donatistam: ubi similiter de absolutione ordinatoris Caeciliani verus ordo temporis
+            non est. Illud etiam quod dixi: <hi>Ad multitudinem zizaniorum, ubi intelliguntur omnes haereses,</hi>
+            minus habet unam necessariam conjunctionem: dicendum enim fuit, Ubi intelliguntur et
+            omnes haereses; aut, Ubi intelliguntur etiam omnes haereses. Nunc vero ita dictum
+            est, quasi praeter Ecclesiam tantummodo sint zizania, non etiam in Ecclesia, cum
+            ipsa sit regnum Christi, de quo collecturi sunt Angeli ejus, messis tempore, omnia
+            scandala <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XIII, 36-42)</note>-->
+            . Unde et Cyprianus martyr: <hi>Etsi videntur,</hi>
+            inquit, <hi>in Ecclesia esse zizania, non tamen impediri debet aut fides aut charitas nostra, ut quoniam zizania esse in Ecclesia cernimus, ipsi de Ecclesia recedamus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cypr.,
+                Epist. 51, ad Maximum, etc.)</note>-->
+            </hi>
+            . Quem sensum etiam nos alias, et maxime adversus eosdem praesentes Donatistas, in
+            collatione defendimus. Hic liber sic incipit: <hi>Probationes rerum necessariarum quodam breviculo collectas promisimus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e899">
+          <head xml:id="aretr-l2-Hd1e901">Caput 29</head>
+          <head xml:id="aretr-l2-Hd1e903" type="question-title">Admonitio Donatistarum de Maximianistis, liber unus. --[Non exstat]</head>
+          <p xml:id="aretr-l2-d1e906">
+            Cum viderem multos legendi labore impediri a discendo quam nihil rationis atque
+            veritatis habeat pars Donati, libellum brevissimum feci, quo eos de solis
+            Maximianistis admonendos putavi, ut posset facilitate describendi in manus plurium
+            pervenire, et ipsa sui brevitate facilius commendari memoriae; cui titulum imposui: <hi>Admonitio Donatistarum de Maximianistis.</hi>
+            Hic liber sic incipit: <hi>Quicumque calumniis hominum et criminationibus movemini.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e914">
+          <head xml:id="aretr-l2-Hd1e916">Caput 30</head>
+          <head xml:id="aretr-l2-Hd1e918" type="question-title">De Divinatione Daemonum, liber unus</head>
+          <pb ed="#P" n="0643"/>
+          <p xml:id="aretr-l2-d1e923">
+            Per idem tempus accidit mihi ex quadam disputatione necessitas ut de Divinatione
+            Daemonum libellum scriberem, cujus titulus iste ipse est. In ejus autem quodam loco
+            ubi dixi: <hi>Daemones aliquando et hominum dispositiones non solum voce prolatas, verum etiam cogitatione conceptas, cum signa quaedam ex animo exprimuntur in corpore, tota facilitate perdiscere <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 5,
+                n. 9)</note>-->
+            </hi>
+            ; rem dixi occultissimam audaciore asseveratione quam debui: nam pervenire ista ad
+            notitiam daemonum, per nonnulla etiam experimenta compertum est. Sed utrum signa
+            quaedam dentur ex corpore cogitantium illis sensibilia, nos autem latentia, an alia
+            vi et ea spirituali ista cognoscant, aut difficillime potest ab hominibus, aut
+            omnino non potest inveniri. Hic liber sic incipit: <hi>Quodam die in diebus sanctis Octavarum.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e934">
+          <head xml:id="aretr-l2-Hd1e936">Caput 31</head>
+          <head xml:id="aretr-l2-Hd1e938" type="question-title">Quaestiones expositae contra Paganos, numero sex</head>
+          <p xml:id="aretr-l2-d1e941">
+            Inter haec missae sunt mihi a Carthagine quaestiones sex, quas proposuit amicus
+            quidam, quem cupiebam fieri christianum, ut contra Paganos solverentur, praesertim
+            quia nonnullas earum a Porphyrio philosopho propositas dixit. Sed non eum esse
+            arbitror Porphyrium Siculum illum cujus celeberrima est fama. Harum quaestionum
+            disputationes in unum librum contuli, non prolixum, cujus est titulus: Sex
+            quaestiones contra Paganos expositae. Earum autem prima est de resurrectione;
+            secunda, de tempore christianae religionis; tertia, de sacrificiorum distinctione;
+            quarta, de eo quod scriptum est, <quote xml:id="aretr-l2-Qd1e943" source="http://scta.info/resource/mt7_2">In qua mensura mensi fueritis, remetietur vobis <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VII, 2)</note>-->
+            </quote>
+            ; quinta, de Filio Dei secundum Salomonem; sexta, de Jona propheta. In quarum
+            secunda quod dixi, <hi>Salus religionis hujus, per quam solam veram salus vera veraciterque promittitur, nulli unquam defuit, qui dignus fuit; et cui defuit, dignus non fuit;</hi>
+            non ita dixi tanquam ex meritis suis quisquam dignus fuerit; sed quemadmodum ait
+            Apostolus: <quote xml:id="aretr-l2-Qd1e950" source="http://scta.info/resource/rom9_12">Non ex operibus, sed ex vocante dictum esse, Major serviet minori <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. IX, 12, 13)</note>-->
+            </quote>
+            : quam vocationem ad Dei propositum asserit pertinere. Unde dicit, <quote xml:id="aretr-l2-Qd1e955" source="http://scta.info/resource/IItim1_9">Non secundum opera nostra, sed secundum suum propositum et gratiam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Tim. I, 9)</note>-->
+            </quote>
+            . Unde item dicit: <quote xml:id="aretr-l2-Qd1e960" source="http://scta.info/resource/rom8_28">Scimus quia diligentibus Deum, omnia cooperantur in bonum, iis qui secundum propositum vocati sunt sancti <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Rom. VIII, 28)</note>-->
+            </quote>
+            . De qua vocatione ait: <quote xml:id="aretr-l2-Qd1e966" source="http://scta.info/resource/IIthess1_11">Ut dignos vos habeat vocatione sua sancta <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Thess. I, 11)</note>-->
+            </quote>
+            . Hic liber post epistolam, quae postmodum a capite addita est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epist. 102, ad Deogratias)</note>-->
+            , sic incipit: <hi>Movet quosdam, et requirunt.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e977">
+          <head xml:id="aretr-l2-Hd1e979">Caput 32</head>
+          <head xml:id="aretr-l2-Hd1e981" type="question-title">Expositio Epistolae Jacobi ad duodecim tribus. --[Non exstat.]</head>
+          <p xml:id="aretr-l2-d1e984">
+            Inter opuscula mea reperi expositionem Epistolae Jacobi, quam retractans adverti
+            annotationes potius expositorum quorumdam ejus locorum in librum redactas <pb ed="#P" n="0644"/>
+            fratrum diligentia, qui eas in frontibus codicis esse noluerunt. Adjuvant ergo
+            aliquid, nisi quod ipsam Epistolam, quam legebamus quando ista dictavi, non
+            diligenter ex graeco habebamus interpretatam. Hic liber sic incipit: <hi>Duodecim tribubus quae sunt in dispersione, salutem.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e992">
+          <head xml:id="aretr-l2-Hd1e994">Caput 33</head>
+          <head xml:id="aretr-l2-Hd1e996" type="question-title">De Peccatorum Meritis et Remissione, et de Baptismo Parvulorum, ad Marcellinum libri tres</head>
+          <p xml:id="aretr-l2-d1e999">
+            Venit etiam necessitas, quae me cogeret adversus novam Pelagianam haeresim scribere;
+            contra quam prius, cum opus erat, non scriptis, sed sermonibus et collocutionibus
+            agebamus, ut quisque nostrum poterat aut debebat. Missis ergo mihi a Carthagine
+            quaestionibus eorum quas rescribendo dissolverem, scripsi primum libros tres, quorum
+            titulus est, de Peccatorum Meritis et Remissione: ubi maxime disputatur de
+            baptismate parvulorum propter originale peccatum: et de gratia Dei qua justificamur,
+            hoc est, justi efficimur; quamvis in hac vita nemo ita servet mandata justitiae, ut
+            non sit ei necessarium pro suis peccatis orando dicere: <quote xml:id="aretr-l2-Qd1e1001" source="http://scta.info/resource/mt6_12">Dimitte nobis debita nostra <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. VI,
+                12)</note>-->
+            </quote>
+            . Contra quae omnia sentientes illi novam haeresim condiderunt. In his autem libris
+            tacenda adhuc arbitratus sum nomina eorum, sic eos facilius posse corrigi sperans:
+            imo etiam in tertio libro, quae est epistola, sed in libris habita propter duos
+            quibus eam connectendam putavi, Pelagii ipsius nomen non sine aliqua laude posui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3, n. 5)</note>-->
+            ; quia vita ejus a multis praedicabatur: et ejus illa redargui, quae in suis
+            scriptis non ex persona sua posuit, sed quid ab aliis diceretur exposuit; quae tamen
+            postea jam haereticus pertinacissima animositate defendit. Coelestius vero
+            discipulus ejus jam propter tales assertiones apud Carthaginem in episcopali
+            judicio, ubi ego non interfui, excommunicationem meruerat. In secundo libro, quodam
+            loco, <hi>Hoc quibusdam, inquam, in fine largietur, ut mortem repentina commutatione non sentiant <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 31, n. 50)</note>-->
+            </hi>
+            , servans locum diligentiori de hac re inquisitioni. Aut enim non morientur; aut de
+            vita ista in mortem, et de morte in aeternam vitam celerrima commutatione tanquam in
+            ictu oculi transeundo mortem non sentient. Hoc opus sic incipit: <hi>Quamvis in mediis et magnis curarum aestibus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1017">
+          <head xml:id="aretr-l2-Hd1e1019">Caput 34</head>
+          <head xml:id="aretr-l2-Hd1e1021" type="question-title">De Unico Baptismo, contra Petilianum ad Constantinum, liber unus</head>
+          <p xml:id="aretr-l2-d1e1024">
+            Eo tempore librum de Unico Baptismo amicus quidam meus, a nescio quo donatista
+            presbytero accepit, indicante quod Petilianus episcopus eorum Constantinensis eum
+            scripserit. Hunc ad me ille attulit, ac vehementer ut ei responderem rogavit; et
+            factum est. Librum autem etiam meum in quo respondi, eumdem titulum habere volui,
+            hoc est, de Unico Baptismo. In quo libro illud quod dixi: <hi>Constantinum imperatorem Donatistis criminantibus ordinatorem Caeciliani Felicem Aptungensem non negasse accusationis locum, quamvis eos in Caeciliani fictis criminibus calumniosos fuisset <pb ed="#P" n="0645"/>
+              expertus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 16, n. 28)</note>-->
+            </hi>
+            , in ordine temporum postea consideratum, aliter inventum est. Nam prius memoratus
+            Imperator causam Felicis fecit audiri a proconsule, ubi legitur absolutus; et postea
+            ipse Caecilianum cum accusatoribus ejus auditum, comperit innocentem, ubi eos
+            expertus est in ejus criminibus calumniosos. Qui ordo temporum per consules
+            declaratus, multo vehementius in ea causa calumnias Donatistarum convincit,
+            penitusque subvertit: quod alibi ostendimus. Hic liber sic incipit: <hi>Respondere adversa sentientibus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1038">
+          <head xml:id="aretr-l2-Hd1e1040">Caput 35</head>
+          <head xml:id="aretr-l2-Hd1e1042" type="question-title">De Maximianistis contra Donatistas, liber unus. --[Non exstat.]</head>
+          <p xml:id="aretr-l2-d1e1045">
+            Scripsi etiam librum inter caetera contra Donatistas, non brevissimum sicut antea,
+            sed grandem, multo diligentius; in quo apparet quemadmodum eorum adversus Ecclesiam
+            catholicam impium ac superbissimum errorem sola funditus Maximianistarum causa
+            subvertat, quod schisma factum est ex ipsa parte Donati. Hic liber sic incipit: <hi>Multa jam diximus, multa jam scripsimus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1051">
+          <head xml:id="aretr-l2-Hd1e1053">Caput 36</head>
+          <head xml:id="aretr-l2-Hd1e1055" type="question-title">De Gratia Testamenti Novi, ad Honoratum liber unus</head>
+          <p xml:id="aretr-l2-d1e1058">
+            Eo ipso tempore quo contra Donatistas vehementer exercebamur, et contra Pelagianos
+            exerceri jam coeperamus, amicus quidam mihi misit quinque a Carthagine quaestiones,
+            et rogavit ut eas illi scribendo exponerem; quae sunt: Quid sibi velit vox illa
+            Domini, <hi>Deus meus, Deus meus, utquid me dereliquisti?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Psal. XXI, 1; Matth. XXVII, 46.)</note>-->
+            </hi>
+            Et quid sit quod ait Apostolus, <hi>Ut in charitate radicati et fundati, praevaleatis comprehendere cum omnibus sanctis, quae sit latitudo, et longitudo, et altitudo, et profundum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ephes. III, 17, 18)</note>-->
+            </hi>
+            . Et quae sint quinque virgines stultae, quaeve sapientes <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth. XXV, 1-12)</note>-->
+            . Et quae sint tenebrae exteriores <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. XXII, 13)</note>-->
+            . Et quomodo intelligendum sit, <quote xml:id="aretr-l2-Qd1e1074" source="http://scta.info/resource/io1_14">Verbum caro factum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Joan. I, 14)</note>-->
+            </quote>
+            . Ego autem intuens supra dictam haeresim novam inimicam gratiae Dei, sextam mihi
+            proposui quaestionem de Gratia Testamenti Novi. De qua disputans, interposita
+            expositione psalmi vigesimi primi, in cujus capite scriptum est quod Dominus
+            exclamavit in cruce, quod ille amicus in primis mihi proposuit exponendum; omnia
+            illa quinque dissolvi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epist. 140, ad Honoratum)</note>-->
+            : non hoc ordine quo erant proposita; sed sicut mihi disserenti de gratia Novi
+            Testamenti, tanquam suis locis congruenter occurrere potuerunt. Hic liber sic
+            incipit: <hi>Quinque mihi proposuisti tractandas quaestiones.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1086">
+          <head xml:id="aretr-l2-Hd1e1088">Caput 37</head>
+          <head xml:id="aretr-l2-Hd1e1090" type="question-title">De Spiritu et Littera, ad Marcellinum, liber unus</head>
+          <p xml:id="aretr-l2-d1e1093">
+            Ad quem scripseram tres libros, quorum titulus est de Peccatorum Meritis et
+            Remissione, ubi diligenter disputatur etiam de baptismo parvulorum, rescripsit mihi
+            se fuisse permotum quod dixerim fieri posse ut sit homo sine peccato, si voluntas
+            ejus non desit, ope <pb ed="#P" n="0646"/>
+            adjuvante divina; quamvis nemo tam perfectae justitiae in hac vita vel fuerit, vel
+            sit, vel futurus sit. Quaesivit enim quomodo dixerim posse fieri, cujus rei desit
+            exemplum. Propter hanc ejus inquisitionem scripsi librum cujus est titulus, de
+            Spiritu et Littera, pertractans apostolicam sententiam ubi ait: <quote xml:id="aretr-l2-Qd1e1097" source="http://scta.info/resource/IIcor3_6">Littera occidit, Spiritus autem vivificat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(II Cor. III, 6)</note>-->
+            </quote>
+            . In quo libro, quantum Deus adjuvit, acriter disputavi contra inimicos gratiae Dei,
+            qua justificatur impius. Cum autem agerem de observationibus Judaeorum, a quibusdam
+            escis secundum veterem legem abstinentium, dixi: <hi>Quarumdam escarum cerimoniae <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 21, n. 36)</note>-->
+            </hi>
+            , quod nomen non est in usu Litterarum sanctarum: ideo tamen mihi congruens visum
+            est, quod a carendo appellatas cerimonias, quasi carimonias memoria tenebam, eo quod
+            observantes careant his rebus a quibus se abstinent. Quod si est origo alia hujus
+            nominis, quae abhorret a vera religione, secundum hanc ego non sum locutus, sed
+            secundum istam quam supra memoravi. Hic liber sic incipit: <hi>Lectis opusculis quae ad te nuper elaboravi, fili charissime Marcelline.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1111">
+          <head xml:id="aretr-l2-Hd1e1113">Caput 38</head>
+          <head xml:id="aretr-l2-Hd1e1115" type="question-title">De Fide et Operibus, liber unus</head>
+          <p xml:id="aretr-l2-d1e1118">
+            Interea missa sunt mihi a quibusdam fratribus laicis quidem, sed divinorum
+            eloquiorum studiosis, scripta nonnulla, quae ita distinguerent a bonis operibus
+            christianam fidem, ut sine hac non posse, sine illis autem posse perveniri
+            suaderetur ad aeternam vitam. Quibus respondens librum scripsi, cujus nomen est, de
+            Fide et Operibus. In quo disputavi non solum quemadmodum vivere debeant gratia
+            Christi regenerati, verum etiam quales ad lavacrum regenerationis admitti. Hic liber
+            sic incipit: <hi>Quibusdam videtur.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1124">
+          <head xml:id="aretr-l2-Hd1e1126">Caput 39</head>
+          <head xml:id="aretr-l2-Hd1e1128" type="question-title">Breviculus Collationis cum Donatistis, libri tres</head>
+          <p xml:id="aretr-l2-d1e1131">
+            Posteaquam facta est cum Donatistis nostra collatio, breviter commemoravi quae gesta
+            sint, litterisque comprehendi secundum tres dies quibus cum eis contulimus: idque
+            opus utile existimavi, quo quisque commonitus, vel sciat sine labore quid actum sit,
+            vel consultis numeris, quos rebus singulis annotavi, legat in eisdem Gestis ad locum
+            quodcumque voluerit; quoniam fatigant illa nimia prolixitate lectorem. Hujus autem
+            operis titulus est, Breviculus Collationis. Hoc opus sic incipit: <hi>Cum catholici episcopi et partis Donati.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1137">
+          <head xml:id="aretr-l2-Hd1e1139">Caput 40</head>
+          <head xml:id="aretr-l2-Hd1e1141" type="question-title">Post Collationem contra Donatistas, liber unus</head>
+          <p xml:id="aretr-l2-d1e1144">
+            Librum etiam scripsi grandem, satis, quantum existimo, diligenter ad ipsos
+            Donatistas, post collationem quam cum episcopis eorum habuimus, ne ab eis
+            seducerentur ulterius. Ubi respondi etiam quibusdam <pb ed="#P" n="0647"/>
+            vanitatibus eorum, quae ad nos pervenire potuerunt, quas victi, ubi poterant et
+            quomodo poterant, jactitabant; praeter illa quae dixi de Gestis collationis, unde
+            quid actum sit breviter nosceretur. Multo autem brevius id egi in quadam ad eosdem
+            rursus epistola. Sed quia in concilio Numidiae omnibus qui ibi eramus hoc fieri
+            placuit, non est in epistolis meis. Sic quippe incipit: <hi>Sylvanus senex, Valentinus, Innocentius, Maximinus, Optatus, Augustinus, Donatus, et caeteri episcopi de concilio Zertensi ad Donatistas.</hi>
+            Hic liber sic incipit: <hi>Quid adhuc Donatistae, seducimini?</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1155">
+          <head xml:id="aretr-l2-Hd1e1157">Caput 41</head>
+          <head xml:id="aretr-l2-Hd1e1159" type="question-title">De Videndo Deo, liber unus</head>
+          <p xml:id="aretr-l2-d1e1162">
+            De Videndo Deo scripsi librum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epist. 147, ad Paulinam)</note>-->
+            , ubi de spirituali corpore quod erit in resurrectione sanctorum inquisitionem
+            diligentiorem distuli, utrum vel quomodo Deus, qui spiritus est, etiam per corpus
+            tale videatur; sed eam postea quaestionem sane difficillimam in novissimo, id est in
+            vigesimo et secundo libro de Civitate Dei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 29, n. 1, sqq.)</note>-->
+            , satis, quantum arbitror, explicavi. Inveni etiam in quodam nostro codice, in quo
+            et iste liber est, quoddam commonitorium a me factum de hac re ad episcopum
+            Siccensem Fortunatianum; quod in opusculorum meorum indiculo nec inter libros, nec
+            inter epistolas est notatum. Hic liber sic incipit: <hi>Memor debiti.</hi>
+            Illud autem: <hi>Sicut praesens rogavi.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1174">
+          <head xml:id="aretr-l2-Hd1e1176">Caput 42</head>
+          <head xml:id="aretr-l2-Hd1e1178" type="question-title">De Natura et Gratia, liber unus</head>
+          <p xml:id="aretr-l2-d1e1181">
+            Venit etiam tunc in manus meas quidam Pelagii liber, ubi hominis naturam contra Dei
+            gratiam qua justificatur impius, et qua christiani sumus, quanta potuit
+            argumentatione defendit. Librum ergo quo huic respondi, defendens gratiam, non
+            contra naturam, sed per quam natura liberatur et regitur, de Natura et Gratia
+            nuncupavi. In quo verba quaedam quae velut Xysti Romani episcopi et martyris
+            Pelagius posuit, ita defendi tanquam revera ejusdem Xysti essent; id enim putaveram:
+            sed postea legi Sexti philosophi esse, non Xysti christiani. Hic liber sic incipit <hi>Librum quem misistis.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1187">
+          <head xml:id="aretr-l2-Hd1e1189">Caput 43</head>
+          <head xml:id="aretr-l2-Hd1e1191" type="question-title">De Civitate Dei, libri viginti duo</head>
+          <div xml:id="aretr-l2-Dd1e1194">
+            <head xml:id="aretr-l2-Hd1e1196">1</head>
+            <p xml:id="aretr-l2-d1e1198">
+              Interea Roma Gothorum irruptione, agentium sub rege Alarico, atque impetu magnae
+              cladis eversa 
+              <pb ed="#P" n="0648"/>
+              est; cujus eversionem deorum falsorum multorumque cultores, quos usitato nomine
+              Paganos vocamus, in christianam religionem referre conantes, solito acerbius et
+              amarius Deum verum blasphemare coeperunt. Unde ego exardescens zelo domus Dei,
+              adversus eorum blasphemias vel errores libros de Civitate Dei scribere institui.
+              Quod opus per aliquot annos me tenuit, eo quod alia multa intercurrebant, quae
+              differre non oporteret, et me prius ad solvendum occupabant. Hoc autem de Civitate
+              Dei grande opus tandem viginti duobus libris est terminatum. Quorum quinque primi
+              eos refellunt, qui res humanas ita prosperari volunt, ut ad hoc multorum deorum
+              cultum quos Pagani colere consueverunt, necessarium esse arbitrentur; et quia
+              prohibetur, mala ista exoriri atque abundare contendunt. Sequentes autem quinque
+              adversus eos loquuntur, qui fatentur haec mala nec defuisse unquam, nec defutura
+              mortalibus, et ea nunc magna, nunc parva, locis, temporibus, personisque variari:
+              sed deorum multorum cultum, quo eis sacrificatur, propter vitam post mortem
+              futuram esse utilem disputant. His ergo decem libris duae istae vanae opiniones
+              christianae religioni adversariae refelluntur.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e1204">
+            <head xml:id="aretr-l2-Hd1e1206">2</head>
+            <p xml:id="aretr-l2-d1e1208">
+              Sed ne quisquam nos aliena tantum redarguisse, non autem nostra asseruisse
+              reprehenderet; id agit pars altera operis hujus, quae libris duodecim continetur.
+              Quanquam ubi opus est, et in prioribus decem quae nostra sunt asseramus, et in
+              duodecim posterioribus redarguamus adversa. Duodecim ergo librorum sequentium
+              primi quatuor continent exortum duarum civitatum, quarum est una Dei, altera hujus
+              mundi. Secundi quatuor, excursum earum sive procursum. Tertii vero, qui et
+              postremi, debitos fines. Ita omnes viginti et duo libri cum sint de utraque
+              civitate conscripti, titulum tamen a meliore acceperunt, ut de Civitate Dei potius
+              vocarentur. In quorum decimo libro non debuit pro miraculo poni in Abrahae
+              sacrificio, flammam coelitus factam inter divisas victimas cucurrisse <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 8)</note>-->
+              ; quoniam hoc illi in visione monstratum est. In septimo decimo libro, quod dictum
+              est de Samuele, <hi>Non erat de filiis Aaron <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 5, n. 2)</note>-->
+              </hi>
+              ; dicendum potius fuit, Non erat filius sacerdotis. Filios quippe sacerdotum
+              defunctis sacerdotibus succedere magis legitimi moris fuit: nam in filiis Aaron
+              reperitur pater Samuelis; sed sacerdos non fuit, nec ita in filiis ut eum ipse
+              genuerit Aaron, sed sicut omnes illius populi dicuntur filii Israel. Hoc opus sic
+              incipit: <hi>Gloriosissimam civitatem Dei.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1222">
+          <head xml:id="aretr-l2-Hd1e1224">Caput 44</head>
+          <head xml:id="aretr-l2-Hd1e1226" type="question-title">Ad Orosium, contra Priscillianistas et Origenistas, liber unus</head>
+          <p xml:id="aretr-l2-d1e1229">
+            Inter haec Orosii cujusdam Hispani presbyteri consultationi de Priscillianistis, et
+            de quibusdam Origenis sensibus quos catholica fides improbat, quanta potui brevitate
+            ac perspicuitate respondi: cujus opusculi titulus est ad Orosium, contra
+            Priscillianistas et Origenistas. <pb ed="#P" n="0649"/>
+            Et ipsa enim consultatio responsioni meae a capite adjuncta est. Hic liber sic
+            incipit: <hi>Respondere tibi quaerenti, dilectissime fili Orosi.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1237">
+          <head xml:id="aretr-l2-Hd1e1239">Caput 45</head>
+          <head xml:id="aretr-l2-Hd1e1241" type="question-title">Ad Hieronymum presbyterum libri duo; unus de Origine Animae, et alius de Sententia Jacobi</head>
+          <p xml:id="aretr-l2-d1e1244">
+            Scripsi etiam duos libros <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epistt. 166, 167)</note>-->
+            ad Hieronymum presbyterum sedentem in Bethlehem: unum de Origine Animae hominis:
+            alterum de Sententia Jacobi apostoli, ubi ait, <quote xml:id="aretr-l2-Qd1e1248" source="http://scta.info/resource/iac2_10">Quicumque totam legem servaverit, offendat autem in uno, factus est omnium reus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jacobi II, 10)</note>-->
+            </quote>
+            ; de utroque consulens eum. Sed in illo priore quaestionem quam proposui ipse non
+            solvi; in posteriore autem quid mihi de illa solvenda videretur ipse non tacui: sed
+            utrum hoc approbaret etiam ille, consului. Rescripsit autem laudans eamdem
+            consultationem meam; sibi tamen ad respondendum otium non esse respondit. Ego vero
+            quousque esset in corpore, hos libros edere nolui, ne forte responderet aliquando,
+            et cum ipsa responsione ejus potius ederentur. Illo autem defuncto ad hoc edidi
+            priorem, ut qui legit admoneatur aut non quaerere omnino quomodo detur anima
+            nascentibus, aut certe de re obscurissima eam solutionem quaestionis hujus
+            admittere, quae contraria non sit apertissimis rebus, quas de originali peccato
+            fides catholica novit in parvulis, nisi regenerentur in Christo, sine dubitatione
+            damnandis: posteriorem vero, ad hoc ut quaestionis de qua ibi agitur, etiam quae
+            nobis visa est solutio ipsa noscatur. Hoc opus sic incipit: <hi>Deum nostrum qui nos vocavit.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1257">
+          <head xml:id="aretr-l2-Hd1e1259">Caput 46</head>
+          <head xml:id="aretr-l2-Hd1e1261" type="question-title">Ad Emeritum Donatistarum episcopum, post collationem, liber unus. --[Non exstat.]</head>
+          <p xml:id="aretr-l2-d1e1264">
+            Ad Emeritum Donatistarum episcopum, qui in collatione nostra quam cum illis
+            habuimus, eorum causam maxime agere videbatur, aliquanto post eamdem collationem
+            scripsi librum satis utilem, quoniam res quibus vincuntur, vel victi esse
+            monstrantur, commoda brevitate complectitur. Hic liber sic incipit: <hi>Si vel nunc, frater Emerite.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1271">
+          <head xml:id="aretr-l2-Hd1e1273">Caput 47</head>
+          <head xml:id="aretr-l2-Hd1e1275" type="question-title">De Gestis Pelagii, liber unus</head>
+          <p xml:id="aretr-l2-d1e1278">
+            Per idem tempus in Oriente, hoc est in Syria Palaestina, Pelagius a quibusdam
+            catholicis fratribus ad episcopalia Gesta perductus, eisque absentibus qui de illo
+            libellum dederant, quoniam ad diem synodi non potuerunt occurrere, ab episcopis
+            quatuordecim auditus est; ubi eum dogmata ipsa damnantem, quae inimica gratiae
+            Christi adversus eum de libello legebantur, catholicum pronuntiarunt. Sed cum in
+            manus nostras eadem Gesta venissent, scripsi de his librum, ne illo velut absoluto,
+            eadem quoque dogmata putarentur judices approbasse, quae ille nisi damnasset, nullo
+            modo ab eis nisi damnatus exisset. Hic liber sic incipit: <hi>Posteaquam in manus nostras.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1284">
+          <head xml:id="aretr-l2-Hd1e1286">Caput 48</head>
+          <head xml:id="aretr-l2-Hd1e1288" type="question-title">De Correctione Donatistarum, liber unus</head>
+          <pb ed="#P" n="0650"/>
+          <p xml:id="aretr-l2-d1e1293">
+            Eodem tempore scripsi etiam librum de Correctione Donatistarum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epist. 185, ad Bonif.)</note>-->
+            , propter eos qui nolebant illos legibus imperialibus corrigi. Hic liber sic
+            incipit: <hi>Laudo, et gratulor, et admiror.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1301">
+          <head xml:id="aretr-l2-Hd1e1303">Caput 49</head>
+          <head xml:id="aretr-l2-Hd1e1305" type="question-title">De Praesentia Dei, ad Dardanum, liber unus</head>
+          <p xml:id="aretr-l2-d1e1308">
+            De Praesentia Dei scripsi librum, ubi nostra intentio contra haeresim Pelagianam
+            maxime vigilat, non expresse nominatam; sed in eo etiam de praesentia naturae, quem
+            Deum summum et verum dicimus, et de templo ejus operose ac subtiliter disputatur.
+            Hic liber sic incipit: <hi>Fateor me, frater dilectissime Dardane.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1314">
+          <head xml:id="aretr-l2-Hd1e1316">Caput 50</head>
+          <head xml:id="aretr-l2-Hd1e1318" type="question-title">Contra Pelagium et Coelestium, de Gratia Christi et de Peccato Originali, ad Albinam, Pinianum et Melaniam, libri duo</head>
+          <p xml:id="aretr-l2-d1e1321">
+            Posteaquam Pelagiana haeresis cum suis auctoribus ab episcopis Ecclesiae Romanae,
+            prius Innocentio, deinde Zosimo, cooperantibus conciliorum Africanorum litteris,
+            convicta atque damnata est; scripsi duos libros adversus eos, unum de Gratia
+            Christi, alterum de Peccato Originali. Hoc opus sic incipit: <hi>Quantum de vestra corporali et maxime spirituali salute gaudeamus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1327">
+          <head xml:id="aretr-l2-Hd1e1329">Caput 51</head>
+          <head xml:id="aretr-l2-Hd1e1331" type="question-title">Gesta cum Emerito donatista, liber unus</head>
+          <p xml:id="aretr-l2-d1e1334">
+            Aliquanto post collationem quam cum haereticis Donatistis habuimus, orta est nobis
+            necessitas pergendi in Mauritaniam Caesariensem. Ibi apud ipsam Caesaream Emeritum
+            Donatistarum episcopum vidimus, unum scilicet eorum septem quos pro suae causae
+            defensione delegerant, et qui in eadem causa maxime laboraverat. Quae cum illo
+            egerimus praesentibus episcopis ejusdem provinciae, et plebe Caesariensis Ecclesiae,
+            in qua civitate et civis et memoratorum haereticorum episcopus fuit, ecclesiastica
+            Gesta testantur, quae in meis habentur opusculis. Ubi non inveniens quid
+            responderet, totum sermonem meum quem de solis Maximianistis in auribus ejus et
+            omnium qui aderant explicavi, tanquam mutus audivit. Hic liber vel haec Gesta sic
+            incipiunt: <hi>Gloriosissimis imperatoribus Honorio duodecimum et Theodosio octavum consulibus</hi>
+            .
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1340">
+          <head xml:id="aretr-l2-Hd1e1342">Caput 52</head>
+          <head xml:id="aretr-l2-Hd1e1344" type="question-title">Contra Sermonem Arianorum, liber unus</head>
+          <p xml:id="aretr-l2-d1e1347">
+            Inter haec, venit in manus meas quidam sermo Arianorum, sine nomine auctoris sui.
+            Huic, petente atque instante qui eum mihi miserat, quanta potui <pb ed="#P" n="0651"/>
+            etiam brevitate ac celeritate respondi; adjuncto eodem sermone a capite responsionis
+            meae, et adhibitis ad singula numeris, quibus inspectis, quid cui loco responderim,
+            facile possit adverti. Hic liber, post eorum sermonem qui a capite adjunctus est,
+            sic incipit: <hi>Eorum praecedenti disputationi, hac disputatione respondeo.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1356">
+          <head xml:id="aretr-l2-Hd1e1358">Caput 53</head>
+          <head xml:id="aretr-l2-Hd1e1360" type="question-title">De Nuptiis et Concupiscentia, ad Valerium comitem, libri duo</head>
+          <p xml:id="aretr-l2-d1e1363">
+            Scripsi duos libros ad illustrem virum comitem Valerium, cum audissem Pelagianos ei
+            nescio quid scripsisse de nobis, quod scilicet nuptias damnaremus, asserendo
+            originale peccatum: quorum librorum titulus est, de Nuptiis et Concupiscentia.
+            Bonitatem quippe defendimus nuptiarum, ne putaretur earum esse vitium concupiscentia
+            carnis, et lex in membris repugnans legi mentis, quo malo libidinis bene utitur ad
+            filios procreandos pudicitia conjugalis. Ut autem duo libri essent, primus venit in
+            Juliani pelagiani manus, et scripsit adversus eum libros quatuor, ex quibus quidam
+            nonnulla decerpsit, et comiti Valerio misit, ille vero ad nos. Quae cum accepissem,
+            alio libro ad eadem ipsa respondi. Hujus operis primus liber sic incipit: <hi>Haeretici novi, dilectissime fili Valeri.</hi>
+            Secundus autem sic: <hi>Inter militiae tuae curas.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1371">
+          <head xml:id="aretr-l2-Hd1e1373">Caput 54</head>
+          <head xml:id="aretr-l2-Hd1e1375" type="question-title">Locutionum libri septem</head>
+          <p xml:id="aretr-l2-d1e1378">
+            Septem libros de septem libris divinarum Scripturarum, id est Moysi quinque, et uno
+            Jesu Nave, et altero Judicum, feci, notatis locutionibus singulorum quae minus
+            usitatae sunt linguae nostrae: quas parum advertendo sensum quaerunt, qui legunt,
+            divinorum eloquiorum, cum sit locutionis genus, et nonnunquam exsculpunt aliquid
+            quod a veritate quidem non abhorreat; non tamen id sensisse auctor a quo hoc
+            scriptum est invenitur, sed genere locutionis hoc dixisse credibilius apparet. Multa
+            autem in Scripturis sanctis obscura, cognito locutionis genere dilucescunt. Propter
+            quod cognoscenda sunt eadem genera locutionum ubi sententiae patent; ut etiam ubi
+            latent, cognitio ipsa succurrat, easque intentioni legentis aperiat. Hujus operis
+            titulus est, Locutiones de Genesi; atque ita de singulis libris. Quod autem in libro
+            primo posui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Num. XVIII)</note>-->
+            scriptum esse, <quote xml:id="aretr-l2-Qd1e1382" source="http://scta.info/resource/gen6_22">Et fecit Noe omnia verba quaecumque praecepit illi Dominus, sic fecit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen.
+                VI, 22)</note>-->
+            </quote>
+            , eamque locutionem dixi esse similem ei quod in conditione creaturae: posteaquam
+            dicitur, <hi>Et sic est factum,</hi>
+            additur, <hi>et fecit Deus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Id. I)</note>-->
+            </hi>
+            ; non omni modo simile hoc eidem mihi videtur. Denique ibi etiam sensus latet; hic
+            sola locutio est. Hoc opus sic incipit: <hi>Locutiones Scripturarum.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1398">
+          <head xml:id="aretr-l2-Hd1e1400">Caput 55</head>
+          <head xml:id="aretr-l2-Hd1e1402" type="question-title">Quaestionum libri septem</head>
+          <div xml:id="aretr-l2-Dd1e1405">
+            <head xml:id="aretr-l2-Hd1e1407">1</head>
+            <p xml:id="aretr-l2-d1e1409">
+              Eodem tempore scripsi etiam libros Quaestionum de Libris eisdem divinis septem,
+              quos ideo appellare sic volui, quia ea quae ibi disputantur, magis quaerenda
+              proposui, quam quaesita dissolvi; quamvis <pb ed="#P" n="0652"/>
+              multo plura in eis mihi videantur ita pertractata, ut possint etiam soluta et
+              exposita non immerito judicari. Regnorum quoque libros eodem modo jam considerare
+              coeperamus; sed non multum progressi, in alia quae magis urgebant animum
+              intendimus. In primo autem libro, ubi agitur de virgis variatis quas ponebat Jacob
+              in aqua, ut in conceptu positae oves eas viderent cum biberent, et varios fetus
+              parerent <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 93)</note>-->
+              ; non bene a nobis exposita est causa cur iterum concipientibus non ponebat, id
+              est, cum alios fetus conciperent, sed in priore conceptu. Nam quaestionis alterius
+              expositio <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 95)</note>-->
+              , ubi quaeritur cur dixerit socero suo Jacob, <quote xml:id="aretr-l2-Qd1e1417" source="http://scta.info/resource/gen31_41">Et decepisti mercedem meam decem agnabus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Gen. XXXI, 41)</note>-->
+              </quote>
+              , satis veraciter enodata, demonstrat istam, sicut solvi debuit, non solutam.
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e1424">
+            <head xml:id="aretr-l2-Hd1e1426">2</head>
+            <p xml:id="aretr-l2-d1e1428">
+              In tertio quoque libro, ubi de summo agitur sacerdote, quomodo creabat filios, cum
+              haberet necessitatem bis in die ingredi in sancta sanctorum, ubi erat altare
+              incensi, ad offerendum incensum mane et vespera <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Exod. XXX, 7, 8)</note>-->
+              , quo non posset, sicut Lex dicit, immundus intrare; et eadem Lex dicat, immundum
+              fieri hominem etiam ex concubitu conjugali, quem jubet quidem lavari aqua, sed et
+              lotum dicit immundum esse usque ad vesperam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Lev. XV, 16)</note>-->
+              ; unde dixi, <hi>Consequens fuisse ut aut continens esset, aut diebus aliquibus intermitteretur incensum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 82)</note>-->
+              </hi>
+              : non vidi non fuisse consequens. Potest enim sic intelligi quod scriptum est, <hi>Immundus erit usque ad vesperam,</hi>
+              ut per ipsam vesperam jam non esset immundus, sed usque ad ipsam, ut vespertino
+              jam tempore incensum mundus offerret, cum propter creandos filios post matutinum
+              incensum mixtus esset uxori. Itemque ubi quaesitum est quomodo prohibitus esset
+              super funus patris sacerdos summus intrare <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Levit. XXI, 11)</note>-->
+              , cum eum fieri sacerdotem (quando unus erat), nisi post mortem sacerdotis patris
+              non oporteret; dixi, <hi>Propter hoc necesse fuisse, nondum sepulto patre statim post ejus mortem, filium ejus constitui, qui succederet patri; propter etiam continuationis incensum, quod bis in die necesse erat offerri <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 83)</note>-->
+              </hi>
+              ; qui sacerdos super mortem nondum sepulti patris prohibetur intrare. Sed parum
+              attendi, potuisse hoc praecipi magis propter illos qui futuri fuerant summi
+              sacerdotes, non patribus summis sacerdotibus succedentes, sed tamen ex filiis, id
+              est ex posteris Aaron, si forte summus sacerdos, aut filios non haberet, aut ita
+              reprobos haberet ut nullus eorum patri deberet succedere: sicut Samuel summo
+              sacerdoti Heli successit <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Reg. I)</note>-->
+              ; cum sacerdotis filius ipse non esset, sed tamen ex filiis, hoc est, ex posteris
+              esset Aaron. 
+            </p>
+          </div>
+          <div xml:id="aretr-l2-Dd1e1453">
+            <head xml:id="aretr-l2-Hd1e1455">3</head>
+            <p xml:id="aretr-l2-d1e1457">
+              <pb ed="#P" n="0653"/>
+              De latrone etiam cui dictum est, <quote xml:id="aretr-l2-Qd1e1461" source="http://scta.info/resource/lc23_43">Hodie mecum eris in paradiso <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XXIII, 43)</note>-->
+              </quote>
+              , quod non fuerit visibiliter baptizatus, quasi certum posui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 84)</note>-->
+              , cum sit incertum, magisque illum baptizatum fuisse credendum sit, sicut ego
+              quoque alibi postea disputavi. Item quod in quinto libro dixi, ubi commemorantur
+              matres in generationibus evangelicis, <hi>non eas positas nisi cum patribus <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Quaest. 46, n. 2)</note>-->
+              </hi>
+              , verum est quidem, sed ad rem de qua agebatur non pertinet. Agebatur autem de iis
+              qui ducebant fratrum vel propinquorum conjuges, eorum qui sine filiis defuncti
+              essent, propter duos patres Joseph, quorum alterum Matthaeus commemorat, alterum
+              Lucas. De qua quaestione diligenter in hoc opere disserui, cum retractaremus opus
+              nostrum contra Faustum manichaeum. Hoc opus sic incipit: <hi>Cum Scripturas sanctas, quae appellantur Canonicae.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1478">
+          <head xml:id="aretr-l2-Hd1e1480">Caput 56</head>
+          <head xml:id="aretr-l2-Hd1e1482" type="question-title">De Anima et ejus Origine, libri quatuor</head>
+          <p xml:id="aretr-l2-d1e1485">
+            Eodem tempore, quidam Vincentius Victor in Mauritania Caesariensi invenit apud
+            Hispanum quemdam presbyterum Petrum, nonnullum opusculum meum, ubi quodam loco de
+            origine animae hominum singulorum, utrum ex illa una primi hominis, ac deinde ex
+            parentibus propagentur, an sicut illi uni sine ulla propagatione singulae singulis
+            dentur, me nescire confessus sum; verumtamen scire animam non corpus esse, sed
+            spiritum. Et contra ista mea ad eumdem Petrum scripsit ille duos libros, quos mihi
+            de Caesarea Renatus monachus misit. Quibus ego lectis, responsione mea quatuor
+            reddidi; unum ad Renatum monachum, alterum ad presbyterum Petrum, et duos ad eumdem
+            Victorem. Sed ad Petrum, quamvis habeat libri prolixitatem, tamen epistola est quam
+            nolui a tribus caeteris separari. In iis autem omnibus, in quibus multa necessaria
+            disseruntur, defendi de origine animarum, quae singulis hominibus dantur,
+            cunctationem meam, et multos errores atque pravitates praesumptionis ejus ostendi.
+            Quem tamen juvenem non praepropere detestandum, sed adhuc docendum quanta potui
+            lenitate tractavi, et ab eo rescripta correctionis ejus accepi. Hujus operis liber
+            ad Renatum sic incipit: <hi>Sinceritatem tuam erga nos.</hi>
+            Ad Petrum autem sic: <hi>Domino dilectissimo fratri, et compresbytero Petro,</hi>
+            Duorum vero novissimorum ad Vincentium Victorem primus sic incipit: <hi>Quod mihi ad te scribendum putavi.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1495">
+          <head xml:id="aretr-l2-Hd1e1497">Caput 57</head>
+          <head xml:id="aretr-l2-Hd1e1499" type="question-title">Ad Pollentium, de Adulterinis Conjugiis, libri duo</head>
+          <p xml:id="aretr-l2-d1e1502">
+            Scripsi duos libros de Conjugiis Adulterinis, quantum potui secundum Scripturas,
+            cupiens solvere difficillimam quaestionem. Quod utrum enodatissime fecerim, nescio;
+            imo vero non me pervenisse ad hujus rei perfectionem sentio, quamvis multos sinus
+            ejus aperuerim, quod judicare poterit quisquis intelligenter legit. Hujus operis
+            primus liber sic incipit: <hi>Prima quaestio est, frater dilectissime Pollenti.</hi>
+            Secundus autem sic: <hi>Ad ea quae mihi scripseras.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1510">
+          <head xml:id="aretr-l2-Hd1e1512">Caput 58</head>
+          <head xml:id="aretr-l2-Hd1e1514" type="question-title">Contra Adversarium Legis et Prophetarum, libri duo</head>
+          <pb ed="#P" n="0654"/>
+          <p xml:id="aretr-l2-d1e1519">
+            Interea liber quidam cujusdam haeretici sive Marcionistae, sive cujuslibet eorum
+            quorum error opinatur quod istum mundum non Deus fecerit, nec Deus Legis quae data
+            est per Moysen, et Prophetarum ad eamdem Legem pertinentium, verus sit Deus; sed
+            pessimus daemon; cum apud Carthaginem multis confluentibus et attentissime
+            audientibus, in platea maritima legeretur, pervenerunt ad eum fratres studiosissime
+            christiani, eumque mihi redarguendum sine ulla dilatione miserunt, multum rogantes,
+            ut nec ego respondere differrem. Refelli eum libris duobus, quos ideo praenotavi,
+            Contra Adversarium Legis et Prophetarum, quia codex ipse qui missus est, nomen non
+            habebat auctoris. Hoc opus sic incipit: <hi>Libro quem misistis, fratres dilectissimi.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1526">
+          <head xml:id="aretr-l2-Hd1e1528">Caput 59</head>
+          <head xml:id="aretr-l2-Hd1e1530" type="question-title">Contra Gaudentium Donatistarum episcopum, libri duo</head>
+          <p xml:id="aretr-l2-d1e1533">
+            Per idem tempus Dulcitius tribunus et notarius hic erat in Africa exsecutor
+            imperialium jussionum contra Donatistas datarum. Qui cum dedisset litteras ad
+            Gaudentium Tamugadensem Donatistarum episcopum, unum illorum septem quos in nostra
+            collatione auctores suae defensionis elegerant, exhortans eum ad unitatem
+            catholicam, et dissuadens incendium quo se ac suos cum ipsa in qua erat ecclesia
+            consumere minabatur, addens etiam ut si se justos putarent, fugerent potius secundum
+            praeceptum Domini Christi quam nefandis se ignibus concremarent; rescripsit ille
+            epistolas duas: unam brevem, festinante, ut asseruit, perlatore; aliam prolixam,
+            quasi plenius diligentiusque respondens. Has mihi supra memoratus tribunus
+            existimavit mittendas, ut eas potius ipse refellerem; quas ambas uno libro redargui.
+            Qui cum in ejusdem Gaudentii pervenisset manus, rescripsit quod ei visum est ad
+            meipsum, nulla ratione respondens, sed magis se nec respondere, nec tacere potuisse
+            declarans. Quod cum satis posset intelligenter legentibus, et nostra atque ipsius
+            dicta conferentibus apparere, nolui tamen sine rescripto relinquere quidquid illud
+            fuit. Hinc factum est ut hi nostri ad illum duo libri essent. Hoc opus sic incipit: <hi>Gaudentius Donatistarum Tamugadensis episcopus.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1539">
+          <head xml:id="aretr-l2-Hd1e1541">Caput 60</head>
+          <head xml:id="aretr-l2-Hd1e1543" type="question-title">Contra Mendacium, liber unus</head>
+          <p xml:id="aretr-l2-d1e1546">
+            Tunc et contra mendacium scripsi librum cujus operis ea causa exstitit, quod ad
+            Priscillianistas haereticos vestigandos, qui haeresim suam non solum negando atque
+            mentiendo, verum etiam pejerando existimant occulendam, visum est quibusdam
+            catholicis Priscillianistas se debere simulare, ut eorum latebras penetrarent. Quod
+            ego fieri prohibens, hunc librum condidi. Hic liber sic incipit: <hi>Multa mihi legenda misisti.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1552">
+          <head xml:id="aretr-l2-Hd1e1554">Caput 61</head>
+          <head xml:id="aretr-l2-Hd1e1556" type="question-title">Contra duas Epistolas Pelagianorum, libri quatuor</head>
+          <pb ed="#P" n="0655"/>
+          <p xml:id="aretr-l2-d1e1561">
+            Sequuntur libri quatuor, quos contra duas epistolas Pelagianorum ad episcopum
+            Romanae Ecclesiae Bonifacium scripsi; quia cum in manus ejus venissent, ipse mihi
+            eas miserat, inveniens in illis calumniose interpositum nomen meum. Hoc opus sic
+            incipit: <hi>Noveram te quidem, fama celeberrima praedicante.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1567">
+          <head xml:id="aretr-l2-Hd1e1569">Caput 62</head>
+          <head xml:id="aretr-l2-Hd1e1571" type="question-title">Contra Julianum, libri sex</head>
+          <p xml:id="aretr-l2-d1e1574">
+            Interea libri quatuor Juliani pelagiani, quos supra commemoravi, venerunt etiam in
+            manus nostras; in quibus comperi illa quae ex eis decerpserat, qui ea comiti Valerio
+            miserat, non omnia eo modo quo a Juliano dicta sunt, ad eumdem comitem scripta, sed
+            nonnulla eorum aliquantum fuisse mutata. Scripsi ergo sex libros, adversus illos
+            quatuor; sed meorum duo primi, testimoniis sanctorum qui fidem catholicam post
+            Apostolos defenderunt, Juliani impudentiam redarguunt, qui tanquam Manichaeorum
+            dogma nobis objiciendum putavit, quia ex Adam trahi dicimus originale peccatum, quod
+            per lavacrum regenerationis, non solum in majoribus, verum etiam in parvulis
+            solvitur. Quantum autem ipse Julianus quibusdam sententiis suis adjuvet Manichaeos,
+            in primi libri mei parte posteriore monstravi. Caeteri autem nostri quatuor
+            redduntur illis singulis singuli. Verum in hujus tanti tamque elaborati operis
+            quinto volumine, ubi commemoravi deformem maritum conjugi suae, ne deformes pareret,
+            proponere in concubitu formosam solere picturam <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 14, n. 51)</note>-->
+            ; nomen hominis qui hoc facere solebat, quasi certum posui, cum sit incertum, quia
+            memoria me fefellit. Hoc autem Soranus auctor medicinae scripsit regem Cyprium
+            facere solere, sed nomen ejus proprium non expressit. Hoc opus sic incipit: <hi>Contumelias tuas et verba maledica, Juliane.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1582">
+          <head xml:id="aretr-l2-Hd1e1584">Caput 63</head>
+          <head xml:id="aretr-l2-Hd1e1586" type="question-title">Ad Laurentium, de Fide, Spe et Charitate, liber unus</head>
+          <p xml:id="aretr-l2-d1e1589">
+            Scripsi etiam librum de Fide, Spe et Charitate, cum a me, ad quem scriptus est,
+            postulasset ut aliquod opusculum haberet meum de suis manibus non recessurum: quod
+            genus Graeci Enchiridion vocant. Ubi satis diligenter mihi videor esse complexus
+            quomodo sit colendus Deus, quam sapientiam esse hominis utique veram divina
+            Scriptura definit. Hic liber sic incipit: <hi>Dici non potest, dilectissime fili Laurenti, quantum tua eruditione delecter.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1595">
+          <head xml:id="aretr-l2-Hd1e1597">Caput 64</head>
+          <head xml:id="aretr-l2-Hd1e1599" type="question-title">De cura pro mortuis gerenda, ad Paulinum episcopum, liber unus</head>
+          <p xml:id="aretr-l2-d1e1602">
+            Librum de Cura pro mortuis gerenda scripsi, cum <pb ed="#P" n="0656"/>
+            interrogatus litteris fuissem, utrum prosit cuique post mortem quod corpus ejus apud
+            sancti alicujus memoriam sepelitur. Hic liber sic incipit: <hi>Diu Sanctitati tuae, coepiscope venerande Pauline.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1611">
+          <head xml:id="aretr-l2-Hd1e1613">Caput 65</head>
+          <head xml:id="aretr-l2-Hd1e1615" type="question-title">De octo Dulcitii Quaestionibus, liber unus</head>
+          <p xml:id="aretr-l2-d1e1618">
+            Liber quem praenotavi de octo Dulcitii Quaestionibus, non esset in hoc opere
+            commemorandus inter libros meos, cum sit confectus ex iis quae a me in aliis antea
+            conscripta sunt; nisi et disputationis aliquid a nobis interpositum reperiretur in
+            eo, et uni earum quaestionum non ex opusculo aliquo alio meo responsionem, sed tunc
+            quae potuit occurrere, reddidissem. Hic liber sic incipit: <hi>Quantum mihi videtur, dilectissime fili Dulciti.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1624">
+          <head xml:id="aretr-l2-Hd1e1626">Caput 66</head>
+          <head xml:id="aretr-l2-Hd1e1628" type="question-title">Ad Valentinum et cum illo monachos, de Gratia et Libero Arbitrio, liber unus</head>
+          <p xml:id="aretr-l2-d1e1631">
+            Propter eos qui, cum defenditur Dei gratia, putantes negari liberum arbitrium, sic
+            ipsi defendunt liberum arbitrium ut negent Dei gratiam, asserentes eam secundum
+            merita nostra dari, scripsi librum cujus titulus est, de Gratia et Libero Arbitrio.
+            Ad eos autem scripsi monachos Adrumetinos, in quorum monasterio de hac re coeperat
+            esse contentio, ita ut me consulere eorum aliqui cogerentur. Hic liber sic incipit: <hi>Propter eos qui hominis liberum arbitrium.</hi>
+          </p>
+        </div>
+        <div xml:id="aretr-l2-Dd1e1637">
+          <head xml:id="aretr-l2-Hd1e1639">Caput 67</head>
+          <head xml:id="aretr-l2-Hd1e1641" type="question-title">Ad quos supra, de Correptione et Gratia, liber unus</head>
+          <p xml:id="aretr-l2-d1e1644">
+            Rursus ad eosdem scripsi alterum librum, quem de Correptione et Gratia praenotavi,
+            cum mihi nuntiatum esset dixisse ibi quemdam, neminem corripiendum, si Dei praecepta
+            non facit; sed pro illo, ut faciat, tantummodo orandum. Hic liber sic incipit: <hi>Lectis litteris vestris, Valentine frater dilectissime.</hi>
+          </p>
+          <p xml:id="aretr-l2-d1e1649">
+            Haec opera nonaginta tria in libris ducentis triginta duobus me dictasse recolui,
+            quando haec retractavi, utrum adhuc essem aliquos dictaturus ignorans; atque ipsam
+            eorum retractationem in libris duobus edidi, urgentibus fratribus, antequam
+            epistolas ac sermones ad populum, alios dictatos, alios a me dictos retractare
+            coepissem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

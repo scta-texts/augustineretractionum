@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus</title>
+        <author ref="#Augustine">Augustinus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus</title>
+          <date when="2026-09-30">September 30, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci32P">PL 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="aretr-prol">
+        <head xml:id="aretr-prol-Hd1e95">Prologus</head>
+        <div xml:id="aretr-prol-Dd1e97">
+          <head xml:id="aretr-prol-Hd1e99">1</head>
+          <p xml:id="aretr-prol-d1e101">
+            <pb ed="#P" n="0583"/>
+            Jam diu est ut facere cogito atque dispono quod nunc adjuvante Domino aggredior,
+            quia differendum esse non arbitror, ut opuscula mea, sive in Libris, sive in
+            Epistolis, sive in Tractatibus, cum quadam judiciaria severitate recenseam, et quod
+            me offendit, velut censorio stilo denotem. Neque enim quisquam, nisi imprudens, ideo
+            quia mea errata reprehendo, me reprehendere audebit. Sed si dicit, non ea debuisse a
+            me dici quae postea mihi etiam displicerent; verum dicit, et mecum facit. Eorum
+            quippe reprehensor est, quorum et ego sum. Neque enim ea reprehendere deberem, si
+            dicere debuissem.
+          </p>
+        </div>
+        <div xml:id="aretr-prol-Dd1e107">
+          <head xml:id="aretr-prol-Hd1e109">2</head>
+          <p xml:id="aretr-prol-d1e111">
+            Sed, ut volet, quisque accipiat hoc quod facio; me tamen apostolicam illam
+            sententiam et in hac re oportuit intueri, ubi ait: <quote xml:id="aretr-prol-Qd1e113" source="http://scta.info/resource/Icor11_31">Si nos ipsos judicaremus, a Domino non judicaremur <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor. XI, 31)</note>-->
+            </quote>
+            . Illud etiam quod scriptum est, <quote xml:id="aretr-prol-Qd1e118" source="http://scta.info/resource/prov10_19">Ex multiloquio non effugies peccatum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Prov. X, 19)</note>-->
+            </quote>
+            , terret me plurimum; non quia multa scripsi, vel quia multa etiam, quae dictata non
+            sunt, tamen a me dicta conscripta sunt (absit enim ut multiloquium deputem, quando
+            necessaria dicuntur, <pb ed="#P" n="0584"/>
+            quantalibet sermonum multitudine ac prolixitate dicantur): sed istam sententiam
+            Scripturae sanctae propterea timeo, quia de tam multis disputationibus meis sine
+            dubio multa colligi possunt, quae si non falsa, at certe videantur, sive etiam
+            convincantur non necessaria. Quem vero Christus fidelium suorum non terruit, ubi
+            ait: <quote xml:id="aretr-prol-Qd1e125" source="http://scta.info/resource/mt12_36">Omne verbum otiosum quodcumque dixerit homo, reddet pro eo rationem in die judicii?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth.
+                XII, 36.)</note>-->
+            </quote>
+            Unde et ejus apostolus Jacobus: <hi>Sit,</hi>
+            inquit, <quote xml:id="aretr-prol-Qd1e133" source="http://scta.info/resource/iac1_19">omnis homo velox ad audiendum, tardus autem ad loquendum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jacobi I, 19)</note>-->
+            </quote>
+            . Et alio loco: <hi>Nolite,</hi>
+            inquit, <hi>plures magistri fieri, fratres mei, scientes quoniam majus judicium sumitis. In multis enim offendimus omnes. Si quis in verbo non offendit, hic perfectus est vir <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid. III,
+                1, 2)</note>-->
+            </hi>
+            . Ego mihi hanc perfectionem nec nunc arrogo, cum jam sim senex: quanto minus cum
+            juvenis coepi scribere, vel apud populos dicere; tantumque mihi tributum est, ut
+            ubicumque me praesente loqui opus esset ad populum, rarissime tacere atque alios
+            audire permitterer, et esse <hi>velox ad audiendum, tardus autem ad loquendum.</hi>
+            Restat igitur ut me ipse judicem sub <pb ed="#P" n="0585"/>
+            magistro uno, cujus de offensionibus meis judicium evadere cupio. Magistros autem
+            plures tunc fieri existimo, cum diversa atque inter se adversa sentiunt. Cum vero
+            idipsum dicunt omnes, et verum dicunt, ab unius veri magistri magisterio non
+            recedunt. Offendunt autem, non cum illius multa dicunt, sed cum addunt sua. Sic
+            quippe incidunt ex multiloquio etiam in falsiloquium.
+          </p>
+        </div>
+        <div xml:id="aretr-prol-Dd1e151">
+          <head xml:id="aretr-prol-Hd1e153">3</head>
+          <p xml:id="aretr-prol-d1e155">
+            Scribere autem ista mihi placuit, ut haec emittam in manus hominum, a quibus ea quae
+            jam edidi, revocare emendanda non possum. Nec illa sane praetereo, quae catechumenus
+            jam, licet relicta spe quam <pb ed="#P" n="0586"/>
+            terrenam gerebam, sed adhuc secularium litterarum inflatus consuetudine scripsi:
+            quia et ipsa exierunt in notitiam describentium atque legentium, et leguntur
+            utiliter, si nonnullis ignoscatur; vel si non ignoscatur, non tamen inhaereatur
+            erratis. Quapropter quicumque ista lecturi sunt, non me imitentur errantem, sed in
+            melius proficientem. Inveniet enim fortasse quomodo scribendo profecerim, quisquis
+            opuscula mea, ordine quo scripta sunt, legerit. Quod ut possit, hoc opere, quantum
+            potero, curabo ut eumdem ordinem noverit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
