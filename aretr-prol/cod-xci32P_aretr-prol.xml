@@ -83,17 +83,17 @@
             ait: <quote xml:id="aretr-prol-Qd1e125" source="http://scta.info/resource/mt12_36">Omne verbum otiosum quodcumque dixerit homo, reddet pro eo rationem in die judicii?<!--<note xmlns="http://www.tei-c.org/ns/1.0">(Matth.
                 XII, 36.)</note>-->
             </quote>
-            Unde et ejus apostolus Jacobus: <hi>Sit,</hi>
-            inquit, <quote xml:id="aretr-prol-Qd1e133" source="http://scta.info/resource/iac1_19">omnis homo velox ad audiendum, tardus autem ad loquendum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jacobi I, 19)</note>-->
+            Unde et ejus apostolus Jacobus: <quote xml:id="aretr-prol-Qd1e133" source="http://scta.info/resource/iac1_19">Sit,
+            inquit, omnis homo velox ad audiendum, tardus autem ad loquendum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Jacobi I, 19)</note>-->
             </quote>
-            . Et alio loco: <hi>Nolite,</hi>
-            inquit, <hi>plures magistri fieri, fratres mei, scientes quoniam majus judicium sumitis. In multis enim offendimus omnes. Si quis in verbo non offendit, hic perfectus est vir <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid. III,
+            . Et alio loco: <quote xml:id="aretr-prol-Qd1e139" source="http://scta.info/resource/iac3_1@1-11 http://scta.info/resource/iac3_2@1-15">Nolite,
+            inquit, plures magistri fieri, fratres mei, scientes quoniam majus judicium sumitis. In multis enim offendimus omnes. Si quis in verbo non offendit, hic perfectus est vir <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Ibid. III,
                 1, 2)</note>-->
-            </hi>
+            </quote>
             . Ego mihi hanc perfectionem nec nunc arrogo, cum jam sim senex: quanto minus cum
             juvenis coepi scribere, vel apud populos dicere; tantumque mihi tributum est, ut
             ubicumque me praesente loqui opus esset ad populum, rarissime tacere atque alios
-            audire permitterer, et esse <hi>velox ad audiendum, tardus autem ad loquendum.</hi>
+            audire permitterer, et esse <quote xml:id="aretr-prol-Qd1e144" source="http://scta.info/resource/iac1_19@9-15">velox ad audiendum, tardus autem ad loquendum.</quote>
             Restat igitur ut me ipse judicem sub <pb ed="#P" n="0585"/>
             magistro uno, cujus de offensionibus meis judicium evadere cupio. Magistros autem
             plures tunc fieri existimo, cum diversa atque inter se adversa sentiunt. Cum vero
