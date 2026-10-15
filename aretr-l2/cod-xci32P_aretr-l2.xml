@@ -403,13 +403,13 @@
           <div xml:id="aretr-l2-Dd1e527">
             <head xml:id="aretr-l2-Hd1e529">2</head>
             <p xml:id="aretr-l2-d1e531">
-              In quorum libro undecimo cum de corpore visibili agerem, dixi: <quote xml:id="aretr-l2-Qd1e582">Quocirca id amare, alienari est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap.
+              In quorum libro undecimo cum de corpore visibili agerem, dixi: <quote xml:id="aretr-l2-Qd1e582" source="http://scta.info/resource/adt-l11-d1e1248@49-53">Quocirca id amare, alienari est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap.
                   5, n. 9)</note>-->
               </quote>
               . Quod secundum eum amorem dictum est, quo aliquid sic amatur, ut eo fruendo
               existimet beatum se esse qui hoc amat. Nam non est alienari, in laudem Creatoris
               amare speciem corporalem, ut ipso creatore fruens quisque vere beatus sit. Itemque
-              in eodem, ubi dixi, <quote xml:id="aretr-l2-Qd1e587">Nec avem quadrupedem memini, quia non vidi; sed phantasiam talem facillime intueor, dum alicui formae volatili, qualem vidi, adjungo alios duos pedes, quales itidem vidi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 10, n. 17)</note>-->
+              in eodem, ubi dixi, <quote xml:id="aretr-l2-Qd1e587" source="http://scta.info/resource/adt-l11-d1e1276@138-162">Nec avem quadrupedem memini, quia non vidi; sed phantasiam talem facillime intueor, dum alicui formae volatili, qualem vidi, adjungo alios duos pedes, quales itidem vidi <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 10, n. 17)</note>-->
               </quote>
               , haec dicens non potui recolere volatilia quadrupedia quae Lex commemorat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Levit. XI, 20)</note>-->
               . Neque enim computat in pedibus duo posteriora crura quibus locustae saliunt,
@@ -421,7 +421,7 @@
           <div xml:id="aretr-l2-Dd1e547">
             <head xml:id="aretr-l2-Hd1e549">3</head>
             <p xml:id="aretr-l2-d1e551">
-              In duodecimo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. X, n. 15)</note>-->
+              <ref xml:id="aretr-l2-Rd1e604" target="http://scta.info/resource/adt-l12-d1e1340">In duodecimo <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. X, n. 15)</note>--></ref>
               , velut expositio verborum Apostoli, ubi ait, <quote xml:id="aretr-l2-Qd1e605" source="http://scta.info/resource/Icor6_18@3-10">Omne peccatum quodcumque fecerit homo, extra corpus est,</quote>
               non mihi satisfacit; nec sic puto intelligendum quod dictum est, <quote xml:id="aretr-l2-Qd1e557" source="http://scta.info/resource/Icor6_18">Qui autem fornicatur, in corpus proprium peccat <!--<note xmlns="http://www.tei-c.org/ns/1.0">(I Cor.
                   VI, 18)</note>-->
@@ -430,7 +430,7 @@
               ut in his finem boni sui ponat, aliquid agit. Hoc enim longe plura peccata
               complectitur, quam illa fornicatio quae concubitu perpetratur illicito, de qua
               locutum, cum hoc diceret, Apostolum apparet. Hoc opus, excepta epistola quae
-              postmodum ad ejus caput adjuncta est, sic incipit: <quote xml:id="aretr-l2-Qd1e613" type="incipit">Lecturus haec quae de Trinitate disserimus.</quote>
+              postmodum ad ejus caput adjuncta est, sic incipit: <quote xml:id="aretr-l2-Qd1e613" type="incipit" source="http://scta.info/resource/adt-l1-d1e8@1-6">Lecturus haec quae de Trinitate disserimus.</quote>
             </p>
           </div>
         </div>
@@ -449,7 +449,7 @@
             </quote>
             ; est quidem et hoc credibile, ut Hebraei, velut Abrahaei, dicti esse videantur: sed
             ex illo verius intelliguntur appellati, qui vocabatur Heber, tanquam <pb ed="#P" n="0637"/>
-            Heberaei, de qua re in libro sexto decimo de Civitate Dei, satis disserui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 11)</note>-->
+            Heberaei, de qua re <ref xml:id="aretr-l2-Rd1e639" target="http://scta.info/resource/adcd-l16-Dd1e227">in libro sexto decimo de Civitate Dei</ref>, satis disserui <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 11)</note>-->
             . In secundo, cum agerem de duobus patribus Joseph, ab altero dixi genitum, ab
             altero adoptatum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 3, n. 5)</note>-->
             . Sed dicendum fuit, alteri adoptatum. Defuncto enim, quod magis credendum est,
@@ -961,8 +961,8 @@
             De Videndo Deo scripsi librum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Epist. 147, ad Paulinam)</note>-->
             , ubi de spirituali corpore quod erit in resurrectione sanctorum inquisitionem
             diligentiorem distuli, utrum vel quomodo Deus, qui spiritus est, etiam per corpus
-            tale videatur; sed eam postea quaestionem sane difficillimam in novissimo, id est in
-            vigesimo et secundo libro de Civitate Dei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 29, n. 1, sqq.)</note>-->
+            tale videatur; sed eam postea quaestionem sane difficillimam <ref xml:id="aretr-l2-Rd1e1289" target="http://scta.info/resource/adcd-l22-Dd1e355">in novissimo, id est in
+            vigesimo et secundo libro de Civitate Dei <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 29, n. 1, sqq.)</note>--></ref>
             , satis, quantum arbitror, explicavi. Inveni etiam in quodam nostro codice, in quo
             et iste liber est, quoddam commonitorium a me factum de hac re ad episcopum
             Siccensem Fortunatianum; quod in opusculorum meorum indiculo nec inter libros, nec
@@ -1029,7 +1029,7 @@
               defunctis sacerdotibus succedere magis legitimi moris fuit: nam in filiis Aaron
               reperitur pater Samuelis; sed sacerdos non fuit, nec ita in filiis ut eum ipse
               genuerit Aaron, sed sicut omnes illius populi dicuntur filii Israel. Hoc opus sic
-              incipit: <quote xml:id="aretr-l2-Qd1e1338" type="incipit">Gloriosissimam civitatem Dei.</quote>
+              incipit: <quote xml:id="aretr-l2-Qd1e1338" type="incipit" source="http://scta.info/resource/adcd-l1-d1e8@1-3">Gloriosissimam civitatem Dei.</quote>
             </p>
           </div>
         </div>
