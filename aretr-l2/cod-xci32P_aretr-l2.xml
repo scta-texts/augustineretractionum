@@ -145,10 +145,10 @@
             <p xml:id="aretr-l2-d1e235">
               Libros de Doctrina Christiana, cum imperfectos comperissem, perficere malui quam
               eis sic relictis ad alia retractanda transire. Complevi ergo tertium qui scriptus
-              fuerat usque ad eum locum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 25, n. 36)</note>-->
+              fuerat usque ad <ref xml:id="aretr-l2-Rd1e254" target="http://scta.info/resource/addc-l3-d1e452">eum locum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 25, n. 36)</note>--></ref>
               ubi commemoratum est ex Evangelio testimonium de muliere, quae abscondit fermentum
               in tribus mensuris farinae donec fermentaretur totum <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Luc. XIII, 21)</note>-->
-              . Addidi etiam novissimum librum, et quatuor libris opus illud implevi; quorum
+              . Addidi etiam <ref xml:id="aretr-l2-Rd1e260" target="http://scta.info/resource/addc-l4">novissimum librum</ref>, et quatuor libris opus illud implevi; quorum
               primi tres adjuvant ut Scripturae intelligantur, quartus autem quomodo quae
               intelligimus proferenda sint.
             </p>
@@ -156,15 +156,15 @@
           <div xml:id="aretr-l2-Dd1e243">
             <head xml:id="aretr-l2-Hd1e245">2</head>
             <p xml:id="aretr-l2-d1e247">
-              In secundo sane libro de auctore libri, quem plures vocant Sapientiam Salomonis,
+              <ref xml:id="aretr-l2-Rd1e272" target="http://scta.info/resource/addc-l2-d1e214">In secundo sane libro</ref> de auctore libri, quem plures vocant Sapientiam Salomonis,
               quod etiam ipsum sicut Ecclesiasticum Jesus Sirach scripserit, non ita constare
               sicut a me dictum est <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 8, n. 13)</note>-->
               , postea didici, et omnino probabilius comperi non esse hunc ejus libri auctorem.
-              Ubi autem dixi, <quote xml:id="aretr-l2-Qd1e269">His quadraginta quatuor libris Testamenti Veteris terminatur auctoritas;</quote>
+              Ubi autem dixi, <quote xml:id="aretr-l2-Qd1e269" source="http://scta.info/resource/addc-l2-d1e214@215-222">His quadraginta quatuor libris Testamenti Veteris terminatur auctoritas;</quote>
               ex consuetudine qua jam loquitur Ecclesia, Vetus Testamentum, appellavi: Apostolus
               autem <pb ed="#P" n="0632"/>
               non videtur appellare Vetus Testamentum, nisi quod datum estin monte Sina <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Galat. IV, 24)</note>-->
-              . Et in eo quod dixi, <quote xml:id="aretr-l2-Qd1e275">De temporum historia sanctum Ambrosium solvisse quaestionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 28, n. 43)</note>-->
+              . Et in eo quod dixi, <quote xml:id="aretr-l2-Qd1e275" source="http://scta.info/resource/addc-l2-d1e492@3-14">De temporum historia sanctum Ambrosium solvisse quaestionem <!--<note xmlns="http://www.tei-c.org/ns/1.0">(Cap. 28, n. 43)</note>-->
               </quote>
               , tanquam coaetanei fuerint Plato et Jeremias; me fefellit memoria. Nam quid ille
               de hac re episcopus dixerit, in libro ejus legitur, quem de sacramentis, sive de
